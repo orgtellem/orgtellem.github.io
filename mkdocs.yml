@@ -1,0 +1,52 @@
+site_name: "Tellem Docs"
+site_description: "Tellem product documentation"
+site_url: ""
+
+nav:
+  - О продукте: index.md
+  - С чего начать?:
+      - Регистрация, подписка и оплата: getting-started/registration.md
+      - Настройка Telegram‑бота и Mini App URL: getting-started/bot-setup.md
+  - Основные модули:
+      - CRM система:
+          - Начало использования: modules/crm/getting-started.md
+          - Создание сетки каталога: modules/crm/catalog-grid.md
+      - Mini App:
+          - Внешний вид и основные страницы: modules/mini-app/ui-and-pages.md
+          - Оформление и оплата заказа: modules/mini-app/checkout.md
+  - Полезные ссылки: useful-links.md
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+
+plugins:
+  - search
+  # Подготовка к многоязычности: сейчас собираем только RU, но структура готова к добавлению других языков
+  - i18n:
+      default_language: ru
+      languages:
+        ru: Русский
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  generator: false
