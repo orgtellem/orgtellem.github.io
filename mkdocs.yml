@@ -1,6 +1,6 @@
 site_name: "Tellem Docs"
 site_description: "Tellem product documentation"
-site_url: ""
+site_url: "https://orgtellem.github.io"
 
 nav:
   - О продукте: index.md
@@ -28,15 +28,32 @@ theme:
   palette:
     - scheme: default
       primary: indigo
-      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+    favicon: media/logo.svg
+    logo: media/logo.svg
+    icon:
+      logo: logo
 
 plugins:
   - search
-  # Подготовка к многоязычности: сейчас собираем только RU, но структура готова к добавлению других языков
+  - minify:
+      minify_html: true
   - i18n:
       default_language: ru
       languages:
-        ru: Русский
+        - locale: ru
+          name: Русский
+          build: true
 
 markdown_extensions:
   - admonition
