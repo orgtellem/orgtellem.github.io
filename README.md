@@ -11,5 +11,5 @@
 
 ## Локальный запуск
 1. Установите Python 3.x
-2. Установите зависимости: `pip install mkdocs mkdocs-material mkdocs-static-i18n`
+2. Установите зависимости: `pip install mkdocs mkdocs-material mkdocs-static-i18n mkdocs-minify-plugin`
 3. Запустите локально: `mkdocs serve`

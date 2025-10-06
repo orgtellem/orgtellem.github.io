@@ -31,7 +31,7 @@ jobs:
       - name: Install MkDocs and plugins
         run: |
           python -m pip install --upgrade pip
-          pip install mkdocs mkdocs-material mkdocs-static-i18n
+          pip install mkdocs mkdocs-material mkdocs-static-i18n mkdocs-minify-plugin
 
       - name: Build MkDocs
         run: mkdocs build --strict
