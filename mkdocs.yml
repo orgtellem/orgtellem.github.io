@@ -53,6 +53,7 @@ plugins:
       languages:
         - locale: ru
           name: Русский
+          default: true
           build: true
 
 markdown_extensions:
