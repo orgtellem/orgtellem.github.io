@@ -49,7 +49,6 @@ plugins:
   - minify:
       minify_html: true
   - i18n:
-      default_language: ru
       languages:
         - locale: ru
           name: Русский
