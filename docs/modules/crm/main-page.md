@@ -35,7 +35,7 @@
 * **Особенность**: Для всех элементов скроллера **обязательно** наличие качественного изображения (фото), которое станет
   фоном.
 
-![Мейн баннер.png](/media/crm/main-page/%D0%9C%D0%B5%D0%B8%CC%86%D0%BD%20%D0%B1%D0%B0%D0%BD%D0%BD%D0%B5%D1%80.png)
+![mainBanner.png](/media/crm/main-page/mainBanner.png)
 
 ### 2. Списки и Сетки
 
@@ -51,11 +51,11 @@
 
 #### Пример горизонтального списка
 
-![Список товаров.png](/media/crm/main-page/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2.png)
+![productsList.png](/media/crm/main-page/productsList.png)
 
 #### Пример вертикальной сетки
 
-![Сетка товаров.png](/media/crm/main-page/%D0%A1%D0%B5%D1%82%D0%BA%D0%B0%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2.png)
+![productsGrid.png](/media/crm/main-page/productsGrid.png)
 
 ### 3. Индивидуальные Баннеры в ленте
 
@@ -66,13 +66,13 @@
 
 #### Пример баннера
 
-![Баннер.png](/media/crm/main-page/%D0%91%D0%B0%D0%BD%D0%BD%D0%B5%D1%80.png)
+![banner.png](/media/crm/main-page/banner.png)
 ---
 
 ## Как добавить новый элемент
 
 1. Нажмите кнопку добавления нужного типа (например, `+ Сетка товаров` или `+ Баннер акции`).
-   ![Превью.png](/media/crm/main-page/%D0%9F%D1%80%D0%B5%D0%B2%D1%8C%D1%8E.png)
+   ![preview.png](/media/crm/main-page/preview.png)
 
 2. В открывшемся окне заполните поля:
 
@@ -81,7 +81,7 @@
 * **Контент**: Выберите товары, категории или акцию.
 * **Зоны видимости**: Укажите магазины, в которых этот блок должен отображаться.
 
-![Настройка баннера.png](/media/crm/main-page/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%CC%86%D0%BA%D0%B0%20%D0%B1%D0%B0%D0%BD%D0%BD%D0%B5%D1%80%D0%B0.png)
+![bannedDetail.png](/media/crm/main-page/bannedDetail.png)
 
 3. Нажмите **Сохранить**. Компонент появится в списке и в окне превью.
 
@@ -92,4 +92,4 @@
 * **Удаление**: Иконка корзины.
   > **Важно**: Удаление компонента с главного экрана не удаляет сами товары или категории из базы данных системы.
 
-![Настройка.png](/media/crm/main-page/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%CC%86%D0%BA%D0%B0.png)
+![detail.png](/media/crm/main-page/detail.png)
