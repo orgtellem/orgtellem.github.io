@@ -6,7 +6,7 @@ nav:
   - О продукте: index.md
   - С чего начать?:
       - Регистрация, подписка и оплата: getting-started/registration.md
-      - Настройка Telegram‑бота и Mini App URL: getting-started/bot-setup.md
+      - Настройка Telegram-бота и Mini App URL: getting-started/bot-setup.md
   - CRM-система:
       - Начало использования: modules/crm/getting-started.md
       - Создание сетки каталога: modules/crm/catalog-grid.md
@@ -44,10 +44,10 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-    favicon: media/logo.svg
-    logo: media/logo.svg
-    icon:
-      logo: logo
+  favicon: media/logo.svg
+  logo: media/logo.svg
+  icon:
+    logo: logo
 
 plugins:
   - search
