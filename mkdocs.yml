@@ -12,6 +12,8 @@ nav:
       - Создание сетки каталога: modules/crm/catalog-grid.md
       - Оформление главного экрана телеграм-магазина: modules/crm/main-page.md
       - Работа с пригласительными ссылками (UTM-метками): modules/crm/main-page.md
+      - Сценарии использования:
+          - Быстрый вывод товара из продажи: modules/crm/fast-product-disable.md
   - Телеграм-магазин:
       - Внешний вид и основные страницы: modules/mini-app/ui-and-pages.md
       - Оформление и оплата заказа: modules/mini-app/checkout.md
