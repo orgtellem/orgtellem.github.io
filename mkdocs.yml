@@ -7,13 +7,13 @@ nav:
   - С чего начать?:
       - Регистрация, подписка и оплата: getting-started/registration.md
       - Настройка Telegram‑бота и Mini App URL: getting-started/bot-setup.md
-  - Основные модули:
-      - CRM система:
-          - Начало использования: modules/crm/getting-started.md
-          - Создание сетки каталога: modules/crm/catalog-grid.md
-      - Mini App:
-          - Внешний вид и основные страницы: modules/mini-app/ui-and-pages.md
-          - Оформление и оплата заказа: modules/mini-app/checkout.md
+  - CRM-система:
+      - Начало использования: modules/crm/getting-started.md
+      - Создание сетки каталога: modules/crm/catalog-grid.md
+      - Оформление главного экрана телеграм-магазина: modules/crm/main-page.md
+  - Телеграм-магазин:
+      - Внешний вид и основные страницы: modules/mini-app/ui-and-pages.md
+      - Оформление и оплата заказа: modules/mini-app/checkout.md
   - Полезные ссылки: useful-links.md
 
 theme:
