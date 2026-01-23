@@ -21,4 +21,4 @@
 
 При этом уведомления о заказах из других магазинов данному сотруднику поступать не будут.
 
-![crmNotification.png](../../../media/crm/crm-notifications/crmNotification.png)
+![crmNotification.png](../../media/crm/crm-notifications/crmNotification.png)

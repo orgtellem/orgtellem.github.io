@@ -6,18 +6,18 @@
 
 1. Нажать **Новый сервис** и выбрать поддерживаемый способ.
 
-![creatingPaymentSettings.png](../../../media/crm/new-payment-method/creatingPaymentSettings.png)
+![creatingPaymentSettings.png](../../media/crm/new-payment-method/creatingPaymentSettings.png)
 
 2. **Заполнить необходимые параметры:**
     - **Наименование** – любое, отображается для покупателя.
     - **Учетные данные** - может быть логин, пароль, секретный ключ или токен.
     - **Комиссия** – наценка за использование способа оплаты, при необходимости добавляется к цене. По умолчанию `0%`.
     - **Время ожидания платежа (в минутах)** - через сколько минут считать платёж неуспешным и отменять заказ
-      ![paymentDetail1.png](../../../media/crm/new-payment-method/paymentDetail1.png)
+      ![paymentDetail1.png](../../media/crm/new-payment-method/paymentDetail1.png)
 
     - На второй вкладке экрана настроек существует возможность выбрать **дополнительыне поля для заполнения**, которые
       клиент должен заполнить при оформлении заказа.
-      ![paymentDetail2.png](../../../media/crm/new-payment-method/paymentDetail2.png)
+      ![paymentDetail2.png](../../media/crm/new-payment-method/paymentDetail2.png)
 
 3. **Активировать новый способ оплаты для существующего магазина.**
 
@@ -26,7 +26,7 @@
    Если активация не была выполнена в данном окне, активировать способ оплаты можно через:  
    **Магазины → Редактировать существующий магазин → Управление способами оплаты**.
 
-![storeDetail.png](../../../media/crm/new-payment-method/storeDetail.png)
+![storeDetail.png](../../media/crm/new-payment-method/storeDetail.png)
 
 Если какой-либо из способов оплаты отключен в магазине, клиенты не смогут выбрать его внутри телеграм-магазина.
 Таким способом можно временно отключать приём заказов от клиентов.
