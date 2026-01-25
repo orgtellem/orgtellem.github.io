@@ -1,5 +1,4 @@
-site_name: "Tellem Docs"
-site_description: "Tellem Docs"
+site_name: "tellem.doc"
 site_url: "https://orgtellem.github.io"
 
 nav:
@@ -32,12 +31,12 @@ theme:
     - search.suggest
   palette:
     - scheme: default
-      primary: light-blue
+      primary: blue
       toggle:
         icon: material/brightness-7
         name: Dark mode
     - scheme: slate
-      primary: light-blue
+      primary: blue
       toggle:
         icon: material/brightness-4
         name: Light mode
