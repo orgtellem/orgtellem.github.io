@@ -1,5 +1,5 @@
 site_name: "Tellem Docs"
-site_description: "Tellem product documentation"
+site_description: "Tellem Docs"
 site_url: "https://orgtellem.github.io"
 
 nav:
@@ -72,6 +72,3 @@ markdown_extensions:
 
 extra:
   generator: false
-
-extra_css:
-  - css/extra.css
