@@ -31,12 +31,12 @@ theme:
     - search.suggest
   palette:
     - scheme: default
-      primary: light-grey
+      primary: indigo
       toggle:
         icon: material/brightness-7
         name: Dark mode
     - scheme: slate
-      primary: light-grey
+      primary: indigo
       toggle:
         icon: material/brightness-4
         name: Light mode
