@@ -12,9 +12,10 @@ nav:
       - Оформление главного экрана Телеграм-магазина: modules/crm/main-page.md
       - Настройка способов оплаты: modules/crm/new-payment-method.md
       - Работа с пригласительными ссылками (UTM-метками): modules/crm/utm-marks.md
-      - Настройка уведомлений сотрудникам: modules/crm/crm-notifications.md
+      - Активация бонусной системы для клиентов: modules/crm/bonus-system.md
       - Сценарии использования:
           - Быстрый вывод товара из продажи: modules/crm/fast-product-disable.md
+          - Настройка уведомлений сотрудникам: modules/crm/crm-notifications.md
   - Телеграм-магазин:
       - Внешний вид и основные страницы: modules/mini-app/ui-and-pages.md
       - Оформление и оплата заказа: modules/mini-app/checkout.md
