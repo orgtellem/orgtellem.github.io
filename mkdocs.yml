@@ -1,11 +1,12 @@
 site_name: "Tellem Documentation"
 site_url: "https://orgtellem.github.io"
+site_description: "Документация Tellem: магазин в Telegram Mini App и CRM — настройка бота, каталога, оплаты, доставки и бонусной системы."
 
 nav:
   - О продукте: index.md
   - С чего начать?:
-      - Регистрация, подписка и оплата: getting-started/registration.md
-      - Настройка Телеграм-бота и Mini App URL: getting-started/bot-setup.md
+      - Подключение и доступ к CRM: getting-started/registration.md
+      - Настройка Телеграм-бота: getting-started/bot-setup.md
   - CRM-система:
       - Начало использования: modules/crm/getting-started.md
       - Создание сетки каталога: modules/crm/catalog-grid.md
@@ -27,9 +28,12 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.top
+    - navigation.footer
     - toc.integrate
     - search.highlight
     - search.suggest
+    - content.code.copy
   palette:
     - scheme: default
       primary: indigo
@@ -50,15 +54,23 @@ theme:
     logo: logo
 
 plugins:
-  - search
-  - minify:
-      minify_html: true
+  - search:
+      lang: ru
+  # Точка расширения под мультиязычность: при появлении второго языка
+  # добавить locale в languages и файлы вида page.en.md рядом с исходными.
   - i18n:
       languages:
         - locale: ru
           name: Русский
           default: true
           build: true
+  - glightbox
+  - git-revision-date-localized:
+      type: date
+      locale: ru
+      fallback_to_build_date: true
+  - minify:
+      minify_html: true
 
 markdown_extensions:
   - admonition
@@ -69,6 +81,12 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tasklist:
       custom_checkbox: true
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
 
 extra:
   generator: false
