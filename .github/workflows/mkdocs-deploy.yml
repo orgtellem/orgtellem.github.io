@@ -42,6 +42,9 @@ jobs:
         run: mkdocs build --strict
         env:
           ENABLE_SOCIAL_CARDS: true
+          # Material 9.x is pinned; hide upstream MkDocs 2.0 migration notices.
+          NO_MKDOCS_2_WARNING: true
+          DISABLE_MKDOCS_2_WARNING: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

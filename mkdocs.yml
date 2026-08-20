@@ -1,25 +1,28 @@
 site_name: "Tellem Documentation"
 site_url: "https://orgtellem.github.io"
-site_description: "Документация Tellem: магазин в Telegram Mini App и CRM — настройка бота, каталога, оплаты, доставки и бонусной системы."
+site_description: "Документация Tellem: клиентское приложение магазина и CRM — настройка каталога, оплаты, доставки, бонусной системы и Telegram-бота."
 
 nav:
   - О продукте: index.md
   - С чего начать?:
       - Подключение и доступ к CRM: getting-started/registration.md
-      - Настройка Телеграм-бота: getting-started/bot-setup.md
+      - Подключение Telegram-бота: getting-started/bot-setup.md
   - CRM-система:
       - Начало использования: modules/crm/getting-started.md
-      - Создание сетки каталога: modules/crm/catalog-grid.md
-      - Оформление главного экрана Телеграм-магазина: modules/crm/main-page.md
+      - Оформление главного экрана клиентского приложения: modules/crm/main-page.md
       - Настройка способов оплаты: modules/crm/new-payment-method.md
-      - Работа с пригласительными ссылками (UTM-метками): modules/crm/utm-marks.md
-      - Активация бонусной системы для клиентов: modules/crm/bonus-system.md
+      - Маркетинг:
+          - Акции: modules/crm/sales.md
+          - Промокоды: modules/crm/promo-codes.md
+          - Рассылки клиентам: modules/crm/mass-mailings.md
+          - Бонусная система: modules/crm/bonus-system.md
+          - Пригласительные ссылки (UTM-метки): modules/crm/utm-marks.md
       - Сценарии использования:
           - Быстрый вывод товара из продажи: modules/crm/fast-product-disable.md
           - Настройка уведомлений сотрудникам: modules/crm/crm-notifications.md
-  - Телеграм-магазин:
-      - Внешний вид и основные страницы: modules/mini-app/ui-and-pages.md
-      - Оформление и оплата заказа: modules/mini-app/checkout.md
+  - Клиентское приложение:
+      - Внешний вид и основные страницы: modules/app/ui-and-pages.md
+      - Оформление и оплата заказа: modules/app/checkout.md
   - Полезные ссылки: useful-links.md
 
 theme:
@@ -71,7 +74,13 @@ plugins:
           name: Русский
           default: true
           build: true
-  - glightbox
+  - redirects:
+      redirect_maps:
+        # Страница «Создание сетки каталога» объединена с оформлением главного экрана
+        modules/crm/catalog-grid.md: modules/crm/main-page.md
+        # Раздел переименован: продукт больше не привязан к Telegram
+        modules/mini-app/ui-and-pages.md: modules/app/ui-and-pages.md
+        modules/mini-app/checkout.md: modules/app/checkout.md
   - git-revision-date-localized:
       type: date
       locale: ru

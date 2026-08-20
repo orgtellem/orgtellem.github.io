@@ -9,6 +9,6 @@
 ## Telegram
 
 - [BotFather](https://t.me/BotFather) — создание и настройка бота
-- [Telegram Mini Apps](https://core.telegram.org/bots/webapps) — документация
+- [Веб-приложения в Telegram](https://core.telegram.org/bots/webapps) — официальная документация
 - [Telegram Bot API](https://core.telegram.org/bots/api)
 - [Безопасная работа с токенами ботов](https://core.telegram.org/bots/features#bot-security)

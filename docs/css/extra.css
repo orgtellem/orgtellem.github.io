@@ -11,18 +11,3 @@
   --md-accent-fg-color: #a687ff;
   --md-typeset-a-color: #a687ff;
 }
-
-/* Скриншоты: рамка, скругление, лёгкая тень */
-.md-typeset img {
-  border-radius: 8px;
-  border: 1px solid var(--md-default-fg-color--lightest);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
-
-/* Логотип в шапке — без рамки */
-.md-header__button img,
-.md-nav__button img {
-  border: none;
-  box-shadow: none;
-  border-radius: 0;
-}
