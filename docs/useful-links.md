@@ -1,13 +1,14 @@
 # Полезные ссылки
 
-- BotFather — создание и настройка бота: https://t.me/BotFather  
-- Telegram Web Apps (Mini Apps) — документация: https://core.telegram.org/bots/webapps  
-- Telegram Bot API: https://core.telegram.org/bots/api  
-- Рекомендации по безопасной работе с токенами: https://core.telegram.org/bots/features#bot-security
+## Поддержка Tellem
 
-- MkDocs — документация: https://www.mkdocs.org/  
-- Material for MkDocs — тема: https://squidfunk.github.io/mkdocs-material/  
-- Плагин многоязычности (mkdocs-static-i18n): https://github.com/ultrabug/mkdocs-static-i18n
+- Telegram: [t.me/tellem_support](https://t.me/tellem_support)
+- ВКонтакте: [vk.link/tellem_it](https://vk.link/tellem_it)
+- Сайт продукта: [tellem.tech](https://tellem.tech)
 
-- Поддержка OrgTellem: support@example.com (замените на ваш адрес)  
-- Статус сервиса/интеграций: https://status.example.com (при наличии)
+## Telegram
+
+- [BotFather](https://t.me/BotFather) — создание и настройка бота
+- [Telegram Mini Apps](https://core.telegram.org/bots/webapps) — документация
+- [Telegram Bot API](https://core.telegram.org/bots/api)
+- [Безопасная работа с токенами ботов](https://core.telegram.org/bots/features#bot-security)
