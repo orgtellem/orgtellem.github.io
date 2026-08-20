@@ -11,3 +11,47 @@
   --md-accent-fg-color: #a687ff;
   --md-typeset-a-color: #a687ff;
 }
+
+/* У логотипа широкая форма: сохраняем пропорции и отдаём ему высоту шапки. */
+.md-header__button.md-logo {
+  margin: 0.1rem 0.25rem;
+  padding: 0.15rem;
+}
+
+.md-header__button.md-logo img {
+  width: auto;
+  height: 1.9rem;
+}
+
+.md-nav__title .md-nav__button.md-logo img {
+  width: auto;
+  height: 2rem;
+}
+
+.md-tabs__link {
+  color: #fff;
+  opacity: 0.9;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  opacity: 1;
+}
+
+.md-typeset a:not(.md-button):not(.headerlink) {
+  text-decoration: underline;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.14em;
+}
+
+@media screen and (max-width: 59.984375em) {
+  .md-header__button.md-logo img {
+    height: 1.55rem;
+  }
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-header__topic {
+    display: none;
+  }
+}

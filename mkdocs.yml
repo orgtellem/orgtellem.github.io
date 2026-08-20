@@ -1,28 +1,46 @@
-site_name: "Tellem Documentation"
+site_name: "Документация Tellem"
 site_url: "https://orgtellem.github.io"
 site_description: "Документация Tellem: клиентское приложение магазина и CRM — настройка каталога, оплаты, доставки, бонусной системы и Telegram-бота."
 
 nav:
   - О продукте: index.md
-  - С чего начать?:
+  - С чего начать:
       - Подключение и доступ к CRM: getting-started/registration.md
+      - Первый день в CRM: modules/crm/getting-started.md
       - Подключение Telegram-бота: getting-started/bot-setup.md
-  - CRM-система:
-      - Начало использования: modules/crm/getting-started.md
-      - Оформление главного экрана клиентского приложения: modules/crm/main-page.md
-      - Настройка способов оплаты: modules/crm/new-payment-method.md
+  - Работа в CRM:
+      - Каталог:
+          - Магазины и способы получения: modules/crm/stores-and-delivery.md
+          - Товары и категории: modules/crm/products-and-categories.md
+          - Импорт каталога: modules/crm/catalog-import.md
+          - Наличие и склады: modules/crm/inventory.md
+          - Оформление главного экрана: modules/crm/main-page.md
+          - Быстрый вывод товара из продажи: modules/crm/fast-product-disable.md
+      - Заказы и клиенты:
+          - Работа с заказами: modules/crm/orders.md
+          - Клиенты: modules/crm/clients.md
+          - Уведомления сотрудникам: modules/crm/crm-notifications.md
+      - Оплата:
+          - Настройка способов оплаты: modules/crm/new-payment-method.md
+          - Платёжные провайдеры: modules/crm/payment-providers.md
       - Маркетинг:
           - Акции: modules/crm/sales.md
           - Промокоды: modules/crm/promo-codes.md
           - Рассылки клиентам: modules/crm/mass-mailings.md
           - Бонусная система: modules/crm/bonus-system.md
           - Пригласительные ссылки (UTM-метки): modules/crm/utm-marks.md
-      - Сценарии использования:
-          - Быстрый вывод товара из продажи: modules/crm/fast-product-disable.md
-          - Настройка уведомлений сотрудникам: modules/crm/crm-notifications.md
+      - Аналитика и отчёты: modules/crm/analytics.md
+  - Настройки и интеграции:
+      - Основные настройки: modules/crm/general-settings.md
+      - Поля заказа и адреса: modules/crm/custom-fields.md
+      - PWA и контакты поддержки: modules/crm/pwa-and-support.md
+      - Интеграции: modules/crm/integrations.md
+      - Айко: modules/crm/iiko.md
   - Клиентское приложение:
       - Внешний вид и основные страницы: modules/app/ui-and-pages.md
+      - Аккаунт покупателя: modules/app/account.md
       - Оформление и оплата заказа: modules/app/checkout.md
+      - Установка и push-уведомления: modules/app/install-and-notifications.md
   - Полезные ссылки: useful-links.md
 
 theme:
@@ -30,7 +48,9 @@ theme:
   language: ru
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.path
     - navigation.top
     - navigation.footer
     - navigation.tracking
@@ -113,6 +133,9 @@ markdown_extensions:
 
 extra_css:
   - css/extra.css
+
+extra_javascript:
+  - js/accessibility.js
 
 validation:
   omitted_files: warn
