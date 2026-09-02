@@ -23,6 +23,8 @@ nav:
       - Оплата:
           - Настройка способов оплаты: modules/crm/new-payment-method.md
           - Платёжные провайдеры: modules/crm/payment-providers.md
+      - Доставка:
+          - Настройка способов получения: modules/crm/new-delivery-method.md
       - Маркетинг:
           - Акции: modules/crm/sales.md
           - Промокоды: modules/crm/promo-codes.md
