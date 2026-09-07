@@ -35,6 +35,7 @@ nav:
       - Поля заказа и адреса: modules/crm/custom-fields.md
       - PWA и контакты поддержки: modules/crm/pwa-and-support.md
       - Интеграции: modules/crm/integrations.md
+      - Доставка Ozon: modules/crm/ozon-delivery.md
       - Айко: modules/crm/iiko.md
   - Клиентское приложение:
       - Внешний вид и основные страницы: modules/app/ui-and-pages.md
