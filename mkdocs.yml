@@ -18,6 +18,7 @@ nav:
           - Быстрый вывод товара из продажи: modules/crm/fast-product-disable.md
       - Заказы и клиенты:
           - Работа с заказами: modules/crm/orders.md
+          - Доставка и статусы заказов: modules/crm/delivery.md
           - Клиенты: modules/crm/clients.md
           - Уведомления сотрудникам: modules/crm/crm-notifications.md
       - Оплата:
