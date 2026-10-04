@@ -1,0 +1,226 @@
+# Tellem Personal Data Processing Policy
+
+Version of 5 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/personal-data-policy/)
+
+This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
+
+## 1. General provisions
+
+1.1. This Policy sets out the purposes, grounds and procedure for processing personal data when Tellem is used, as well as the measures taken to protect such data. The Policy has been developed taking into account Federal Law No. 152-FZ "On Personal Data" of 27 July 2006 and other applicable laws and regulations of the Russian Federation.
+
+1.2. The owner of the Tellem technology platform is Limited Liability Company "Mirro" (full name in Russian: ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «МИРРО»; hereinafter, the Company):
+
+- TIN (INN) 6321357959, KPP 632101001;
+- OGRN 1146320016622;
+- registered address: 445043, Samara Region, Tolyatti, Yuzhnoye Shosse, building 163a, floor 3, room 30;
+- email for personal data requests and withdrawal of consent: [tellem.service@yandex.ru](mailto:tellem.service@yandex.ru).
+
+1.3. Tellem is a technology platform through which organizations and individual entrepreneurs publish catalogs, receive and process orders in the CRM, interact with buyers and provide them with a buyer account. The available features, payment and delivery methods and loyalty programs depend on the particular shop or venue.
+
+1.4. The Policy applies to the use of the platform on the `tellem.tech` website, including the Tellem personal account (`tellem.tech/lk`), on `tellem.store` subdomains and on connected domains where a link to the Policy is placed, including when the catalog is opened inside Telegram, as well as to support requests related to the platform. In this Policy, the User means an individual whose data is processed in the course of such use.
+
+1.5. The Policy describes the processing of data of visitors, buyers, users of accounts and of the Tellem personal account, as well as of representatives of organizations and individual entrepreneurs using Tellem, including employees of sellers working in the CRM. The processing of HR data of the Company's employees is governed by separate documents.
+
+1.6. Reading the Policy, visiting the website or continuing to use it does not in itself constitute consent to any processing of personal data. Where processing requires consent, the consent is given separately from reading the Policy: [buyer consent](../consent/index.md), [Tellem personal account user consent](../account-consent/index.md).
+
+## 2. Roles of the Company and the Seller
+
+2.1. The Company is the personal data operator with respect to processing for its own purposes: maintaining Tellem personal account user accounts, providing Tellem's own services, interacting with its clients and users, handling requests, technical support and ensuring the security of the platform.
+
+2.2. The Seller is an organization or individual entrepreneur, a Tellem client, that owns a particular shop or venue on Tellem and manages it in the Tellem CRM. The Seller is the operator of the data relating to orders, delivery, the loyalty program, mailings and other CRM features of its shop: the Seller determines the purposes and scope of such processing.
+
+2.3. The Company processes this data on behalf of the Seller (under the Seller's instruction) within the limits of the contract and the instruction, and stores the databases on its servers (Section 8). The instruction defines the purposes, the list of data and operations, and the requirements for confidentiality, security and termination of processing. The Company does not use data received under an instruction for its own incompatible purposes.
+
+2.4. This Policy does not replace the Seller's personal data processing policy. The Seller publishes its name, contact details and documents (shop rules, offer, seller's policy) in its shop profile. On matters of data processing by the Seller, the User may contact the Seller directly.
+
+## 3. Processing principles
+
+3.1. Data is processed lawfully and fairly, for specific and predetermined purposes. The Company limits the data to the scope necessary for the relevant purpose.
+
+3.2. Processing incompatible with the purposes of collection and combining databases with incompatible processing purposes are not permitted.
+
+3.3. The Company takes measures to keep data accurate and up to date, and rectifies, blocks or destroys it where there are grounds provided for by law.
+
+3.4. Data is stored no longer than necessary for the purposes of processing, unless a different period is established by law or an applicable contract.
+
+## 4. Purposes, data categories and legal grounds
+
+4.1. Only the information necessary for the feature being used is processed. The presence of a category in the Policy does not mean that all the listed information is collected from every user.
+
+| Purpose and categories of users | Data | Legal basis |
+| --- | --- | --- |
+| Providing a Tellem personal account and access to its features: Tellem personal account users | First name, last name, patronymic — if provided; email, phone; account identifier; information required for authorization and access recovery; identifiers of linked accounts (Telegram, Google, Yandex, VK); device identifier and information about active sessions; language and interface settings | Conclusion or performance of a contract with the user to the extent necessary; separate consent — for processing that requires consent |
+| Conclusion and performance of the contract for the use of Tellem: clients who are individuals, individual entrepreneurs and representatives of organizations | Full name, work contact details, position or role of the representative, information about interactions and authority; connected shops, subscriptions and payments for the use of Tellem — to the extent necessary | Contract with the data subject; compliance with legal obligations; legitimate interest in interacting with a representative of an organization, subject to their rights |
+| Handling requests and technical support: users and client representatives who have submitted a request | Name, contact details for the reply, text of the request, related information about the account and the technical error, materials provided by the user | Performance of a contract; legitimate interest in handling the request, subject to the user's rights; consent, where necessary |
+| Ensuring security and operability: visitors and users of the platform | IP address, browser and device information, device and session identifiers, time and result of sign-in, log of data changes in the CRM, technical events and error logs, information about suspicious activity | Performance of a contract as regards the necessary operation of the service; legitimate interest in protecting the platform and users, subject to their rights |
+| Analysis of CRM usage to develop the service: employees of sellers working in the CRM | Login, email, actions in the CRM interface | The Company's legitimate interest in developing the service, subject to the user's rights |
+| Sending the Company's advertising: users who have given the relevant consent | Contact details for the chosen communication channel, name — if used to address the user, information about giving and withdrawing consent | Separate prior consent to the relevant processing and to receiving advertising |
+
+4.2. When processing on behalf of the Seller, the following may be used:
+
+- for the buyer's account in the shop — name, email, phone, account identifier, identifiers of linked accounts (Telegram, Google, Yandex, VK), device identifier and information about active sessions;
+- for placing and fulfilling an order — full name and contact details of the buyer or recipient, address and delivery details, order comment, order number, contents, cost and status;
+- for recording payments and refunds — payment identifier, amount, payment method and status, refund information;
+- for the loyalty program — participant identifier, bonus balance, information about the accrual, use and validity period of bonuses, related orders;
+- for service messages — contact details in the chosen channel, identifier of the linked Telegram account or chat, content of the message about the order or the operation of the service;
+- for browser notifications — device identifier and technical subscription details, if the user has enabled notifications;
+- for the Seller's informational mailings — email and Telegram chat identifier, the mailing setting and the history of its changes (the log records who changed the setting and when). Informational mailings are not advertising. They are sent by default; the user may opt out of them in the shop profile at any time;
+- for the Seller's advertising — contact details and information about consent, only if the Seller has obtained separate prior consent. The Seller is responsible for the content of mailings;
+- for the Seller's analytics — information about the referral source (UTM tags), which is linked to the customer after sign-in, and views of products and categories together with the customer identifier;
+- for the operation of the CRM AI assistant, if the Seller has enabled it — customer and order data requested by the Seller's employees;
+- for the Seller's integrations (accounting systems, scripts) — order data to the extent configured by the Seller.
+
+The categories of data subjects in such processing are buyers, order recipients and loyalty program participants. The purposes, grounds and periods are determined by the Seller and are specified in its documents and in its instruction to the Company. The instruction in itself does not replace the Seller's legal basis for processing.
+
+4.3. Bank card details, including the full card number and security code, are entered on the side of the chosen payment service. When paying via such a page, Tellem receives the information needed to record the result of the payment, not the card security code.
+
+4.4. For the described features, the Company does not request information about health, political opinions, religious beliefs or other special categories of personal data, nor biometric data for establishing identity. The User should not include such information in free-text fields and requests unless separate legal grounds and a processing procedure are provided for it.
+
+4.5. Use of the platform does not constitute consent to the dissemination of personal data to an unlimited number of persons. If such processing is required, a separate legal basis and, where necessary, separate consent must be established for it.
+
+## 5. Data sources and processing methods
+
+5.1. Data is received:
+
+- from the User when signing in, filling in the profile, placing an order and contacting support;
+- from the authorization service chosen by the User — Google, Yandex or VK — within the scope of the access granted;
+- from Telegram when a linked account, the bot or the catalog inside Telegram is used;
+- from the Seller and the services it has connected — within the limits of the legal basis and the instruction;
+- from payment and other connected services when the relevant feature is performed;
+- automatically in the course of operation of the browser and the platform: information about sessions, the device, the referral source, views and technical events.
+
+5.2. The available sign-in methods and integrations depend on the settings of the particular shop. If the User chooses an external service, the processing of data by that service itself is also governed by its documents.
+
+5.3. The Company carries out the collection, recording, systematization, accumulation, storage, clarification, retrieval, use, provision of and access to data where there are grounds for it, blocking, deletion, destruction and, where necessary, depersonalization of data. Processing may be automated or non-automated.
+
+5.4. If the User provides data of another order recipient, the User must have a legal basis for providing it. This does not release the operator from its own obligations towards that person.
+
+## 6. Cookies and similar technologies
+
+6.1. Tellem uses cookies and similar technologies (browser local storage and session storage). The Tellem personal account uses cookies; the catalog uses browser storage. They store:
+
+- the sign-in session and temporary parameters for signing in via an external service;
+- the selected shop, sales zone or table;
+- language and interface settings;
+- flags recording that the cookie notice was closed, that age was confirmed and that installation of the app (PWA) was declined;
+- a persistent device identifier (`deviceId`) — for sessions, the list of active devices and push notifications;
+- referral tags (UTM tags) — after sign-in, they are linked to the customer and used for the Seller's analytics by referral source.
+
+6.2. Tellem does not place third-party advertising or analytics counters in the catalog or the personal account. If the Seller connects its own scripts or integrations, the Seller discloses them itself.
+
+6.3. The User may clear site data or restrict its storage in the browser settings. After that, the User may need to sign in again; some features may become unavailable. Clearing the browser does not delete data lawfully stored on the server.
+
+## 7. Data recipients and processing on instruction
+
+7.1. Access to data is granted only where there is a legal basis and to the extent necessary:
+
+- to authorized employees of the Company — to perform their duties;
+- to the Seller and its authorized employees — as part of the operation of the relevant shop;
+- to the hosting and storage provider — for hosting and maintaining the platform;
+- to payment services, delivery services and other contractors — for the feature chosen by the User and within the relevant contracts;
+- to communication and notification providers — to deliver messages in the chosen channel;
+- to public authorities — in the cases and manner established by law.
+
+7.2. When entrusting processing to other persons, the Company sets out requirements for the data, operations, confidentiality and security in the contract. Entrusting processing does not relieve the Company of the operator's responsibility in cases where it acts as the operator.
+
+7.3. Recipients by category. Which of them are used depends on the shop and the chosen service method; payment services, delivery services, iiko, the AI provider and integrations are connected by the Seller under its own contracts:
+
+- payments — T-Bank, Alfa-Bank, YooKassa, Tochka, ArcoPay, Robokassa, Sberbank, BetaTransfer: order number and amount; for the receipt — phone and/or email;
+- delivery — CDEK, Yandex Delivery, Ozon: full name, phone, address or pickup point, order contents. Ozon receives the phone number already when the delivery cost is calculated, before the order is placed;
+- the Seller's accounting systems — iiko: first name, last name, email, phone, comment and order contents;
+- address suggestions — DaData: the text of the address being entered;
+- email — SMTP services: email address and message text. By default, emails are sent via the Tellem mail account in Yandex 360 until the Seller connects its own;
+- Telegram: to the buyer — chat identifier, messages about orders and bonuses, and mailings; to the Seller's employees — full name, phone, address and order contents;
+- browser push services — Google, Apple, Mozilla, Microsoft: subscription address, IP address, delivery time; the notification content is encrypted;
+- AI provider — a service with an OpenAI-compatible API chosen by the Seller: customer and order data requested by the Seller's employees in the CRM AI assistant;
+- the Seller's scripts and integrations: order data sent to the addresses specified by the Seller;
+- CRM analytics — Amplitude: login, email and actions of sellers' employees in the CRM; no buyer data.
+
+Information about recipients relating to the User's data is provided at the User's request in the manner established by law.
+
+7.4. Hosting and storage provider of the platform: individual entrepreneur Vladislav Olegovich Lopushenko (2cloud.pro), TIN (INN) 634506297302, OGRNIP 319631300043836.
+
+The Company does not sell personal data and does not grant access to it for unrelated purposes without a legal basis.
+
+## 8. Storage location and cross-border transfer
+
+8.1. When collecting personal data of citizens of the Russian Federation, the Company complies with the requirements of Part 5 of Article 18 of Law No. 152-FZ regarding databases located in the territory of the Russian Federation.
+
+8.2. The platform databases (PostgreSQL), their backups, the file storage (MinIO-compatible) and the view statistics database (InfluxDB) are hosted on the servers of the hosting provider specified in clause 7.4, in the Russian Federation, in the Samara Region.
+
+8.3. Hosting the main databases in Russia does not in itself determine whether a cross-border transfer takes place. When external services are used, the actual recipients, routes and place of data processing are taken into account.
+
+8.4. When certain features are used, data is transferred to foreign persons or processed outside the Russian Federation:
+
+- Telegram — messages to buyers and to the Seller's employees, data when signing in and using the catalog inside Telegram;
+- browser push services (Google, Apple, Mozilla, Microsoft) — subscription address and encrypted notification content;
+- Google — when signing in with a Google account;
+- the AI provider chosen by the Seller — customer and order data, if the Seller has enabled the CRM AI assistant;
+- Amplitude (European Union) — data of sellers' employees working in the CRM;
+- Google Fonts — when working in the CRM, unpkg.com — on the CRM error page: they receive the IP address and browser information of the CRM user;
+- GitHub Pages and Google Fonts — when this page and other Tellem documentation pages are opened: they receive the visitor's IP address and browser information.
+
+## 9. Processing periods and destruction
+
+9.1. Periods are determined separately for each purpose:
+
+| Processing category | Processing and retention period |
+| --- | --- |
+| Tellem personal account and access to the service | While the service is provided; after termination — only to the extent and for the period required on another legal basis |
+| Contracts with clients and interaction with representatives | For the term of the contract and thereafter within the applicable mandatory retention periods for the relevant documents |
+| Support requests | Until the request is resolved and 1 year after it is closed — to answer follow-up questions and protect the rights of the parties |
+| Sessions and sign-in tokens | Until they expire; expired ones are deleted daily |
+| CRM change audit log | 14 days, except for the history of changes to the mailing setting |
+| Information needed to investigate a specific security incident | Until the investigation is completed |
+| Conversations with the CRM AI assistant | 14 days; deleted daily |
+| Views of products and categories (statistics for the Seller) | 53 weeks |
+| Information about consent to mailings, opt-out and their changes (who changed the setting and when) | For the entire existence of the customer record and 3 years after its deletion — within the general limitation period, to confirm the fact of consent and opt-out |
+| Advertising processing based on consent | Until consent is withdrawn or the purpose specified in it is achieved |
+| Data of buyer accounts, orders, loyalty and messages processed on the Seller's instruction | Within the periods established by the Seller's lawful instruction; after it terminates — return or destruction in the manner provided for by the contract and the law |
+| Backups | Copies of the CRM database and the view statistics database are made daily and kept for no more than 4 days. The copy of the file storage is updated daily; deleted files disappear from it at the next update |
+
+9.2. When the purpose is achieved or consent is withdrawn, processing stops, and the data is destroyed, in the cases provided for by law, within no more than 30 days. Exceptions apply only where there is a basis provided for by law, a contract or another agreement permitted by law. Withdrawal of consent does not stop processing for which an independent legal basis exists.
+
+9.3. A demand to stop processing is considered within the period established by law: no more than 10 business days, which may be extended by no more than 5 business days if a reasoned notice is sent. Exceptions provided for by law are considered separately.
+
+9.4. If the data cannot be destroyed within the established period, it is blocked and destroyed within the periods and in the manner provided for by Part 6 of Article 21 of Law No. 152-FZ. Backups are not used to retain data indefinitely after the grounds for processing have ceased.
+
+9.5. Electronic data is destroyed in a way that prevents recovery of its content; paper media — in a way that prevents recovery of the information they contain. Destruction is confirmed by documents in the established manner.
+
+9.6. To have their data deleted, the User sends a request to [tellem.service@yandex.ru](mailto:tellem.service@yandex.ru) or to the Seller of the shop. The data is depersonalized or destroyed within 30 days; destruction is documented in a certificate (act). If the request concerns data for which the Seller is the operator, the Company fulfils it on the Seller's instructions. Information that must be retained by law or to confirm consent is kept until the end of the relevant period specified in clause 9.1.
+
+## 10. Data protection
+
+10.1. The Company takes legal, organizational and technical measures appropriate to the nature of processing, current threats and legal requirements. Such measures include segregation of access, confidentiality obligations, protection of communication channels, monitoring of access and security events, a log of data changes, backup, recovery and incident response.
+
+10.2. When processing on the Seller's instruction, the requirements of the relevant instruction also apply. Access by employees and contractors is limited to the data necessary for their tasks.
+
+10.3. If a breach is detected, the Company takes measures to stop unlawful processing, eliminate its consequences and notify the competent authority and other persons in the cases and within the periods provided for by law.
+
+## 11. User rights and requests
+
+11.1. The User has the right to:
+
+- receive information about the processing of their data, its purposes, grounds, periods and recipients;
+- access their data in the manner established by law;
+- demand rectification, blocking or destruction of data that is incomplete, outdated, inaccurate, unlawfully obtained or excessive;
+- withdraw consent and demand that processing stop where there are grounds provided for by law;
+- opt out of informational mailings in the shop profile at any time;
+- opt out of advertising;
+- appeal against actions or omissions of the operator to Roskomnadzor or to a court.
+
+11.2. Requests to the Company are sent to [tellem.service@yandex.ru](mailto:tellem.service@yandex.ru) or in writing to the registered address specified in clause 1.2. For convenience, the subject "Personal data", "Data correction", "Data deletion" or "Withdrawal of consent" may be indicated; the absence of such a subject does not limit the User's rights.
+
+11.3. The Company may request information needed to confirm the identity of the applicant and their connection with the relevant account. The requirements for a formal data access request are set by Article 14 of Law No. 152-FZ; any additional information requested must be proportionate to the purpose of verification.
+
+11.4. Information about processing is provided within 10 business days from the date the request is received. The period may be extended by no more than 5 business days with a reasoned notice. For rectification, cessation of processing and destruction, the relevant periods of Articles 20 and 21 of Law No. 152-FZ apply.
+
+11.5. If the matter concerns processing on the Seller's instruction, the Company informs the applicant of this and assists the Seller in handling the request within the limits of the instruction and the law. The Company is independently responsible for its own processing.
+
+## 12. Changes to the Policy and access to it
+
+12.1. The current version of the Policy is published at [https://orgtellem.github.io/legal/personal-data-policy/](https://orgtellem.github.io/legal/personal-data-policy/) (English translation: [https://orgtellem.github.io/legal/en/personal-data-policy/](https://orgtellem.github.io/legal/en/personal-data-policy/)). Previous versions are kept in the ["Legal documents"](../../index.md) section. Access is provided free of charge, without registration or authorization, including via the link in the catalog footer.
+
+12.2. A new version bears a date and takes effect from the date of publication. A change to the Policy does not in itself create consent to new processing purposes; if such consent is required, it is requested separately.
+
+12.3. Matters not governed by the Policy are subject to the laws of the Russian Federation.
