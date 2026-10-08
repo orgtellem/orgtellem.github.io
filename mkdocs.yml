@@ -4,46 +4,38 @@ site_description: "Документация Tellem: клиентское при�
 
 nav:
   - О продукте: index.md
-  - С чего начать:
-      - Подключение и доступ к CRM: getting-started/registration.md
-      - Первый день в CRM: modules/crm/getting-started.md
-      - Подключение Telegram-бота: getting-started/bot-setup.md
-  - Работа в CRM:
+  - Начало работы:
+      - Подключение и первый вход: getting-started/registration.md
+      - Чек-лист запуска магазина: modules/crm/getting-started.md
+  - CRM:
+      - Заказы: modules/crm/orders.md
+      - Клиенты: modules/crm/clients.md
       - Каталог:
-          - Магазины и способы получения: modules/crm/stores-and-delivery.md
-          - Товары и категории: modules/crm/products-and-categories.md
-          - Импорт каталога: modules/crm/catalog-import.md
-          - Наличие и склады: modules/crm/inventory.md
-          - Оформление главного экрана: modules/crm/main-page.md
-          - Быстрый вывод товара из продажи: modules/crm/fast-product-disable.md
-      - Заказы и клиенты:
-          - Работа с заказами: modules/crm/orders.md
-          - Доставка и статусы заказов: modules/crm/delivery.md
-          - Клиенты: modules/crm/clients.md
-          - Уведомления сотрудникам: modules/crm/crm-notifications.md
-      - Оплата:
-          - Настройка способов оплаты: modules/crm/new-payment-method.md
-          - Платёжные провайдеры: modules/crm/payment-providers.md
+          - Магазины: modules/crm/stores-and-delivery.md
+          - Категории и товары: modules/crm/products-and-categories.md
+          - Оформление: modules/crm/main-page.md
+          - Наличие и снятие с продажи: modules/crm/inventory.md
+          - Импорт: modules/crm/catalog-import.md
+      - Главная и аналитика: modules/crm/analytics.md
       - Маркетинг:
-          - Акции: modules/crm/sales.md
-          - Промокоды: modules/crm/promo-codes.md
-          - Рассылки клиентам: modules/crm/mass-mailings.md
-          - Бонусная система: modules/crm/bonus-system.md
-          - Пригласительные ссылки (UTM-метки): modules/crm/utm-marks.md
-      - Аналитика и отчёты: modules/crm/analytics.md
-  - Настройки и интеграции:
-      - Основные настройки: modules/crm/general-settings.md
-      - Поля заказа и адреса: modules/crm/custom-fields.md
-      - PWA и контакты поддержки: modules/crm/pwa-and-support.md
-      - Интеграции: modules/crm/integrations.md
-      - Доставка Ozon: modules/crm/ozon-delivery.md
-      - Айко: modules/crm/iiko.md
+          - Рассылки: modules/crm/mass-mailings.md
+          - Акции и промокоды: modules/crm/promo-codes.md
+          - Бонусы: modules/crm/bonus-system.md
+          - Метки: modules/crm/utm-marks.md
+      - Настройки:
+          - Основные, Поддержка, PWA: modules/crm/general-settings.md
+          - Уведомления: modules/crm/crm-notifications.md
+          - Оплата: modules/crm/payment-providers.md
+          - Доставка: modules/crm/delivery.md
+          - Поля Заказа: modules/crm/custom-fields.md
+      - Интеграции:
+          - AI и пользовательские: modules/crm/integrations.md
+          - Telegram: getting-started/bot-setup.md
+          - iiko: modules/crm/iiko.md
   - Клиентское приложение:
-      - Внешний вид и основные страницы: modules/app/ui-and-pages.md
-      - Аккаунт покупателя: modules/app/account.md
-      - Оформление и оплата заказа: modules/app/checkout.md
-      - Установка и push-уведомления: modules/app/install-and-notifications.md
-  - Полезные ссылки: useful-links.md
+      - Витрина и корзина: modules/app/ui-and-pages.md
+      - Оформление и заказы: modules/app/checkout.md
+      - Аккаунт, установка и уведомления: modules/app/account.md
   - Правовые документы:
       - Все документы: legal/index.md
       - Политика обработки персональных данных: legal/personal-data-policy/index.md
@@ -114,6 +106,14 @@ plugins:
         # Раздел переименован: продукт больше не привязан к Telegram
         modules/mini-app/ui-and-pages.md: modules/app/ui-and-pages.md
         modules/mini-app/checkout.md: modules/app/checkout.md
+        # Страницы слиты при перестройке документации (2026-10)
+        useful-links.md: index.md
+        modules/crm/fast-product-disable.md: modules/crm/inventory.md
+        modules/crm/ozon-delivery.md: modules/crm/delivery.md
+        modules/crm/new-payment-method.md: modules/crm/payment-providers.md
+        modules/crm/sales.md: modules/crm/promo-codes.md
+        modules/crm/pwa-and-support.md: modules/crm/general-settings.md
+        modules/app/install-and-notifications.md: modules/app/account.md
   - git-revision-date-localized:
       type: date
       locale: ru
