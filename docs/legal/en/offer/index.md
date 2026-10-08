@@ -46,7 +46,7 @@ Terms not defined in Section 1 are interpreted primarily in accordance with the 
 
 ## 3. Granting of rights. Use of the Software
 
-3.1. The right to use the Software is granted on the basis of the Plan chosen by the Licensee. The list of Plans is published on [https://tellem.studio/en#pricing](https://tellem.studio/en#pricing) and in the Tellem personal account ([https://tellem.tech/lk](https://tellem.tech/lk)).
+3.1. The right to use the Software is granted on the basis of the Plan chosen by the Licensee. The list of Plans is published on [https://tellem.tech/en#pricing](https://tellem.tech/en#pricing) and in the Tellem personal account ([https://tellem.tech/lk](https://tellem.tech/lk)).
 
 3.2. The Licensee may use the Software solely for conducting commercial activities.
 
