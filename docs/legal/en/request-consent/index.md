@@ -1,6 +1,6 @@
 # Consent to the Processing of Personal Data When Submitting a Request
 
-For visitors of the Tellem CRM website (`tellem.studio`) who submit a request. Version of 9 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/request-consent/)
+For visitors of the `tellem.tech` website who submit a request. Version of 9 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/request-consent/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 

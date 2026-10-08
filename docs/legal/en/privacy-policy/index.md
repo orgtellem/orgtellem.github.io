@@ -15,7 +15,7 @@ This is an English translation of the Russian document. In case of any discrepan
 - registered address: 445043, Samara Region, Tolyatti, Yuzhnoye Shosse, building 163a, floor 3, room 30;
 - privacy contact: [tellem.service@yandex.ru](mailto:tellem.service@yandex.ru).
 
-1.3. The Policy applies to the platform on the `tellem.tech` website, including the Tellem personal account (`tellem.tech/lk`), on `tellem.store` subdomains and on connected domains where a link to it is placed, including when the catalog is opened inside Telegram, on the Tellem CRM website (`tellem.studio`), as well as to related support requests.
+1.3. The Policy applies to the platform on the `tellem.tech` website, including the Tellem personal account (`tellem.tech/lk`), on `tellem.store` subdomains and on connected domains where a link to it is placed, including when the catalog is opened inside Telegram, as well as to related support requests.
 
 1.4. Detailed purposes, legal grounds, periods, User rights and the procedure for processing personal data are set out in the [Tellem Personal Data Processing Policy](../personal-data-policy/index.md). These documents apply together; matters of personal data processing are governed by that Policy and the law.
 
@@ -38,7 +38,7 @@ This is an English translation of the Russian document. In case of any discrepan
 - **Order data:** goods or services, quantity, cost, status, recipient contact details, delivery address and comment, payment and refund information.
 - **Loyalty program data:** participation in the program, bonus balance, accruals and redemptions, related orders.
 - **Requests:** contact details for the reply, correspondence with support and materials provided by the User.
-- **Requests from the `tellem.studio` website:** name, phone, name of the venue or company and its number of locations, chosen plan, the page from which the request was sent and the referral source.
+- **Requests from the `tellem.tech` website:** name, phone, name of the venue or company and its number of locations, chosen plan, the page from which the request was sent and the referral source.
 - **Technical information:** IP address, browser and device information, session identifier, persistent device identifier, authorization events, technical errors, language and interface settings.
 - **Information for the Seller's analytics:** the referral source (UTM tags), which is linked to the customer after sign-in, views of products and categories.
 - **Information about connected channels:** identifier of the linked Telegram account or chat; technical details of the browser notification subscription, if notifications are enabled.
@@ -78,8 +78,8 @@ This is an English translation of the Russian document. In case of any discrepan
 - to the DaData address suggestion service — the text of the address being entered;
 - to communication and notification providers — email services (by default, the Tellem account in Yandex 360), Telegram, browser push services — for the chosen message channel;
 - to Amplitude — information about the work of sellers' employees in the CRM, without buyer data;
-- to Telegram and email services — notifications to employees of Mirro LLC about requests from the `tellem.studio` website;
-- to Yandex Metrica (YANDEX LLC) — information about visits to the `tellem.studio` website;
+- to Telegram and email services — notifications to employees of Mirro LLC about requests from the `tellem.tech` website;
+- to Yandex Metrica (YANDEX LLC) — information about visits to the product pages of the `tellem.tech` website;
 - to public authorities — in cases provided for by law.
 
 The full list, including the data transferred, is given in Section 7 of the [Personal Data Processing Policy](../personal-data-policy/index.md).
@@ -94,7 +94,7 @@ The full list, including the data transferred, is given in Section 7 of the [Per
 
 7.2. Tellem does not place third-party advertising or analytics counters in the catalog or the personal account. If the Seller connects its own scripts or integrations, the Seller discloses them itself.
 
-7.3. The Tellem CRM website (`tellem.studio`) uses Yandex Metrica (YANDEX LLC): it stores cookies and collects visit information, including session recording (Webvisor) and click maps, to assess traffic and advertising performance. The contents of the request form fields are not included in recordings. See Section 6 of the Personal Data Processing Policy for details.
+7.3. The product pages of the `tellem.tech` website (except the personal account) use Yandex Metrica (YANDEX LLC): it stores cookies and collects visit information, including session recording (Webvisor) and click maps, to assess traffic and advertising performance. The contents of the request form fields are not included in recordings. See Section 6 of the Personal Data Processing Policy for details.
 
 7.4. The User can clear site data or restrict its storage in the browser. This may end the authorization or reset the settings. Server-side account and order data is not automatically deleted when the browser is cleared.
 
@@ -104,7 +104,7 @@ The full list, including the data transferred, is given in Section 7 of the [Per
 
 8.2. Databases, their backups, the file storage and view statistics are hosted on the servers of the hosting provider — individual entrepreneur Vladislav Olegovich Lopushenko (2cloud.pro, TIN (INN) 634506297302, OGRNIP 319631300043836) — in the Russian Federation, in the Samara Region.
 
-8.3. When certain features are used, data is transferred outside the Russian Federation: to Telegram (including notifications to the Company's employees about requests from the `tellem.studio` website), browser push services (Google, Apple, Mozilla, Microsoft; the notification content is encrypted), Google — when signing in with it, the AI provider chosen by the Seller, and Amplitude (European Union) — only data of sellers' employees in the CRM. Tellem documentation pages, including this one, are hosted on GitHub Pages and use Google Fonts: these services receive the visitor's IP address. The CRM interface loads fonts from Google Fonts, and the CRM error page also loads a script from unpkg.com: these services receive the CRM user's IP address. See Section 8 of the Personal Data Processing Policy for details.
+8.3. When certain features are used, data is transferred outside the Russian Federation: to Telegram (including notifications to the Company's employees about requests from the `tellem.tech` website), browser push services (Google, Apple, Mozilla, Microsoft; the notification content is encrypted), Google — when signing in with it, the AI provider chosen by the Seller, and Amplitude (European Union) — only data of sellers' employees in the CRM. Tellem documentation pages, including this one, are hosted on GitHub Pages and use Google Fonts: these services receive the visitor's IP address. The CRM interface loads fonts from Google Fonts, and the CRM error page also loads a script from unpkg.com: these services receive the CRM user's IP address. See Section 8 of the Personal Data Processing Policy for details.
 
 8.4. The Company applies protection measures, including access restriction, protection of communication channels, monitoring of security events and incident response. The User should protect their device, not share sign-in details with others and end the session on shared devices.
 
