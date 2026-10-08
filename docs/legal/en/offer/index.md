@@ -1,0 +1,237 @@
+# Tellem License Agreement (Public Offer)
+
+Version of 9 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/offer/)
+
+This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
+
+Limited Liability Company "MIRRO", hereinafter the "Licensor", represented by Director Denis Dmitrievich Gorbov acting on the basis of the Charter, offers Licensees, as this term is defined below, to enter into this License Agreement (Public Offer) (the "Agreement") on the terms set out below by full and unconditional acceptance in the manner established by the Agreement (Article 438(3) of the Civil Code of the Russian Federation).
+
+From the moment of acceptance of the Agreement, a legal entity or an individual, including one registered as an individual entrepreneur, becomes a Party to the Agreement referred to as the "Licensee" and acquires rights and obligations in accordance with the terms of the Agreement.
+
+## 1. Terms and definitions
+
+1.1. Offer — the Licensor's public proposal addressed to an unlimited number of persons to enter into a license agreement on the terms of this Agreement.
+
+1.2. Acceptance — the Licensee's full and unconditional acceptance of the terms of the Agreement. Acceptance is deemed to take place when the Licensee actually starts using the subject of the Agreement and pays the fee in the manner provided for by the Agreement.
+
+1.3. Software (the Program) — the "Tell'em" (Tellem) software, including a catalog (online store), which can also be opened inside Telegram (Web App), and a CRM system for managing the catalog of goods and services and for viewing statistics and analytics.
+
+1.4. User — an individual, a legal entity or an individual entrepreneur.
+
+1.5. Licensor — the holder of the exclusive rights to the subject of the Agreement.
+
+1.6. Licensee — a User who has accepted the Offer.
+
+1.7. Account — a part of the Software set apart for access by a specific User.
+
+1.8. Plan — the set of Software features available to the Licensee for a fee.
+
+1.9. Consent to the processing of personal data — the consent of a Tellem personal account user, given separately from the Agreement in the form published at [https://orgtellem.github.io/legal/en/account-consent/](https://orgtellem.github.io/legal/en/account-consent/).
+
+Terms not defined in Section 1 are interpreted primarily in accordance with the legislation of the Russian Federation and then in accordance with their established common meaning.
+
+## 2. Subject of the Agreement
+
+2.1. The Licensor grants the Licensee, for a fee, a non-exclusive right to use the Software under a simple (non-exclusive) license.
+
+2.2. The "Tell'em" Software includes a catalog (online store), which can also be opened inside Telegram (Web App), and a CRM system for managing the catalog of goods and services and for viewing statistics and analytics.
+
+2.3. The Software and its components are a result of intellectual activity, the exclusive rights to which belong to the Licensor.
+
+2.4. The right to use the Software is granted solely to the Licensee and does not include the right to let third parties use it without the Licensor's written consent.
+
+2.5. The Licensor guarantees the lawful origin and use of the Software in accordance with the legislation of the Russian Federation.
+
+2.6. The Licensee confirms that before acceptance it has reviewed the functional properties, design and other characteristics of the Software and accepts the risk of the Software meeting its expectations and needs.
+
+## 3. Granting of rights. Use of the Software
+
+3.1. The right to use the Software is granted on the basis of the Plan chosen by the Licensee. The list of Plans is published on [https://tellem.studio/en#pricing](https://tellem.studio/en#pricing) and in the Tellem personal account ([https://tellem.tech/lk](https://tellem.tech/lk)).
+
+3.2. The Licensee may use the Software solely for conducting commercial activities.
+
+3.3. Access is provided from the moment the fee is paid in full in advance in accordance with Section 7 of the Agreement.
+
+3.4. The right of use is deemed granted from the moment the account is created or registered and access credentials are issued. All actions in the account are deemed to be performed by the Licensee.
+
+3.5. The Licensor grants the right:
+
+- to access the Software around the clock (except during maintenance);
+- to use the functionality included in the chosen Plan.
+
+3.6. If the Licensor receives no claims within 5 (five) days from the start of use, the rights are deemed granted in full and properly.
+
+3.7. The Software is provided "as is".
+
+3.8. The Licensor does not search for or provide a customer base to the Licensee.
+
+3.9. The Licensee is prohibited from:
+
+- transferring the right of use to third parties, including by sublicensing;
+- disassembling, decompiling, adapting or modifying the Software;
+- making changes to the object code of the Software;
+- circumventing technical restrictions and protection of the Software;
+- performing other actions that violate copyright.
+
+3.10. The Licensor may carry out technological breaks and scheduled maintenance without recalculating the fee.
+
+3.11. The Licensor may change the server hosting the Software without prior notice.
+
+3.12. The Licensee is guaranteed availability of the Software within the terms of the Agreement.
+
+3.13. The risk of the Software not working on equipment that does not meet the requirements is borne by the Licensee.
+
+## 4. Termination of rights at the Licensor's initiative
+
+4.1. The Licensor may immediately terminate the granting of rights in cases of:
+
+- violation of the law, including unlawful content and unlawful activities;
+- spam, mailbombing and other mass unauthorized mailings;
+- infringement of copyright, related and other intellectual property rights of third parties;
+- distribution of pornographic (adult) content;
+- threats, insults, defamation, incitement of hatred, calls for violence and unlawful activities;
+- actions that interfere with the stable operation of the Licensor's infrastructure;
+- provision of knowingly false data about the Licensee;
+- improper communication with the Licensor's employees;
+- non-payment or late payment of the fee.
+
+4.2. The Licensor may suspend the right to use the Software and/or block access until violations are remedied.
+
+4.3. The Licensor may disclose information about the Licensee upon an official request of the competent authorities.
+
+## 5. Rights and obligations of the Licensor
+
+5.1. The Licensor undertakes:
+
+- to provide the opportunity to use the Software within the Agreement and the chosen Plan;
+- to notify of changes to the Agreement by publishing a new version at [https://orgtellem.github.io/legal/offer/](https://orgtellem.github.io/legal/offer/) (English translation: [https://orgtellem.github.io/legal/en/offer/](https://orgtellem.github.io/legal/en/offer/));
+- to maintain the operability of the Software infrastructure and eliminate malfunctions;
+- to provide technical support at the Licensee's requests;
+- to ensure the confidentiality of the Licensee's data.
+
+5.2. The Licensor may:
+
+- modify the Software, add and remove features;
+- suspend access and/or unilaterally refuse to perform the Agreement;
+- change Plans and pricing without prior notice;
+- temporarily restrict access for technical or technological reasons;
+- require additional payments in the cases provided for by the Agreement;
+- block the Licensee's resources in case of violations of the terms of the Agreement.
+
+5.3. The Licensor is responsible for the availability of the Licensee's resources within the data center of the primary provider.
+
+5.4. The Licensor is not responsible for:
+
+- the operation of third-party software;
+- actions of third parties, including fraud and external attacks;
+- inability to access for reasons on the side of third parties (including Internet providers).
+
+5.5. The Licensor does not guarantee 100% continuous (uninterrupted) operation of the Software.
+
+## 6. Rights and obligations of the Licensee
+
+6.1. The Licensee undertakes:
+
+- to use the Software in accordance with the legislation of the Russian Federation and the terms of the Agreement;
+- to use the Software for its intended purpose and within the chosen Plan;
+- to pay the license fee on time;
+- to monitor changes to the Agreement on its own;
+- to provide accurate and up-to-date registration data;
+- to stop using the Software after the paid period ends.
+
+6.2. The Licensee may:
+
+- use the Software in the ways provided for by the Agreement and the Plan;
+- choose a Plan that suits its needs;
+- have access to the Software, except in the cases provided for by the Agreement.
+
+6.3. The Licensee bears full responsibility for the content of the online store, including goods, services and published materials.
+
+## 7. License fee. Payment procedure
+
+7.1. The license is granted for a fee in accordance with the Licensor's Plans.
+
+7.2. Payment is made in Russian rubles as a 100% prepayment to the Licensor's settlement account. The moment of payment is the receipt of funds in the Licensor's settlement account.
+
+7.3. Fees of intermediaries and payment systems may be added to the payment.
+
+7.4. The Licensee's additional expenses (communication, fees of banks and payment systems, etc.) are paid by the Licensee.
+
+7.5. If the Software cannot be used through the Licensor's fault, the Licensee may submit a written application for a refund.
+
+7.6. The Licensor may unilaterally change the price of Plans. A price change does not apply to a period that has already been paid for.
+
+## 8. Technical support
+
+8.1. Technical support is provided throughout the entire period of use of the Software.
+
+8.2. Support is provided upon written requests on business days from 10:00 to 19:00 (Moscow time) at support@tellem.tech.
+
+8.3. The cost of technical support is included in the license fee.
+
+## 9. Personal data and confidentiality
+
+9.1. Personal data of the Licensee, its representatives and users of the Software are processed in accordance with Federal Law No. 152-FZ "On Personal Data", the [Tellem Personal Data Processing Policy](../personal-data-policy/index.md) and the [Tellem Privacy Policy](../privacy-policy/index.md). Consent to the processing of personal data, where required, is given separately from the Agreement.
+
+9.2. The confidentiality terms and the regime for protecting confidential information remain in force for 3 years after the use of the Software ends.
+
+## 10. Term of the Agreement. Amendments
+
+10.1. The Agreement enters into force upon acceptance and is valid for the period established by the Plan. The Licensee may extend the Agreement by paying for the next period.
+
+10.2. The current version of the Agreement and its publication date are published at [https://orgtellem.github.io/legal/offer/](https://orgtellem.github.io/legal/offer/) (English translation: [https://orgtellem.github.io/legal/en/offer/](https://orgtellem.github.io/legal/en/offer/)); previous versions are kept in the ["Legal documents"](../../index.md) section.
+
+10.3. The Licensor may amend the Agreement by publishing a new version at the address specified in clause 10.2. Continued use of the Software means acceptance of the new version.
+
+10.4. The Agreement may be terminated in the cases provided for by the Agreement and the legislation of the Russian Federation.
+
+## 11. Liability of the Parties. Dispute resolution
+
+11.1. For non-performance or improper performance of obligations, the Parties are liable in accordance with the legislation of the Russian Federation.
+
+11.2. The Licensor is not liable for losses arising from causes beyond its control.
+
+11.3. The Licensor's total liability under the Agreement may not exceed the price of the Plan chosen by the Licensee at the time the losses occur.
+
+11.4. Disputes are resolved through negotiations; if no agreement is reached, in court at the Licensor's location, subject to mandatory compliance with the pre-trial claim procedure.
+
+## 12. Representations
+
+12.1. The Licensee confirms that it enters into the Agreement voluntarily, has read its terms, has the necessary rights and powers, and uses the Software independently and at its own risk.
+
+12.2. If third parties bring claims against the Licensor in connection with the Licensee's violation of the law, the Licensee undertakes to compensate the Licensor for the corresponding losses.
+
+12.3. If the Licensee's representations are inaccurate, the Licensor may terminate the Agreement early and claim compensation for losses.
+
+## 13. Other terms
+
+13.1. The Agreement does not require signing in writing unless otherwise agreed by the Parties. Electronic document management is provided free of charge.
+
+13.2. By accepting the terms of the Agreement, the Licensee agrees to receive informational notifications at the contacts provided.
+
+13.3. Legally significant notices may be sent by courier, registered mail or email; correspondence by email is recognized as official.
+
+13.4. The Parties may use each other's names, trademarks and logos in marketing materials without disclosing the content of the Agreement.
+
+13.5. The invalidity of individual provisions of the Agreement does not entail the invalidity of the Agreement as a whole.
+
+13.6. The applicable law is the legislation of the Russian Federation.
+
+## 14. Licensor details
+
+Limited Liability Company "MIRRO" (MIRRO LLC)
+
+- Legal address: 445043, Samara Region, Tolyatti, Yuzhnoye Shosse, building 163a, floor 3, room 30
+- Actual and postal address: 445043, Samara Region, Tolyatti, Yuzhnoye Shosse, building 163a, floor 3, room 30
+- Main OKVED code: 62.01 (Computer software development)
+- TIN (INN) / KPP: 6321357959 / 632101001
+- OGRN: 1146320016622
+- Settlement account: 40702810810001655912
+- Bank: JSC "TBank"
+- Bank TIN (INN): 7710140679
+- Bank BIC: 044525974
+- Correspondent account: 30101810145250000974
+- Bank legal address: 38A, building 26, 2nd Khutorskaya St., Moscow, 127287
+- Phone: (8482) 70-65-80 (accounting)
+- Phone / email: 8-937-665-81-91 / tellem.service@yandex.ru
+- Director: Denis Dmitrievich Gorbov
