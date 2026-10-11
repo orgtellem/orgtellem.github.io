@@ -8,6 +8,7 @@ Tellem состоит из двух частей: клиентского при�
 
 | Что | Где |
 |---|---|
+| Сайт Tellem: о продукте, заявка | [tellem.tech](https://tellem.tech) |
 | Личный кабинет: регистрация, подписка, оплата | [tellem.tech/lk](https://tellem.tech/lk) |
 | CRM | `<поддомен>.tellem.store/crm` |
 | Клиентское приложение | `<поддомен>.tellem.store` |
@@ -17,7 +18,7 @@ Tellem состоит из двух частей: клиентского при�
 - Пункт меню «Помощь» открывает этот сайт.
 - Иконка «?» в шапке — встроенная справка: подсказки по разделам, версия CRM и кнопки поддержки.
 
-Поддержка: [Telegram](https://t.me/tellem_support), [ВКонтакте](https://vk.link/tellem_it), сайт [tellem.tech](https://tellem.tech).
+Поддержка: [Telegram](https://t.me/tellem_tech_bot), [ВКонтакте](https://vk.link/tellem_it), сайт [tellem.tech](https://tellem.tech).
 
 ## С чего начать
 
