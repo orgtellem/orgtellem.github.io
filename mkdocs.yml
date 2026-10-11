@@ -32,6 +32,7 @@ nav:
           - AI и пользовательские: modules/crm/integrations.md
           - Telegram: getting-started/bot-setup.md
           - iiko: modules/crm/iiko.md
+          - Ошибки iiko: modules/crm/iiko-errors.md
   - Клиентское приложение:
       - Витрина и корзина: modules/app/ui-and-pages.md
       - Оформление и заказы: modules/app/checkout.md
