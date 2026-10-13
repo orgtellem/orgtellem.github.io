@@ -1,6 +1,6 @@
 # Tellem Personal Data Processing Policy
 
-Version of 9 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/personal-data-policy/)
+Version of 13 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/personal-data-policy/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 
@@ -59,7 +59,7 @@ This is an English translation of the Russian document. In case of any discrepan
 
 4.2. When processing on behalf of the Seller, the following may be used:
 
-- for the buyer's account in the shop — name, email, phone, account identifier, identifiers of linked accounts (Telegram, Google, Yandex, VK), device identifier and information about active sessions;
+- for the buyer's account in the shop — name, email, phone, optional birthday day and month without a year, account identifier, identifiers of linked accounts (Telegram, Google, Yandex, VK), device identifier and information about active sessions;
 - for placing and fulfilling an order — full name and contact details of the buyer or recipient, address and delivery details, order comment, order number, contents, cost and status;
 - for recording payments and refunds — payment identifier, amount, payment method and status, refund information;
 - for the loyalty program — participant identifier, bonus balance, information about the accrual, use and validity period of bonuses, related orders;
