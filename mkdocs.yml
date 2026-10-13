@@ -20,6 +20,7 @@ nav:
       - Маркетинг:
           - Рассылки: modules/crm/mass-mailings.md
           - Акции и промокоды: modules/crm/promo-codes.md
+          - Первый промокод: modules/crm/first-promo-code.md
           - Бонусы: modules/crm/bonus-system.md
           - Метки: modules/crm/utm-marks.md
       - Настройки:
