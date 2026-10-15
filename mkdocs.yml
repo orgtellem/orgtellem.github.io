@@ -21,6 +21,7 @@ nav:
           - Рассылки: modules/crm/mass-mailings.md
           - Акции и промокоды: modules/crm/promo-codes.md
           - Первый промокод: modules/crm/first-promo-code.md
+          - Бесплатная доставка и сумма заказа: modules/crm/free-delivery.md
           - Бонусы: modules/crm/bonus-system.md
           - Метки: modules/crm/utm-marks.md
       - Настройки:
