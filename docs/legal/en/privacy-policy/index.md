@@ -1,6 +1,6 @@
 # Tellem Privacy Policy
 
-Version of 9 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/privacy-policy/)
+Version of 13 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/privacy-policy/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 
@@ -33,7 +33,7 @@ This is an English translation of the Russian document. In case of any discrepan
 
 3.1. Depending on the features used, this may include:
 
-- **Account data:** name and other profile information provided, email, phone, user identifier, sign-in and access recovery information, linked accounts (Telegram, Google, Yandex, VK).
+- **Account data:** name and other profile information provided, email, phone, optional birthday day and month without a year, user identifier, sign-in and access recovery information, linked accounts (Telegram, Google, Yandex, VK).
 - **Tellem personal account data:** connected shops, subscriptions and payments for the use of Tellem.
 - **Order data:** goods or services, quantity, cost, status, recipient contact details, delivery address and comment, payment and refund information.
 - **Loyalty program data:** participation in the program, bonus balance, accruals and redemptions, related orders.
@@ -60,7 +60,7 @@ This is an English translation of the Russian document. In case of any discrepan
 
 ## 5. Sign-in via external services and payment
 
-5.1. When the User chooses to sign in via Google, Yandex, VK or another available service, Tellem receives data within the scope of the access granted by the User: the external account identifier and, if provided, the name and contact details. When Telegram is used, the information necessary to link the account and operate the chosen feature may be transferred.
+5.1. When the User chooses to sign in via Google, Yandex, VK or another available service, Tellem receives data within the scope of the access granted by the User: the external account identifier and, if provided, first and last name, contact details and birthday day and month without a year. When Telegram is used, the information necessary to link the account and operate the chosen feature may be transferred.
 
 5.2. The available services are determined by the shop settings. The processing of information by the external service itself is governed by its documents; the Company retains its obligations with respect to the processing it carries out.
 
