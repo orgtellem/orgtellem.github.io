@@ -13,6 +13,7 @@ nav:
       - Каталог:
           - Магазины: modules/crm/stores-and-delivery.md
           - Категории и товары: modules/crm/products-and-categories.md
+          - Объединение товаров по цвету: modules/crm/product-colors.md
           - Оформление: modules/crm/main-page.md
           - Наличие и снятие с продажи: modules/crm/inventory.md
           - Импорт: modules/crm/catalog-import.md
