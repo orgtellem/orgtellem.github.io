@@ -135,7 +135,7 @@ The categories of data subjects in such processing are buyers, order recipients 
 - address suggestions — DaData: the text of the address being entered;
 - email — SMTP services: email address and message text. By default, emails are sent via the Tellem mail account in Yandex 360 until the Seller connects its own;
 - Telegram: to the buyer — chat identifier, messages about orders and bonuses, and mailings; to the Seller's employees — full name, phone, address and order contents;
-- VK (VK LLC): to the buyer — VK user identifier (VK ID), messages about orders and bonuses, and mailings. When the catalog shows the VK widget for allowing messages, VK receives the IP address and browser information;
+- VK (VK LLC): to the buyer — VK user identifier (VK ID), messages about orders and bonuses, and mailings. When the catalog shows the VK widget for allowing messages, VK receives the IP address and browser information and may read its own cookies within the widget frame;
 - notifications about requests from the `tellem.tech` website — Telegram and email services: name, phone and request details, for the Company's authorized employees;
 - web analytics of the product pages of the `tellem.tech` website — Yandex Metrica (YANDEX LLC): cookie identifiers, IP address, browser and device information, referral source, actions on the website pages;
 - browser push services — Google, Apple, Mozilla, Microsoft: subscription address, IP address, delivery time; the notification content is encrypted;
@@ -182,7 +182,7 @@ The Company does not sell personal data and does not grant access to it for unre
 | Information needed to investigate a specific security incident | Until the investigation is completed |
 | Conversations with the CRM AI assistant | 14 days; deleted daily |
 | Views of products and categories (statistics for the Seller) | 53 weeks |
-| Information about consent to mailings, opt-out and their changes (who changed the setting and when) | For the entire existence of the customer record and 3 years after its deletion — within the general limitation period, to confirm the fact of consent and opt-out |
+| History of the mailing setting: who turned mailings on and off and when | For the entire existence of the customer record and 3 years after its deletion — within the general limitation period, to confirm opt-out and the history of the setting |
 | Advertising processing based on consent | Until consent is withdrawn or the purpose specified in it is achieved |
 | Data of buyer accounts, orders, loyalty and messages processed on the Seller's instruction | Within the periods established by the Seller's lawful instruction; after it terminates — return or destruction in the manner provided for by the contract and the law |
 | Backups | Copies of the CRM database and the view statistics database are made daily and kept for no more than 4 days. The copy of the file storage is updated daily; deleted files disappear from it at the next update |

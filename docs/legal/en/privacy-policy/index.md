@@ -42,7 +42,8 @@ This is an English translation of the Russian document. In case of any discrepan
 - **Technical information:** IP address, browser and device information, session identifier, persistent device identifier, authorization events, technical errors, language and interface settings.
 - **Information for the Seller's analytics:** the referral source (UTM tags), which is linked to the customer after sign-in, views of products and categories.
 - **Information about connected channels:** identifier of the linked Telegram account or chat; VK user identifier (VK ID) and permission for messages from the shop's VK community; technical details of the browser notification subscription, if notifications are enabled.
-- **Consent information:** the fact and terms of giving consent, its changes or withdrawal; for mailings — who changed the setting and when.
+- **Consent information:** the fact and terms of giving consent, its changes or withdrawal.
+- **Mailing setting:** whether the User receives informational mailings and the history of the setting — who changed it and when.
 
 3.2. It is not necessary to provide all the listed information to browse the catalog. For sign-in, ordering or delivery, the data necessary for the relevant feature is used. Mandatory fields must be marked in the interface.
 
