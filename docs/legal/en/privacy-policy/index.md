@@ -1,6 +1,6 @@
 # Tellem Privacy Policy
 
-Version of 13 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/privacy-policy/)
+Version of 19 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/privacy-policy/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 
@@ -41,8 +41,9 @@ This is an English translation of the Russian document. In case of any discrepan
 - **Requests from the `tellem.tech` website:** name, phone, name of the venue or company and its number of locations, chosen plan, the page from which the request was sent and the referral source.
 - **Technical information:** IP address, browser and device information, session identifier, persistent device identifier, authorization events, technical errors, language and interface settings.
 - **Information for the Seller's analytics:** the referral source (UTM tags), which is linked to the customer after sign-in, views of products and categories.
-- **Information about connected channels:** identifier of the linked Telegram account or chat; technical details of the browser notification subscription, if notifications are enabled.
-- **Consent information:** the fact and terms of giving consent, its changes or withdrawal; for mailings — who changed the setting and when.
+- **Information about connected channels:** identifier of the linked Telegram account or chat; VK user identifier (VK ID) and permission for messages from the shop's VK community; technical details of the browser notification subscription, if notifications are enabled.
+- **Consent information:** the fact and terms of giving consent, its changes or withdrawal.
+- **Mailing setting:** whether the User receives informational mailings and the history of the setting — who changed it and when.
 
 3.2. It is not necessary to provide all the listed information to browse the catalog. For sign-in, ordering or delivery, the data necessary for the relevant feature is used. Mandatory fields must be marked in the interface.
 
@@ -76,7 +77,7 @@ This is an English translation of the Russian document. In case of any discrepan
 - to payment services (for example, T-Bank, Alfa-Bank, YooKassa, Tochka, ArcoPay, Robokassa, Sberbank, BetaTransfer) and delivery services (CDEK, Yandex Delivery, Ozon) — for the chosen method of payment and receipt of the order. Ozon receives the phone number already when the delivery cost is calculated;
 - to the Seller's accounting systems and integrations (for example, iiko, the Seller's scripts) and to the AI provider chosen by the Seller;
 - to the DaData address suggestion service — the text of the address being entered;
-- to communication and notification providers — email services (by default, the Tellem account in Yandex 360), Telegram, browser push services — for the chosen message channel;
+- to communication and notification providers — email services (by default, the Tellem account in Yandex 360), Telegram, VK (VK LLC), browser push services — for the chosen message channel;
 - to Amplitude — information about the work of sellers' employees in the CRM, without buyer data;
 - to Telegram and email services — notifications to employees of Mirro LLC about requests from the `tellem.tech` website;
 - to Yandex Metrica (YANDEX LLC) — information about visits to the product pages of the `tellem.tech` website;
@@ -114,7 +115,7 @@ The full list, including the data transferred, is given in Section 7 of the [Per
 
 9.2. To obtain information, correct or delete data, withdraw consent or opt out of advertising, write to [tellem.service@yandex.ru](mailto:tellem.service@yandex.ru) or send a written request to the registered address. Include information that allows the relevant account to be found and the substance of the request. If necessary, the Company will request proportionate information to verify identity.
 
-9.3. Upon a deletion request, data is depersonalized or destroyed within 30 days, and destruction is documented in a certificate (act). Deletion does not always mean immediate destruction of all information: certain data may be retained to comply with the law or on another independent legal basis, for example, information about consents. The reasons and periods of such retention are communicated in the established manner.
+9.3. Upon a deletion request, data is depersonalized or destroyed within 30 days, and destruction is documented in a certificate (act). Deletion does not always mean immediate destruction of all information: certain data may be retained to comply with the law or on another independent legal basis, for example, information about consents and the history of the mailing setting. The reasons and periods of such retention are communicated in the established manner.
 
 9.4. If the request concerns processing by the Seller, the User may contact the Seller using the shop's contact details. User rights and response periods are described in detail in the Personal Data Processing Policy.
 
