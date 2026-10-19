@@ -1,6 +1,6 @@
 # Tellem Personal Data Processing Policy
 
-Version of 13 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/personal-data-policy/)
+Version of 19 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/personal-data-policy/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 
@@ -63,9 +63,9 @@ This is an English translation of the Russian document. In case of any discrepan
 - for placing and fulfilling an order — full name and contact details of the buyer or recipient, address and delivery details, order comment, order number, contents, cost and status;
 - for recording payments and refunds — payment identifier, amount, payment method and status, refund information;
 - for the loyalty program — participant identifier, bonus balance, information about the accrual, use and validity period of bonuses, related orders;
-- for service messages — contact details in the chosen channel, identifier of the linked Telegram account or chat, content of the message about the order or the operation of the service;
+- for service messages — contact details in the chosen channel, identifier of the linked Telegram account or chat, VK user identifier (VK ID) and permission for messages from the shop's VK community, content of the message about the order or the operation of the service;
 - for browser notifications — device identifier and technical subscription details, if the user has enabled notifications;
-- for the Seller's informational mailings — email and Telegram chat identifier, the mailing setting and the history of its changes (the log records who changed the setting and when). Informational mailings are not advertising. They are sent by default; the user may opt out of them in the shop profile at any time;
+- for the Seller's informational mailings — email, Telegram chat identifier and VK user identifier (VK ID), the mailing setting and the history of its changes (the log records who changed the setting and when). Informational mailings are not advertising. They are sent by default; the user may opt out of them in the shop profile at any time;
 - for the Seller's advertising — contact details and information about consent, only if the Seller has obtained separate prior consent. The Seller is responsible for the content of mailings;
 - for the Seller's analytics — information about the referral source (UTM tags), which is linked to the customer after sign-in, and views of products and categories together with the customer identifier;
 - for the operation of the CRM AI assistant, if the Seller has enabled it — customer and order data requested by the Seller's employees;
@@ -134,6 +134,7 @@ The categories of data subjects in such processing are buyers, order recipients 
 - address suggestions — DaData: the text of the address being entered;
 - email — SMTP services: email address and message text. By default, emails are sent via the Tellem mail account in Yandex 360 until the Seller connects its own;
 - Telegram: to the buyer — chat identifier, messages about orders and bonuses, and mailings; to the Seller's employees — full name, phone, address and order contents;
+- VK (VK LLC): to the buyer — VK user identifier (VK ID), messages about orders and bonuses, and mailings;
 - notifications about requests from the `tellem.tech` website — Telegram and email services: name, phone and request details, for the Company's authorized employees;
 - web analytics of the product pages of the `tellem.tech` website — Yandex Metrica (YANDEX LLC): cookie identifiers, IP address, browser and device information, referral source, actions on the website pages;
 - browser push services — Google, Apple, Mozilla, Microsoft: subscription address, IP address, delivery time; the notification content is encrypted;
