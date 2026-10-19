@@ -1,6 +1,6 @@
 # Tellem Personal Data Processing Policy
 
-Version of 13 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/personal-data-policy/)
+Version of 19 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/personal-data-policy/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 
@@ -63,9 +63,9 @@ This is an English translation of the Russian document. In case of any discrepan
 - for placing and fulfilling an order — full name and contact details of the buyer or recipient, address and delivery details, order comment, order number, contents, cost and status;
 - for recording payments and refunds — payment identifier, amount, payment method and status, refund information;
 - for the loyalty program — participant identifier, bonus balance, information about the accrual, use and validity period of bonuses, related orders;
-- for service messages — contact details in the chosen channel, identifier of the linked Telegram account or chat, content of the message about the order or the operation of the service;
+- for service messages — contact details in the chosen channel, identifier of the linked Telegram account or chat, VK user identifier (VK ID) and permission for messages from the shop's VK community, content of the message about the order or the operation of the service;
 - for browser notifications — device identifier and technical subscription details, if the user has enabled notifications;
-- for the Seller's informational mailings — email and Telegram chat identifier, the mailing setting and the history of its changes (the log records who changed the setting and when). Informational mailings are not advertising. They are sent by default; the user may opt out of them in the shop profile at any time;
+- for the Seller's informational mailings — email, Telegram chat identifier and VK user identifier (VK ID), the mailing setting and the history of its changes (the log records who changed the setting and when). Informational mailings are not advertising. They are sent by default; the user may opt out of them in the shop profile at any time;
 - for the Seller's advertising — contact details and information about consent, only if the Seller has obtained separate prior consent. The Seller is responsible for the content of mailings;
 - for the Seller's analytics — information about the referral source (UTM tags), which is linked to the customer after sign-in, and views of products and categories together with the customer identifier;
 - for the operation of the CRM AI assistant, if the Seller has enabled it — customer and order data requested by the Seller's employees;
@@ -86,6 +86,7 @@ The categories of data subjects in such processing are buyers, order recipients 
 - from the User when signing in, filling in the profile, placing an order, contacting support and submitting a request on the `tellem.tech` website;
 - from the authorization service chosen by the User — Google, Yandex or VK — within the scope of the access granted;
 - from Telegram when a linked account, the bot or the catalog inside Telegram is used;
+- from VK when a VK account is linked and messages from the shop's community are allowed — VK user identifier (VK ID) and information about the permission;
 - from the Seller and the services it has connected — within the limits of the legal basis and the instruction;
 - from payment and other connected services when the relevant feature is performed;
 - automatically in the course of operation of the browser and the platform: information about sessions, the device, the referral source, views and technical events.
@@ -134,6 +135,7 @@ The categories of data subjects in such processing are buyers, order recipients 
 - address suggestions — DaData: the text of the address being entered;
 - email — SMTP services: email address and message text. By default, emails are sent via the Tellem mail account in Yandex 360 until the Seller connects its own;
 - Telegram: to the buyer — chat identifier, messages about orders and bonuses, and mailings; to the Seller's employees — full name, phone, address and order contents;
+- VK (VK LLC): to the buyer — VK user identifier (VK ID), messages about orders and bonuses, and mailings. When the catalog shows the VK widget for allowing messages, VK receives the IP address and browser information and may use or set its own cookies within the widget frame;
 - notifications about requests from the `tellem.tech` website — Telegram and email services: name, phone and request details, for the Company's authorized employees;
 - web analytics of the product pages of the `tellem.tech` website — Yandex Metrica (YANDEX LLC): cookie identifiers, IP address, browser and device information, referral source, actions on the website pages;
 - browser push services — Google, Apple, Mozilla, Microsoft: subscription address, IP address, delivery time; the notification content is encrypted;
@@ -180,7 +182,7 @@ The Company does not sell personal data and does not grant access to it for unre
 | Information needed to investigate a specific security incident | Until the investigation is completed |
 | Conversations with the CRM AI assistant | 14 days; deleted daily |
 | Views of products and categories (statistics for the Seller) | 53 weeks |
-| Information about consent to mailings, opt-out and their changes (who changed the setting and when) | For the entire existence of the customer record and 3 years after its deletion — within the general limitation period, to confirm the fact of consent and opt-out |
+| History of the mailing setting: who turned mailings on and off and when | For the entire existence of the customer record and 3 years after its deletion — within the general limitation period, to confirm opt-out and the history of the setting |
 | Advertising processing based on consent | Until consent is withdrawn or the purpose specified in it is achieved |
 | Data of buyer accounts, orders, loyalty and messages processed on the Seller's instruction | Within the periods established by the Seller's lawful instruction; after it terminates — return or destruction in the manner provided for by the contract and the law |
 | Backups | Copies of the CRM database and the view statistics database are made daily and kept for no more than 4 days. The copy of the file storage is updated daily; deleted files disappear from it at the next update |
@@ -193,7 +195,7 @@ The Company does not sell personal data and does not grant access to it for unre
 
 9.5. Electronic data is destroyed in a way that prevents recovery of its content; paper media — in a way that prevents recovery of the information they contain. Destruction is confirmed by documents in the established manner.
 
-9.6. To have their data deleted, the User sends a request to [tellem.service@yandex.ru](mailto:tellem.service@yandex.ru) or to the Seller of the shop. The data is depersonalized or destroyed within 30 days; destruction is documented in a certificate (act). If the request concerns data for which the Seller is the operator, the Company fulfils it on the Seller's instructions. Information that must be retained by law or to confirm consent is kept until the end of the relevant period specified in clause 9.1.
+9.6. To have their data deleted, the User sends a request to [tellem.service@yandex.ru](mailto:tellem.service@yandex.ru) or to the Seller of the shop. The data is depersonalized or destroyed within 30 days; destruction is documented in a certificate (act). If the request concerns data for which the Seller is the operator, the Company fulfils it on the Seller's instructions. Information that must be retained by law, to confirm consent or the history of the mailing setting is kept until the end of the relevant period specified in clause 9.1.
 
 ## 10. Data protection
 
