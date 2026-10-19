@@ -18,6 +18,7 @@ nav:
           - Наличие и снятие с продажи: modules/crm/inventory.md
           - Импорт: modules/crm/catalog-import.md
       - Главная и аналитика: modules/crm/analytics.md
+      - Сегменты: modules/crm/segments.md
       - Маркетинг:
           - Рассылки: modules/crm/mass-mailings.md
           - Акции и промокоды: modules/crm/promo-codes.md
