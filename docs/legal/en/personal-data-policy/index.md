@@ -86,6 +86,7 @@ The categories of data subjects in such processing are buyers, order recipients 
 - from the User when signing in, filling in the profile, placing an order, contacting support and submitting a request on the `tellem.tech` website;
 - from the authorization service chosen by the User — Google, Yandex or VK — within the scope of the access granted;
 - from Telegram when a linked account, the bot or the catalog inside Telegram is used;
+- from VK when a VK account is linked and messages from the shop's community are allowed — VK user identifier (VK ID) and information about the permission;
 - from the Seller and the services it has connected — within the limits of the legal basis and the instruction;
 - from payment and other connected services when the relevant feature is performed;
 - automatically in the course of operation of the browser and the platform: information about sessions, the device, the referral source, views and technical events.
@@ -134,7 +135,7 @@ The categories of data subjects in such processing are buyers, order recipients 
 - address suggestions — DaData: the text of the address being entered;
 - email — SMTP services: email address and message text. By default, emails are sent via the Tellem mail account in Yandex 360 until the Seller connects its own;
 - Telegram: to the buyer — chat identifier, messages about orders and bonuses, and mailings; to the Seller's employees — full name, phone, address and order contents;
-- VK (VK LLC): to the buyer — VK user identifier (VK ID), messages about orders and bonuses, and mailings;
+- VK (VK LLC): to the buyer — VK user identifier (VK ID), messages about orders and bonuses, and mailings. When the catalog shows the VK widget for allowing messages, VK receives the IP address and browser information;
 - notifications about requests from the `tellem.tech` website — Telegram and email services: name, phone and request details, for the Company's authorized employees;
 - web analytics of the product pages of the `tellem.tech` website — Yandex Metrica (YANDEX LLC): cookie identifiers, IP address, browser and device information, referral source, actions on the website pages;
 - browser push services — Google, Apple, Mozilla, Microsoft: subscription address, IP address, delivery time; the notification content is encrypted;
