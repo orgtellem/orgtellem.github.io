@@ -135,7 +135,7 @@ The categories of data subjects in such processing are buyers, order recipients 
 - address suggestions — DaData: the text of the address being entered;
 - email — SMTP services: email address and message text. By default, emails are sent via the Tellem mail account in Yandex 360 until the Seller connects its own;
 - Telegram: to the buyer — chat identifier, messages about orders and bonuses, and mailings; to the Seller's employees — full name, phone, address and order contents;
-- VK (VK LLC): to the buyer — VK user identifier (VK ID), messages about orders and bonuses, and mailings. When the catalog shows the VK widget for allowing messages, VK receives the IP address and browser information and may read its own cookies within the widget frame;
+- VK (VK LLC): to the buyer — VK user identifier (VK ID), messages about orders and bonuses, and mailings. When the catalog shows the VK widget for allowing messages, VK receives the IP address and browser information and may use or set its own cookies within the widget frame;
 - notifications about requests from the `tellem.tech` website — Telegram and email services: name, phone and request details, for the Company's authorized employees;
 - web analytics of the product pages of the `tellem.tech` website — Yandex Metrica (YANDEX LLC): cookie identifiers, IP address, browser and device information, referral source, actions on the website pages;
 - browser push services — Google, Apple, Mozilla, Microsoft: subscription address, IP address, delivery time; the notification content is encrypted;
@@ -195,7 +195,7 @@ The Company does not sell personal data and does not grant access to it for unre
 
 9.5. Electronic data is destroyed in a way that prevents recovery of its content; paper media — in a way that prevents recovery of the information they contain. Destruction is confirmed by documents in the established manner.
 
-9.6. To have their data deleted, the User sends a request to [tellem.service@yandex.ru](mailto:tellem.service@yandex.ru) or to the Seller of the shop. The data is depersonalized or destroyed within 30 days; destruction is documented in a certificate (act). If the request concerns data for which the Seller is the operator, the Company fulfils it on the Seller's instructions. Information that must be retained by law or to confirm consent is kept until the end of the relevant period specified in clause 9.1.
+9.6. To have their data deleted, the User sends a request to [tellem.service@yandex.ru](mailto:tellem.service@yandex.ru) or to the Seller of the shop. The data is depersonalized or destroyed within 30 days; destruction is documented in a certificate (act). If the request concerns data for which the Seller is the operator, the Company fulfils it on the Seller's instructions. Information that must be retained by law, to confirm consent or the history of the mailing setting is kept until the end of the relevant period specified in clause 9.1.
 
 ## 10. Data protection
 

@@ -115,7 +115,7 @@ The full list, including the data transferred, is given in Section 7 of the [Per
 
 9.2. To obtain information, correct or delete data, withdraw consent or opt out of advertising, write to [tellem.service@yandex.ru](mailto:tellem.service@yandex.ru) or send a written request to the registered address. Include information that allows the relevant account to be found and the substance of the request. If necessary, the Company will request proportionate information to verify identity.
 
-9.3. Upon a deletion request, data is depersonalized or destroyed within 30 days, and destruction is documented in a certificate (act). Deletion does not always mean immediate destruction of all information: certain data may be retained to comply with the law or on another independent legal basis, for example, information about consents. The reasons and periods of such retention are communicated in the established manner.
+9.3. Upon a deletion request, data is depersonalized or destroyed within 30 days, and destruction is documented in a certificate (act). Deletion does not always mean immediate destruction of all information: certain data may be retained to comply with the law or on another independent legal basis, for example, information about consents and the history of the mailing setting. The reasons and periods of such retention are communicated in the established manner.
 
 9.4. If the request concerns processing by the Seller, the User may contact the Seller using the shop's contact details. User rights and response periods are described in detail in the Personal Data Processing Policy.
 
