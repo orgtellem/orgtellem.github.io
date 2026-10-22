@@ -7,6 +7,7 @@ nav:
   - Начало работы:
       - Подключение и первый вход: getting-started/registration.md
       - Чек-лист запуска магазина: modules/crm/getting-started.md
+      - Создание Telegram-бота: getting-started/telegram-bot.md
   - CRM:
       - Заказы: modules/crm/orders.md
       - Клиенты: modules/crm/clients.md
