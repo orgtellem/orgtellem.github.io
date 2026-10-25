@@ -1,6 +1,6 @@
 # Tellem License Agreement (Public Offer)
 
-Version of 9 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/offer/)
+Version of 9 October 2026. Effective from the date of publication. [Russian version](https://orgtellem.github.io/legal/offer/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 
@@ -26,7 +26,7 @@ From the moment of acceptance of the Agreement, a legal entity or an individual,
 
 1.8. Plan — the set of Software features available to the Licensee for a fee.
 
-1.9. Consent to the processing of personal data — the consent of a Tellem personal account user, given separately from the Agreement in the form published at [https://orgtellem.github.io/legal/en/account-consent/](https://orgtellem.github.io/legal/en/account-consent/).
+1.9. Consent to the processing of personal data — the consent of a Tellem personal account user, given separately from the Agreement in the form published at [https://orgtellem.github.io/en/legal/account-consent/](https://orgtellem.github.io/en/legal/account-consent/).
 
 Terms not defined in Section 1 are interpreted primarily in accordance with the legislation of the Russian Federation and then in accordance with their established common meaning.
 
@@ -104,7 +104,7 @@ Terms not defined in Section 1 are interpreted primarily in accordance with the 
 5.1. The Licensor undertakes:
 
 - to provide the opportunity to use the Software within the Agreement and the chosen Plan;
-- to notify of changes to the Agreement by publishing a new version at [https://orgtellem.github.io/legal/offer/](https://orgtellem.github.io/legal/offer/) (English translation: [https://orgtellem.github.io/legal/en/offer/](https://orgtellem.github.io/legal/en/offer/));
+- to notify of changes to the Agreement by publishing a new version at [https://orgtellem.github.io/legal/offer/](https://orgtellem.github.io/legal/offer/) (English translation: [https://orgtellem.github.io/en/legal/offer/](https://orgtellem.github.io/en/legal/offer/));
 - to maintain the operability of the Software infrastructure and eliminate malfunctions;
 - to provide technical support at the Licensee's requests;
 - to ensure the confidentiality of the Licensee's data.
@@ -179,7 +179,7 @@ Terms not defined in Section 1 are interpreted primarily in accordance with the 
 
 10.1. The Agreement enters into force upon acceptance and is valid for the period established by the Plan. The Licensee may extend the Agreement by paying for the next period.
 
-10.2. The current version of the Agreement and its publication date are published at [https://orgtellem.github.io/legal/offer/](https://orgtellem.github.io/legal/offer/) (English translation: [https://orgtellem.github.io/legal/en/offer/](https://orgtellem.github.io/legal/en/offer/)); previous versions are kept in the ["Legal documents"](../../index.md) section.
+10.2. The current version of the Agreement and its publication date are published at [https://orgtellem.github.io/legal/offer/](https://orgtellem.github.io/legal/offer/) (English translation: [https://orgtellem.github.io/en/legal/offer/](https://orgtellem.github.io/en/legal/offer/)); previous versions are available through the [document change history](../index.md#versions).
 
 10.3. The Licensor may amend the Agreement by publishing a new version at the address specified in clause 10.2. Continued use of the Software means acceptance of the new version.
 

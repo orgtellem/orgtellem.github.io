@@ -38,6 +38,22 @@ jobs:
       - name: Install MkDocs and plugins
         run: pip install -r requirements.txt
 
+      - name: Check Russian and English page pairs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          pages = set(Path("docs").rglob("*.md"))
+          missing = []
+          for page in sorted(pages):
+              name = page.name.removesuffix(".en.md") + ".md" if page.name.endswith(".en.md") else page.stem + ".en.md"
+              counterpart = page.with_name(name)
+              if counterpart not in pages:
+                  missing.append(str(counterpart))
+          assert not missing, "Missing translation counterparts:\n" + "\n".join(missing)
+          print(f"Checked {len(pages) // 2} Russian/English page pairs")
+          PY
+
       - name: Build MkDocs site
         run: mkdocs build --strict
         env:

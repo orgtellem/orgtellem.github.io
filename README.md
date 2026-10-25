@@ -1,43 +1,41 @@
-# Документация продукта [Tellem](https://tellem.tech)
+# [Tellem](https://tellem.tech) documentation
 
-Публичная документация: https://orgtellem.github.io
+Public documentation for store owners and customers: [Russian](https://orgtellem.github.io/) · [English](https://orgtellem.github.io/en/).
 
-Пункт «Помощь» в CRM открывает опубликованный сайт в новой вкладке браузера.
+See [AGENTS.md](AGENTS.md) for writing, translation, and public repository guidelines. [CLAUDE.md](CLAUDE.md) imports the same instructions for Claude. Keep these repository instructions in English; maintain user documentation in both Russian and English.
 
-## Структура
-- `mkdocs.yml` — конфигурация сайта (MkDocs + Material)
-- `docs/` — разделы документации
-- `docs/media/` — служебные графические ресурсы сайта (логотип и favicon)
-- `requirements.txt` — зафиксированные версии MkDocs и плагинов
+## Structure
 
-## CI/CD
-- Автосборка и публикация в GitHub Pages на каждый push в `master` и вручную через Run workflow.
-- Файл рабочего процесса: `.github/workflows/mkdocs-deploy.yml`
-- Сборка строгая (`mkdocs build --strict`): битая внутренняя ссылка валит билд.
+- [mkdocs.yml](mkdocs.yml) — MkDocs and Material settings, languages, navigation, and redirects.
+- [docs/](docs/) — Russian pages (`page.md`) and English translations (`page.en.md`); `docs/media/` contains shared images and GIFs.
+- [docs/legal/](docs/legal/) — current legal documents and their translations. Legacy `/legal/en/` URLs redirect to the corresponding `/en/legal/` pages.
+- [requirements.txt](requirements.txt) — site dependencies and allowed versions.
 
-## Локальный запуск
-1. Установите Python 3.12+
-2. Установите зависимости: `pip install -r requirements.txt`
-3. Запустите локально: `mkdocs serve`
+Russian pages keep their existing URLs; English pages are served under `/en/`. The language switcher opens the corresponding page. Update both translations together, using unsuffixed `.md` paths in internal links so the site keeps readers in their chosen language.
 
-## Правила
-- Страницы не удаляем и не переименовываем без редиректа (`mkdocs-redirects`, блок `redirect_maps` в `mkdocs.yml`).
-- На страницы ссылается встроенная справка CRM («?»): ключи `com.frd.crm.view.help/*` в frd_crm
-  `modules/backend/ui/src/main/resources/com/frd/crm/messages_ru|en.properties`. Перенесли или переименовали страницу — обновите и эти ссылки.
-- Мультиязычность: сайт готов к добавлению языков через `mkdocs-static-i18n` — новый язык = locale в `plugins.i18n.languages` + файлы `page.en.md` рядом с исходными.
-- Подписи nav могут не совпадать с именами файлов — URL стабильны.
-- Один факт — одно место; остальные страницы ссылаются одной строкой.
-- Страница CRM: строка «зачем» → «Где: Раздел → Пункт» (путь полностью, например «Настройки → Оплата») → только неочевидное. Очевидные подписи полей не пересказываем; лимиты и значения по умолчанию — только если без них легко ошибиться.
-- Страницы покупателя — без путей CRM в тексте; всё для владельца — в одной вставке `!!! info "Для владельца"` со ссылками.
-- Названия ровно как в интерфейсе (iiko, не «Айко» (кроме одного поискового упоминания на странице iiko); «Мультиязычный редактор»; «Telegram»).
-- Без маркетинга, внутренних имён (классы, свойства, эндпоинты) и диагностики только для администраторов/поддержки.
-- Описываем текущее поведение; спорное и сломанное не обещаем.
-- Ориентир — не больше ~800 слов на страницу.
-- При изменении пользовательского сценария проверяем связанные страницы CRM и клиентского приложения, навигацию и redirects, затем запускаем `mkdocs build --strict`.
+## Local development
 
-## Правовые документы (`docs/legal/`)
-- `<doc>/index.md` — действующая редакция (постоянный URL `/legal/<doc>/`). EN — в `docs/legal/en/` (не в меню, `not_in_nav`).
-- Публикуется только действующая редакция; прежние остаются в истории git, архивных копий на сайте нет.
-- Новая редакция: правьте `index.md` и поменяйте в нём дату редакции. То же для EN.
-- URL документов не меняем без редиректа: на них ссылаются каталог, CRM и личный кабинет.
-- Публикация новой редакции = merge в `master`.
+Use Python 3.12, matching CI, and an activated virtual environment.
+
+```sh
+python -m pip install -r requirements.txt
+python -m mkdocs serve
+```
+
+Open the local address printed in the terminal. Use `/en/` for the English version.
+
+Validate both languages before submitting changes:
+
+```sh
+python -m mkdocs build --strict
+```
+
+Check external links and the text's accuracy against the interface separately. Some shared screenshots show the Russian interface.
+
+CI also checks that every page has a translation. Link preview cards are enabled in CI and disabled in local builds by default.
+
+## Publication
+
+The [deployment workflow](.github/workflows/mkdocs-deploy.yml) runs on pushes to `master` or manually through **Run workflow** in GitHub Actions. After a successful strict build, it deploys both languages to GitHub Pages.
+
+Pushing to `master` also publishes legal documents. Make sure all changes are ready for public access before pushing.

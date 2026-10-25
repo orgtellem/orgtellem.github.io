@@ -53,10 +53,6 @@ nav:
       - Согласие при отправке заявки: legal/request-consent/index.md
       - Лицензионный договор-оферта: legal/offer/index.md
 
-# EN-версии правовых документов (legal/en/) доступны по ссылкам, но не в меню.
-not_in_nav: |
-  /legal/en/
-
 theme:
   name: material
   language: ru
@@ -100,16 +96,100 @@ theme:
 plugins:
   - search:
       lang: ru
-  # Точка расширения под мультиязычность: при появлении второго языка
-  # добавить locale в languages и файлы вида page.en.md рядом с исходными.
   - i18n:
       languages:
         - locale: ru
           name: Русский
           default: true
           build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: "Tellem documentation"
+          site_description: "Tellem documentation: set up the customer app and CRM, catalog, payments, delivery, loyalty points, and Telegram bot."
+          nav_translations:
+            О продукте: About Tellem
+            Начало работы: Getting started
+            Подключение и первый вход: Registration and first sign-in
+            Чек-лист запуска магазина: Store launch checklist
+            Создание Telegram-бота: Creating a Telegram bot
+            Заказы: Orders
+            Клиенты: Clients
+            Каталог: Catalog
+            Магазины: Stores
+            Категории и товары: Categories and products
+            Объединение товаров по цвету: Grouping products by color
+            Оформление: Design
+            Наличие и снятие с продажи: Inventory and removing products from sale
+            Импорт: Import
+            Главная и аналитика: Dashboard and analytics
+            Сегменты: Segments
+            Маркетинг: Marketing
+            Рассылки: Mailings
+            Акции и промокоды: Promotions and promo codes
+            Первый промокод: Your first promo code
+            Бесплатная доставка и сумма заказа: Free delivery and order value
+            Бонусы: Bonuses
+            Метки: Marks
+            Настройки: Settings
+            Основные, Поддержка, PWA: General, Support, PWA
+            Уведомления: Notifications
+            Оплата: Payments
+            Доставка: Delivery
+            Поля Заказа: Order Fields
+            Интеграции: Integrations
+            AI и пользовательские: AI and custom integrations
+            Ошибки iiko: iiko errors
+            Клиентское приложение: Customer app
+            Витрина и корзина: Storefront and cart
+            Оформление и заказы: Checkout and orders
+            Аккаунт, установка и уведомления: Account, installation, and notifications
+            Уведомления покупателю: Customer notifications
+            Правовые документы: Legal documents
+            Все документы: All documents
+            Политика обработки персональных данных: Personal Data Processing Policy
+            Политика конфиденциальности: Privacy Policy
+            Согласие покупателя: Buyer consent
+            Согласие пользователя личного кабинета: Personal account user consent
+            Согласие при отправке заявки: Request consent
+            Лицензионный договор-оферта: License Agreement (Public Offer)
+          theme:
+            palette:
+              - media: "(prefers-color-scheme)"
+                toggle:
+                  icon: material/brightness-auto
+                  name: Use system theme
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                primary: custom
+                accent: custom
+                toggle:
+                  icon: material/brightness-7
+                  name: Light theme
+              - media: "(prefers-color-scheme: dark)"
+                scheme: slate
+                primary: custom
+                accent: custom
+                toggle:
+                  icon: material/brightness-4
+                  name: Dark theme
+          extra:
+            social:
+              - icon: fontawesome/brands/telegram
+                link: https://t.me/tellem_tech_bot
+                name: Support on Telegram
+              - icon: fontawesome/brands/vk
+                link: https://vk.link/tellem_it
+                name: Tellem on VK
   - redirects:
       redirect_maps:
+        # Preserve published English legal URLs after adopting language suffixes.
+        legal/en/account-consent/index.md: https://orgtellem.github.io/en/legal/account-consent/
+        legal/en/consent/index.md: https://orgtellem.github.io/en/legal/consent/
+        legal/en/offer/index.md: https://orgtellem.github.io/en/legal/offer/
+        legal/en/personal-data-policy/index.md: https://orgtellem.github.io/en/legal/personal-data-policy/
+        legal/en/privacy-policy/index.md: https://orgtellem.github.io/en/legal/privacy-policy/
+        legal/en/request-consent/index.md: https://orgtellem.github.io/en/legal/request-consent/
         # Страница «Создание сетки каталога» объединена с оформлением главного экрана
         modules/crm/catalog-grid.md: modules/crm/main-page.md
         # Раздел переименован: продукт больше не привязан к Telegram

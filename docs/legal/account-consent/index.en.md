@@ -1,6 +1,6 @@
 # Consent of a Tellem Personal Account User to the Processing of Personal Data
 
-For users of the Tellem personal account (`tellem.tech/lk`). Version of 5 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/account-consent/)
+For users of the Tellem personal account (`tellem.tech/lk`). Version of 5 October 2026. Effective from the date of publication. [Russian version](https://orgtellem.github.io/legal/account-consent/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 

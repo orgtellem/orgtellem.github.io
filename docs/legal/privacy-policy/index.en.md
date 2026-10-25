@@ -1,6 +1,6 @@
 # Tellem Privacy Policy
 
-Version of 19 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/privacy-policy/)
+Version of 19 October 2026. Effective from the date of publication. [Russian version](https://orgtellem.github.io/legal/privacy-policy/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 
@@ -23,7 +23,7 @@ This is an English translation of the Russian document. In case of any discrepan
 
 ## 2. The platform and the shop
 
-2.1. Tellem ensures the technical operation of catalogs, the CRM, the personal account, orders and connected features. The goods and services of a particular shop or venue are provided by its Seller — an organization or individual entrepreneur, a Tellem client.
+2.1. Tellem ensures the technical operation of catalogs, the CRM (customer and order management system), the personal account, orders and connected features. The goods and services of a particular shop or venue are provided by its Seller — an organization or individual entrepreneur, a Tellem client.
 
 2.2. The Seller is the operator of the data relating to orders, delivery, the loyalty program, mailings and other CRM features of its shop. The Company processes this data on the Seller's behalf (under its instruction) and stores the databases on its servers. For its own purposes — Tellem personal account user accounts, security, support — the Company is the operator.
 
@@ -57,7 +57,7 @@ This is an English translation of the Russian document. In case of any discrepan
 
 4.3. Browser permission to show notifications does not in itself replace consent to advertising or the required consent to data processing.
 
-4.4. If the Seller has enabled the CRM AI assistant, the Seller's employees can request customer and order data in it. This data is transferred to the AI provider chosen by the Seller. Conversations with the assistant are deleted after 14 days.
+4.4. If the Seller has enabled the CRM artificial intelligence (AI) assistant, the Seller's employees can request customer and order data in it. This data is transferred to the AI provider chosen by the Seller. Conversations with the assistant are deleted after 14 days.
 
 ## 5. Sign-in via external services and payment
 
@@ -91,7 +91,7 @@ The full list, including the data transferred, is given in Section 7 of the [Per
 
 ## 7. Cookies and similar technologies
 
-7.1. Tellem uses cookies and similar technologies (browser local and session storage): cookies in the Tellem personal account, browser storage in the catalog. They store the sign-in session and parameters for signing in via an external service, the selected shop, sales zone or table, language and interface settings, flags recording that the cookie notice was closed, that age was confirmed and that app installation was declined, a persistent device identifier (`deviceId`) and referral tags (UTM tags). This allows work to continue after the page is refreshed; after sign-in, referral tags are linked to the customer for the Seller's analytics.
+7.1. Tellem uses cookies and similar technologies (browser local and session storage): cookies in the Tellem personal account, browser storage in the catalog. They store the sign-in session and parameters for signing in via an external service, the selected shop, sales zone or table, language and interface settings, flags recording that the cookie notice was closed, that age was confirmed and that app installation was declined, a persistent device identifier and referral tags (UTM tags). This allows work to continue after the page is refreshed; after sign-in, referral tags are linked to the customer for the Seller's analytics.
 
 7.2. Tellem does not place third-party advertising or analytics counters in the catalog or the personal account. If the Seller connects its own scripts or integrations, the Seller discloses them itself.
 
@@ -121,6 +121,6 @@ The full list, including the data transferred, is given in Section 7 of the [Per
 
 ## 10. Policy updates
 
-10.1. The current version is published at [https://orgtellem.github.io/legal/privacy-policy/](https://orgtellem.github.io/legal/privacy-policy/) (English translation: [https://orgtellem.github.io/legal/en/privacy-policy/](https://orgtellem.github.io/legal/en/privacy-policy/)) and is available free of charge, without registration or authorization, including via the link in the catalog footer. Previous versions are kept in the ["Legal documents"](../../index.md) section.
+10.1. The current version is published at [https://orgtellem.github.io/legal/privacy-policy/](https://orgtellem.github.io/legal/privacy-policy/) (English translation: [https://orgtellem.github.io/en/legal/privacy-policy/](https://orgtellem.github.io/en/legal/privacy-policy/)) and is available free of charge, without registration or authorization, including via the link in the catalog footer. Previous versions are available through the [document change history](../index.md#versions).
 
 10.2. A new version states its date and the date it takes effect. Publication of changes does not replace obtaining consent where consent is required for new processing.

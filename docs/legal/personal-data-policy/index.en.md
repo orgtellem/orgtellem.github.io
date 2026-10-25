@@ -1,6 +1,6 @@
 # Tellem Personal Data Processing Policy
 
-Version of 19 October 2026. Effective from the date of publication. [Русская версия](https://orgtellem.github.io/legal/personal-data-policy/)
+Version of 19 October 2026. Effective from the date of publication. [Russian version](https://orgtellem.github.io/legal/personal-data-policy/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 
@@ -15,7 +15,7 @@ This is an English translation of the Russian document. In case of any discrepan
 - registered address: 445043, Samara Region, Tolyatti, Yuzhnoye Shosse, building 163a, floor 3, room 30;
 - email for personal data requests and withdrawal of consent: [tellem.service@yandex.ru](mailto:tellem.service@yandex.ru).
 
-1.3. Tellem is a technology platform through which organizations and individual entrepreneurs publish catalogs, receive and process orders in the CRM, interact with buyers and provide them with a buyer account. The available features, payment and delivery methods and loyalty programs depend on the particular shop or venue.
+1.3. Tellem is a technology platform through which organizations and individual entrepreneurs publish catalogs, receive and process orders in the CRM (customer and order management system), interact with buyers and provide them with a buyer account. The available features, payment and delivery methods and loyalty programs depend on the particular shop or venue.
 
 1.4. The Policy applies to the use of the platform on the `tellem.tech` website, including the Tellem personal account (`tellem.tech/lk`), on `tellem.store` subdomains and on connected domains where a link to the Policy is placed, including when the catalog is opened inside Telegram, as well as to support requests related to the platform. In this Policy, the User means an individual whose data is processed in the course of such use.
 
@@ -68,7 +68,7 @@ This is an English translation of the Russian document. In case of any discrepan
 - for the Seller's informational mailings — email, Telegram chat identifier and VK user identifier (VK ID), the mailing setting and the history of its changes (the log records who changed the setting and when). Informational mailings are not advertising. They are sent by default; the user may opt out of them in the shop profile at any time;
 - for the Seller's advertising — contact details and information about consent, only if the Seller has obtained separate prior consent. The Seller is responsible for the content of mailings;
 - for the Seller's analytics — information about the referral source (UTM tags), which is linked to the customer after sign-in, and views of products and categories together with the customer identifier;
-- for the operation of the CRM AI assistant, if the Seller has enabled it — customer and order data requested by the Seller's employees;
+- for the operation of the CRM artificial intelligence (AI) assistant, if the Seller has enabled it — customer and order data requested by the Seller's employees;
 - for the Seller's integrations (accounting systems, scripts) — order data to the extent configured by the Seller.
 
 The categories of data subjects in such processing are buyers, order recipients and loyalty program participants. The purposes, grounds and periods are determined by the Seller and are specified in its documents and in its instruction to the Company. The instruction in itself does not replace the Seller's legal basis for processing.
@@ -104,8 +104,8 @@ The categories of data subjects in such processing are buyers, order recipients 
 - the sign-in session and temporary parameters for signing in via an external service;
 - the selected shop, sales zone or table;
 - language and interface settings;
-- flags recording that the cookie notice was closed, that age was confirmed and that installation of the app (PWA) was declined;
-- a persistent device identifier (`deviceId`) — for sessions, the list of active devices and push notifications;
+- flags recording that the cookie notice was closed, that age was confirmed and that installation of the app was declined;
+- a persistent device identifier — for sessions, the list of active devices and push notifications;
 - referral tags (UTM tags) — after sign-in, they are linked to the customer and used for the Seller's analytics by referral source.
 
 6.2. Tellem does not place third-party advertising or analytics counters in the catalog or the personal account. If the Seller connects its own scripts or integrations, the Seller discloses them itself.
@@ -153,7 +153,7 @@ The Company does not sell personal data and does not grant access to it for unre
 
 8.1. When collecting personal data of citizens of the Russian Federation, the Company complies with the requirements of Part 5 of Article 18 of Law No. 152-FZ regarding databases located in the territory of the Russian Federation.
 
-8.2. The platform databases (PostgreSQL), their backups, the file storage (MinIO-compatible) and the view statistics database (InfluxDB) are hosted on the servers of the hosting provider specified in clause 7.4, in the Russian Federation, in the Samara Region.
+8.2. The platform databases, their backups, file storage and view statistics are hosted on the servers of the hosting provider specified in clause 7.4, in the Russian Federation, in the Samara Region.
 
 8.3. Hosting the main databases in Russia does not in itself determine whether a cross-border transfer takes place. When external services are used, the actual recipients, routes and place of data processing are taken into account.
 
@@ -227,7 +227,7 @@ The Company does not sell personal data and does not grant access to it for unre
 
 ## 12. Changes to the Policy and access to it
 
-12.1. The current version of the Policy is published at [https://orgtellem.github.io/legal/personal-data-policy/](https://orgtellem.github.io/legal/personal-data-policy/) (English translation: [https://orgtellem.github.io/legal/en/personal-data-policy/](https://orgtellem.github.io/legal/en/personal-data-policy/)). Previous versions are kept in the ["Legal documents"](../../index.md) section. Access is provided free of charge, without registration or authorization, including via the link in the catalog footer.
+12.1. The current version of the Policy is published at [https://orgtellem.github.io/legal/personal-data-policy/](https://orgtellem.github.io/legal/personal-data-policy/) (English translation: [https://orgtellem.github.io/en/legal/personal-data-policy/](https://orgtellem.github.io/en/legal/personal-data-policy/)). Previous versions are available through the [document change history](../index.md#versions). Access is provided free of charge, without registration or authorization, including via the link in the catalog footer.
 
 12.2. A new version bears a date and takes effect from the date of publication. A change to the Policy does not in itself create consent to new processing purposes; if such consent is required, it is requested separately.
 
