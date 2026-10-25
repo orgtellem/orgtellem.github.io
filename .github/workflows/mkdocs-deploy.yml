@@ -38,6 +38,9 @@ jobs:
       - name: Install MkDocs and plugins
         run: pip install -r requirements.txt
 
+      - name: Check shared agent environment
+        run: python -m unittest discover -s tests -v
+
       - name: Check Russian and English page pairs
         run: |
           python - <<'PY'

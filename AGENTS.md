@@ -4,6 +4,17 @@ This public repository contains Tellem user documentation for store owners worki
 
 Pages live in `docs/`; navigation and redirects are configured in `mkdocs.yml`. The site uses MkDocs with the Material theme. See [README.md](README.md) for local setup and validation commands.
 
+## Required project skills
+
+Use the repository-local skills before global or plugin copies with the same name. These instructions apply to Claude Code, Codex, and OpenCode.
+
+- Before writing or editing prose, read and apply [stop-slop](.agents/skills/stop-slop/SKILL.md).
+- Before claiming work is complete or ready to commit, read and apply [verification-before-completion](.agents/skills/verification-before-completion/SKILL.md). Choose checks that cover the actual change and report their results and limits.
+
+Read these files directly if the client does not automatically discover or load them. Claude Code uses the aliases in `.claude/skills`; Codex and OpenCode discover `.agents/skills` directly. Keep one canonical copy in `.agents/skills`.
+
+Treat style advice as editorial guidance. Preserve prerequisites, conditions, warnings, uncertainty, necessary list items, interface labels, and legal meaning. Do not invent a human action to replace an accurate description of system behavior. Skills do not expand the task or authorize publication.
+
 ## Languages
 
 - Keep `README.md` and agent instructions in English.

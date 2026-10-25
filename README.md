@@ -13,6 +13,19 @@ See [AGENTS.md](AGENTS.md) for writing, translation, and public repository guide
 
 Russian pages keep their existing URLs; English pages are served under `/en/`. The language switcher opens the corresponding page. Update both translations together, using unsuffixed `.md` paths in internal links so the site keeps readers in their chosen language.
 
+## Agent environment
+
+[Claude Code](https://code.claude.com/docs/en/skills), [Codex](https://developers.openai.com/codex/skills/), and [OpenCode](https://opencode.ai/docs/skills/) share [AGENTS.md](AGENTS.md) and the versioned skills in [.agents/skills/](.agents/skills/). No global skill installation or environment synchronization is required.
+
+Start a new agent session after pulling changes to these instructions or skills.
+
+- `stop-slop` supports concise editing without changing the documented meaning.
+- `verification-before-completion` requires evidence before reporting that work is ready.
+
+[CLAUDE.md](CLAUDE.md) imports the shared rules; `.claude/skills/` contains relative aliases to the canonical skill directories. Codex and OpenCode use `.agents/skills` directly. Agents must follow the skill routing in AGENTS.md even when automatic discovery is unavailable.
+
+Keep the [upstream revisions and license notices](.agents/skills/SOURCES.md) with the skills. After adding or updating a skill, update its Claude alias and run the checks below. CI checks skill metadata, local references, licenses, and alias targets; it cannot prove that a model followed prose instructions.
+
 ## Local development
 
 Use Python 3.12, matching CI, and an activated virtual environment.
@@ -27,6 +40,7 @@ Open the local address printed in the terminal. Use `/en/` for the English versi
 Validate both languages before submitting changes:
 
 ```sh
+python -m unittest discover -s tests -v
 python -m mkdocs build --strict
 ```
 
