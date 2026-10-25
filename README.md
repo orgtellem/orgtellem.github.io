@@ -48,6 +48,10 @@ Check external links and the text's accuracy against the interface separately. S
 
 CI also checks that every page has a translation. Link preview cards are enabled in CI and disabled in local builds by default.
 
+## Product screenshots and GIFs
+
+Tellem team members can use [Content Workshop](https://github.com/orgtellem/tellem-content-workshop) to create product screenshots, GIFs and short videos for documentation and Telegram. A coding agent captures the real interface and prepares the material; you can edit its text in a local browser. The workshop repository requires team access. Its README covers setup and use.
+
 ## Publication
 
 The [deployment workflow](.github/workflows/mkdocs-deploy.yml) runs on pushes to `master` or manually through **Run workflow** in GitHub Actions. After a successful strict build, it deploys both languages to GitHub Pages.
