@@ -235,9 +235,11 @@ markdown_extensions:
 
 extra_css:
   - css/extra.css
+  - css/home.css
 
 extra_javascript:
   - js/accessibility.js
+  - js/home.js
 
 validation:
   omitted_files: warn

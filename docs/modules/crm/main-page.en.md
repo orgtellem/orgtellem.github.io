@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <span id="_1"></span>
 
 # Appearance { #appearance }
@@ -15,6 +20,14 @@ Where: **Catalog → Design**.
 3. Select the chains where the block should appear in “Stores”. You can then add products from their assortments. Enter a name and content; also add an image for a banner.
 4. Under “Content and order”, reorder blocks with the arrows. Top banners stay first and the catalog of top-level categories stays last. The arrows do not reorder items within the top banner.
 5. Check the result in the phone preview. The pencil opens a block's settings; × deletes it after confirmation.
+
+???+ example "Example: product collections"
+
+    The example uses demo products and shows the Russian interface. The GIF has English captions.
+
+    <figure markdown="span">
+    [![Creating a product collection, reordering blocks with arrows, and checking the result in the phone preview.](../../media/crm/home-screen-editor.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/home-screen-editor.en.gif)
+    </figure>
 
 Without a name, a block is visible in the preview but hidden from buyers. A top promotion banner takes its name from the promotion. With the [multilingual editor](general-settings.md) enabled, enter a name for each language.
 

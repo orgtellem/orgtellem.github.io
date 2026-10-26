@@ -52,6 +52,22 @@ CI also checks that every page has a translation. Link preview cards are enabled
 
 Tellem team members can use [Content Workshop](https://github.com/orgtellem/tellem-content-workshop) to create product screenshots, GIFs and short videos for documentation and Telegram. A coding agent captures the real interface and prepares the material; you can edit its text in a local browser. The workshop repository requires team access. Its README covers setup and use.
 
+Update both language pages together, with matching actions and captions. Keep screenshots truthful; identify shared Russian UI in the English instructions. An English GIF can use `.en.gif` with translated explanations and the same recording. Check the built image URLs and contents: the localization plugin publishes `home-screen-editor.en.gif` as `/en/media/crm/home-screen-editor.gif`, while the Russian file uses `/media/crm/home-screen-editor.gif`. Shared home-page CSS loads from `/css/home.css` in both languages, so its relative logo URLs resolve under `/media/`.
+
+## Home page maintenance
+
+Keep home-page layout in [home.css](docs/css/home.css), scoped to `.tellem-home` or `body:has(.tellem-home)`. Retain Material's header, navigation, language and theme controls. [home.js](docs/js/home.js) opens the existing search and restores focus on close. Search uses Material's index; test it with real keyboard typing because its query observer listens to `keyup`, which a value-setting helper such as `fill()` does not emit.
+
+The logo plays once for four seconds and holds its final state. Keep its light/dark backgrounds aligned with the page (`#fff` / `#1e2129`) and retain the static SVG alternatives for `prefers-reduced-motion`. Rebuild it from the original paths in [logo.svg](docs/media/logo.svg) with [render-wordmark.mjs](scripts/render-wordmark.mjs):
+
+```sh
+node scripts/render-wordmark.mjs --workshop ../tellem-content-workshop --output site/wordmark-rebuild
+```
+
+Use Node.js 24 or newer, `ffmpeg` and `ffprobe` on `PATH`, and a Content Workshop checkout with its Playwright dependency and Chromium installed. The script groups paths into six letters (`[0]`, `[1]`, `[2]`, `[3,4]`, `[5]`, `[6]`); paths 7 and 8 form the accent. It uses a 190 ms letter stagger, 660 ms fall and settle, 15 fps and a stable final hold from 2.02 seconds. It checks geometry, motion, duration, one-shot playback and the static fallback. The output directory is required; inspect the rebuilt assets before replacing the published files.
+
+After changing the home page or media, run the validation commands above and check both languages at desktop and mobile widths. Check the real search results, keyboard focus, themed logo and reduced-motion fallback. A strict build does not establish those browser behaviours.
+
 ## Publication
 
 The [deployment workflow](.github/workflows/mkdocs-deploy.yml) runs on pushes to `master` or manually through **Run workflow** in GitHub Actions. After a successful strict build, it deploys both languages to GitHub Pages.
