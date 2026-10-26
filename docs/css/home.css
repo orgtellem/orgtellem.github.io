@@ -1,5 +1,8 @@
 body:has(.tellem-home) .md-content__inner > .md-source-file,
 body:has(.tellem-home) .md-footer { display: none; }
+body:has(.tellem-home) .md-main__inner { margin-top: .5rem; }
+body:has(.tellem-home) .md-content__inner { padding-top: 0; }
+body:has(.tellem-home) .md-content__inner::before { display: none; }
 
 .tellem-home { max-width: 52rem; margin: 0 auto; }
 .tellem-home-screen-reader {
@@ -77,8 +80,8 @@ body:has(.tellem-home) .md-footer { display: none; }
   border-color: var(--tellem-surface-line);
   border-radius: .5rem;
 }
-.md-typeset .grid.cards:is(.tellem-home-topics, .tellem-home-audiences) > ul > li:hover { border-color: var(--tellem-brand); box-shadow: none; }
-:is(.tellem-home-topics, .tellem-home-audiences) li:has(a:focus-visible) { outline: 2px solid var(--md-typeset-a-color); outline-offset: 3px; }
+.md-typeset .grid.cards:is(.tellem-home-topics, .tellem-home-audiences, .tellem-home-actions) > ul > li:hover { border-color: var(--tellem-brand); box-shadow: none; }
+:is(.tellem-home-topics, .tellem-home-audiences, .tellem-home-actions) li:has(a:focus-visible) { outline: 2px solid var(--md-typeset-a-color); outline-offset: 3px; }
 .tellem-home-topics li > p:last-child a:first-child::after { position: absolute; inset: 0; content: ""; }
 .tellem-home-topics li > p:last-child a + a { position: relative; z-index: 1; }
 .tellem-home-topics li > p:first-child {
@@ -98,9 +101,24 @@ body:has(.tellem-home) .md-footer { display: none; }
 
 .tellem-home-howto { margin-top: 1.1rem; }
 .md-typeset .tellem-home-howto h2 { margin: 0 0 .45rem; font-size: .85rem; font-weight: 600; }
-.md-typeset .tellem-home-howto ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .15rem 1.2rem; margin: 0; padding: 0; list-style: none; }
-.md-typeset .tellem-home-howto li { margin: 0; }
-.tellem-home-howto li a { display: flex; align-items: center; min-height: 2.2rem; color: var(--md-typeset-a-color); font-size: .75rem; }
+.tellem-home-action-groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; }
+.tellem-home-action-group { min-width: 0; }
+.tellem-home-action-help { grid-column: 1 / -1; }
+.md-typeset .tellem-home-action-group h3 { margin: 0 0 .45rem; color: var(--tellem-surface-muted); font-size: .8rem; font-weight: 600; }
+.md-typeset .grid.cards.tellem-home-actions { grid-template-columns: 1fr; gap: .6rem; margin: 0; }
+.md-typeset .grid.cards.tellem-home-actions > ul > li {
+  position: relative;
+  min-width: 0;
+  padding: .65rem .75rem;
+  border-color: var(--tellem-surface-line);
+  border-radius: .5rem;
+}
+.tellem-home-actions li > p,
+.md-typeset .grid.cards.tellem-home-action-help > ul > li { display: flex; align-items: center; gap: .5rem; margin: 0; font-size: .75rem; line-height: 1.5; }
+.tellem-home-action-help li { justify-content: center; }
+.tellem-home-actions .twemoji { flex-shrink: 0; color: var(--md-typeset-a-color); font-size: 1rem; }
+.tellem-home-actions a::after { position: absolute; inset: 0; content: ""; }
+.tellem-home-actions li:hover { background: var(--tellem-soft-bg); }
 .tellem-home-help { margin-top: 1rem; padding-top: .75rem; border-top: 1px solid var(--tellem-surface-line); font-size: .75rem; }
 .tellem-home-help a { display: inline-flex; align-items: center; min-height: 2.2rem; }
 
@@ -135,10 +153,10 @@ body:has(.tellem-home) .md-footer { display: none; }
   .md-typeset .grid.cards.tellem-home-audiences > ul > li { padding: .7rem; }
   .tellem-home-audiences li > p:first-child { font-size: .8rem; }
   .tellem-home-audiences li > p:last-child { font-size: .75rem; }
-  .md-typeset .tellem-home-howto ul { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media screen and (max-width: 30em) {
+  .tellem-home-action-groups { grid-template-columns: 1fr; }
   .md-typeset .grid.cards.tellem-home-topics { grid-template-columns: 1fr; }
   .md-typeset .grid.cards.tellem-home-topics > ul > li { padding: .7rem .8rem; }
   .tellem-home-topics li > p:last-child a { display: inline-flex; align-items: center; min-height: 2.2rem; }

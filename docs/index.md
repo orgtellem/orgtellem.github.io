@@ -39,12 +39,47 @@ hide:
 
 ## Быстрые действия { #how-to }
 
-- [Добавить товар](modules/crm/products-and-categories.md#products)
-- [Оформить заказ](modules/app/checkout.md)
-- [Установить приложение](modules/app/account.md#installation)
-- [Что-то не работает](troubleshooting.md)
-- [Подключить Telegram](getting-started/bot-setup.md)
-- [Настроить доставку](modules/crm/delivery.md)
+<div class="tellem-home-action-groups" markdown="1">
+
+<section class="tellem-home-action-group" markdown="1" aria-labelledby="owner-actions">
+
+### Для владельца { #owner-actions }
+
+<div class="grid cards tellem-home-actions" markdown="1">
+
+- :fontawesome-brands-telegram: [Подключить Telegram](getting-started/bot-setup.md)
+
+- :material-package-variant-plus: [Добавить товар](modules/crm/products-and-categories.md#products)
+
+- :material-truck-delivery-outline: [Настроить доставку](modules/crm/delivery.md)
+
+</div>
+
+</section>
+
+<section class="tellem-home-action-group" markdown="1" aria-labelledby="customer-actions">
+
+### Для покупателя { #customer-actions }
+
+<div class="grid cards tellem-home-actions" markdown="1">
+
+- :material-download: [Установить приложение](modules/app/account.md#installation)
+
+- :material-cart-outline: [Оформить заказ](modules/app/checkout.md)
+
+- :material-clipboard-check-outline: [Проверить статус заказа](modules/app/checkout.md#orders)
+
+</div>
+
+</section>
+
+<div class="grid cards tellem-home-actions tellem-home-action-help" markdown="1">
+
+- :material-lifebuoy: [Что-то не работает](troubleshooting.md)
+
+</div>
+
+</div>
 
 </div>
 

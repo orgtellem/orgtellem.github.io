@@ -39,12 +39,47 @@ hide:
 
 ## Quick tasks { #how-to }
 
-- [Add a product](modules/crm/products-and-categories.md#products)
-- [Place an order](modules/app/checkout.md)
-- [Install the app](modules/app/account.md#installation)
-- [Something is not working](troubleshooting.md)
-- [Connect Telegram](getting-started/bot-setup.md)
-- [Set up delivery](modules/crm/delivery.md)
+<div class="tellem-home-action-groups" markdown="1">
+
+<section class="tellem-home-action-group" markdown="1" aria-labelledby="owner-actions">
+
+### For store owners { #owner-actions }
+
+<div class="grid cards tellem-home-actions" markdown="1">
+
+- :fontawesome-brands-telegram: [Connect Telegram](getting-started/bot-setup.md)
+
+- :material-package-variant-plus: [Add a product](modules/crm/products-and-categories.md#products)
+
+- :material-truck-delivery-outline: [Set up delivery](modules/crm/delivery.md)
+
+</div>
+
+</section>
+
+<section class="tellem-home-action-group" markdown="1" aria-labelledby="customer-actions">
+
+### For customers { #customer-actions }
+
+<div class="grid cards tellem-home-actions" markdown="1">
+
+- :material-download: [Install the app](modules/app/account.md#installation)
+
+- :material-cart-outline: [Place an order](modules/app/checkout.md)
+
+- :material-clipboard-check-outline: [Check order status](modules/app/checkout.md#orders)
+
+</div>
+
+</section>
+
+<div class="grid cards tellem-home-actions tellem-home-action-help" markdown="1">
+
+- :material-lifebuoy: [Something is not working](troubleshooting.md)
+
+</div>
+
+</div>
 
 </div>
 
