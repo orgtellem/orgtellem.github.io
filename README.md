@@ -56,7 +56,7 @@ Update both language pages together, with matching actions and captions. Keep sc
 
 ## Home page and header maintenance
 
-Keep home-page layout in [home.css](docs/css/home.css), scoped to `.tellem-home` or `body:has(.tellem-home)`. Keep the shared neutral header in [extra.css](docs/css/extra.css). The [header override](overrides/partials/header.html) adds localized support and website links to Material 9.7.7's native header. Compare it with the upstream partial when upgrading Material; preserve its search, navigation, language and theme controls. Check icon-only links at narrow widths and both color schemes.
+Keep home-page layout in [home.css](docs/css/home.css), scoped to `.tellem-home` or `body:has(.tellem-home)`. Keep the shared neutral header in [extra.css](docs/css/extra.css). The [header override](overrides/partials/header.html) adds localized support and website links to Material 9.7.7's native header. Both links open new tabs with `rel="noopener"`; their accessible names announce this. Compare the override with the upstream partial when upgrading Material; preserve its search, navigation, language and theme controls. Check icon-only links at narrow widths and both color schemes. After deployment, follow the top-level tabs to `getting-started/registration/` and `modules/crm/orders/` in both languages and check their headers.
 
 [home.js](docs/js/home.js) opens the existing search and restores focus on close. Search uses Material's index; test it with real keyboard typing because its query observer listens to `keyup`, which a value-setting helper such as `fill()` does not emit.
 
