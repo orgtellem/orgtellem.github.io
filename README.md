@@ -58,6 +58,8 @@ Update both language pages together, with matching actions and captions. Keep sc
 
 Keep home-page layout in [home.css](docs/css/home.css), scoped to `.tellem-home` or `body:has(.tellem-home)`. Retain Material's header, navigation, language and theme controls. [home.js](docs/js/home.js) opens the existing search and restores focus on close. Search uses Material's index; test it with real keyboard typing because its query observer listens to `keyup`, which a value-setting helper such as `fill()` does not emit.
 
+The first link in each topic card is its primary destination. CSS extends that link across the card and keeps secondary links above it. Check blank-area clicks, secondary destinations and keyboard focus when editing card links.
+
 The logo plays once for four seconds and holds its final state. Keep its light/dark backgrounds aligned with the page (`#fff` / `#1e2129`) and retain the static SVG alternatives for `prefers-reduced-motion`. Rebuild it from the original paths in [logo.svg](docs/media/logo.svg) with [render-wordmark.mjs](scripts/render-wordmark.mjs):
 
 ```sh

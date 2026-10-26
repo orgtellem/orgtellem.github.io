@@ -84,6 +84,7 @@ body:has(.tellem-home) .md-footer { display: none; }
 
 .md-typeset .grid.cards.tellem-home-topics { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; margin: 0; }
 .md-typeset .grid.cards.tellem-home-topics > ul > li {
+  position: relative;
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -93,6 +94,9 @@ body:has(.tellem-home) .md-footer { display: none; }
   border-radius: .5rem;
 }
 .md-typeset .grid.cards.tellem-home-topics > ul > li:hover { border-color: var(--md-typeset-a-color); box-shadow: none; }
+.tellem-home-topics li:has(a:focus-visible) { outline: 2px solid var(--md-typeset-a-color); outline-offset: 3px; }
+.tellem-home-topics li > p:last-child a:first-child::after { position: absolute; inset: 0; content: ""; }
+.tellem-home-topics li > p:last-child a + a { position: relative; z-index: 1; }
 .tellem-home-topics li > p:first-child {
   display: flex;
   flex-direction: column;
