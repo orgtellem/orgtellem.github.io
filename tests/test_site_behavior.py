@@ -50,8 +50,8 @@ class SiteBehaviorTest(unittest.TestCase):
             "base.html": "{% block content %}Guide content{% endblock %}",
         }))
         for language, src_uri, canonical in [
-            ("ru", "modules/crm/orders.md", "https://orgtellem.github.io/modules/crm/orders/"),
-            ("en", "modules/crm/orders.en.md", "https://orgtellem.github.io/en/modules/crm/orders/"),
+            ("ru", "modules/crm/orders.md", "https://docs.tellem.tech/modules/crm/orders/"),
+            ("en", "modules/crm/orders.en.md", "https://docs.tellem.tech/en/modules/crm/orders/"),
         ]:
             with self.subTest(language=language):
                 page = SimpleNamespace(file=SimpleNamespace(src_uri=src_uri),

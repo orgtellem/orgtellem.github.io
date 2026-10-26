@@ -1,6 +1,6 @@
 # Tellem Privacy Policy
 
-Version of 19 October 2026. Effective from the date of publication. [Russian version](https://orgtellem.github.io/legal/privacy-policy/)
+Version of 19 October 2026. Effective from the date of publication. [Russian version](https://docs.tellem.tech/legal/privacy-policy/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 
@@ -121,6 +121,6 @@ The full list, including the data transferred, is given in Section 7 of the [Per
 
 ## 10. Policy updates
 
-10.1. The current version is published at [https://orgtellem.github.io/legal/privacy-policy/](https://orgtellem.github.io/legal/privacy-policy/) (English translation: [https://orgtellem.github.io/en/legal/privacy-policy/](https://orgtellem.github.io/en/legal/privacy-policy/)) and is available free of charge, without registration or authorization, including via the link in the catalog footer. Previous versions are available through the [document change history](../index.md#versions).
+10.1. The current version is published at [https://docs.tellem.tech/legal/privacy-policy/](https://docs.tellem.tech/legal/privacy-policy/) (English translation: [https://docs.tellem.tech/en/legal/privacy-policy/](https://docs.tellem.tech/en/legal/privacy-policy/)) and is available free of charge, without registration or authorization, including via the link in the catalog footer. Previous versions are available through the [document change history](../index.md#versions).
 
 10.2. A new version states its date and the date it takes effect. Publication of changes does not replace obtaining consent where consent is required for new processing.

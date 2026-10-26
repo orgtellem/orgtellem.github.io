@@ -1,6 +1,6 @@
 # Tellem Personal Data Processing Policy
 
-Version of 19 October 2026. Effective from the date of publication. [Russian version](https://orgtellem.github.io/legal/personal-data-policy/)
+Version of 19 October 2026. Effective from the date of publication. [Russian version](https://docs.tellem.tech/legal/personal-data-policy/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 
@@ -227,7 +227,7 @@ The Company does not sell personal data and does not grant access to it for unre
 
 ## 12. Changes to the Policy and access to it
 
-12.1. The current version of the Policy is published at [https://orgtellem.github.io/legal/personal-data-policy/](https://orgtellem.github.io/legal/personal-data-policy/) (English translation: [https://orgtellem.github.io/en/legal/personal-data-policy/](https://orgtellem.github.io/en/legal/personal-data-policy/)). Previous versions are available through the [document change history](../index.md#versions). Access is provided free of charge, without registration or authorization, including via the link in the catalog footer.
+12.1. The current version of the Policy is published at [https://docs.tellem.tech/legal/personal-data-policy/](https://docs.tellem.tech/legal/personal-data-policy/) (English translation: [https://docs.tellem.tech/en/legal/personal-data-policy/](https://docs.tellem.tech/en/legal/personal-data-policy/)). Previous versions are available through the [document change history](../index.md#versions). Access is provided free of charge, without registration or authorization, including via the link in the catalog footer.
 
 12.2. A new version bears a date and takes effect from the date of publication. A change to the Policy does not in itself create consent to new processing purposes; if such consent is required, it is requested separately.
 

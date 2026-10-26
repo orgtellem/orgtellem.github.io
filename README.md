@@ -1,6 +1,6 @@
 # [Tellem](https://tellem.tech) documentation
 
-Public documentation for store owners and customers: [Russian](https://orgtellem.github.io/) · [English](https://orgtellem.github.io/en/).
+Public documentation for store owners and customers: [Russian](https://docs.tellem.tech/) · [English](https://docs.tellem.tech/en/).
 
 See [AGENTS.md](AGENTS.md) for writing, translation, and public repository guidelines. [CLAUDE.md](CLAUDE.md) imports the same instructions for Claude. Keep these repository instructions in English; maintain user documentation in both Russian and English.
 

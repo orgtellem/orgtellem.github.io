@@ -1,6 +1,6 @@
 # Consent to the Processing of Personal Data
 
-For buyers of shops on the Tellem platform. Version of 19 October 2026. Effective from the date of publication. [Russian version](https://orgtellem.github.io/legal/consent/)
+For buyers of shops on the Tellem platform. Version of 19 October 2026. Effective from the date of publication. [Russian version](https://docs.tellem.tech/legal/consent/)
 
 This is an English translation of the Russian document. In case of any discrepancy, the Russian version prevails.
 

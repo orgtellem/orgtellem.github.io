@@ -1,5 +1,5 @@
 site_name: "Документация Tellem"
-site_url: "https://orgtellem.github.io"
+site_url: "https://docs.tellem.tech"
 site_description: "Документация Tellem: клиентское приложение магазина и CRM — настройка каталога, оплаты, доставки, бонусной системы и Telegram-бота."
 
 nav:
@@ -203,12 +203,12 @@ plugins:
   - redirects:
       redirect_maps:
         # Preserve published English legal URLs after adopting language suffixes.
-        legal/en/account-consent/index.md: https://orgtellem.github.io/en/legal/account-consent/
-        legal/en/consent/index.md: https://orgtellem.github.io/en/legal/consent/
-        legal/en/offer/index.md: https://orgtellem.github.io/en/legal/offer/
-        legal/en/personal-data-policy/index.md: https://orgtellem.github.io/en/legal/personal-data-policy/
-        legal/en/privacy-policy/index.md: https://orgtellem.github.io/en/legal/privacy-policy/
-        legal/en/request-consent/index.md: https://orgtellem.github.io/en/legal/request-consent/
+        legal/en/account-consent/index.md: https://docs.tellem.tech/en/legal/account-consent/
+        legal/en/consent/index.md: https://docs.tellem.tech/en/legal/consent/
+        legal/en/offer/index.md: https://docs.tellem.tech/en/legal/offer/
+        legal/en/personal-data-policy/index.md: https://docs.tellem.tech/en/legal/personal-data-policy/
+        legal/en/privacy-policy/index.md: https://docs.tellem.tech/en/legal/privacy-policy/
+        legal/en/request-consent/index.md: https://docs.tellem.tech/en/legal/request-consent/
         # Страница «Создание сетки каталога» объединена с оформлением главного экрана
         modules/crm/catalog-grid.md: modules/crm/main-page.md
         # Раздел переименован: продукт больше не привязан к Telegram
