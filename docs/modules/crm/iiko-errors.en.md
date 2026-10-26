@@ -43,6 +43,12 @@ One unlinked item blocks the entire order.
 
 Creating a new product does not change an existing order's items. [Check it at the checkout](#first-check) and agree on processing. Verify the catalog with an agreed test order: it must appear in iiko with the correct items.
 
+## Sizes or extras are missing or unavailable { #options }
+
+If CRM asks you to import modifiers or update sizes, run a [full restaurant menu import](iiko.md#import-products). Linking by article code does not load extras. Allow for the full import's effect on prices and product visibility in the catalog.
+
+Under **Catalog → Products**, check [sizes and the Modifiers section](iiko.md#sizes-and-extras). If a required extra cannot be selected, ask the person responsible for the menu to check its availability, price, and limits in iiko, then repeat the import. The customer must review their size and extras in the cart again. Until the issue is resolved, [remove the unavailable dish from sale](inventory.md).
+
 ## Connection, organization, or terminal is not configured { #terminal }
 
 CRM cannot determine which checkout group should receive the order.

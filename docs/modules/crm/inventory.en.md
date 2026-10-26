@@ -45,4 +45,4 @@ A chain counts stock from open stores with “On sale” enabled, subtracts prod
 
 Changing quantity or sale availability leaves an “Out of stock” label or hides the product according to the zero-stock setting. Archiving hides it regardless of stock. A variant's checkbox removes it from catalog lists; it remains selectable inside the product card, as in the [color example](product-colors.md).
 
-The [iiko](iiko.md) stop list limits availability separately from manually entered stock.
+The [iiko](iiko.md) stop list limits availability separately from manually entered stock. [Importing an iiko menu](iiko.md#import-products) also sets stock for imported products; importing again replaces it with the current quantity from iiko.

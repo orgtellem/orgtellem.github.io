@@ -102,27 +102,42 @@ New stores or online methods are not connected automatically: open **Configure**
 
 Every order item must be linked to iiko. One unlinked product blocks the entire order. You can [add products from the menu](#import-products) or [link your existing catalog](#link-existing-products).
 
-For one item, open **Catalog → Products → Create → Add from iiko** and choose a dish. Review the copied name, price, and properties. Prices do not synchronize in the background; orders use Tellem prices. Available sizes and extras depend on the iiko menu; verify the customer's choices with a test order.
+For one item, open **Catalog → Products → Create → Add from iiko** and choose a dish. Review the copied name, price, and properties. For sizes and extras, run a [full menu import](#import-products). Prices do not synchronize in the background; orders use Tellem prices.
 
-### Add a restaurant menu { #import-products }
+<span id="import-menu"></span>
+
+### Add or update a restaurant menu { #import-products }
+
+!!! warning "Import enables product visibility"
+    New products with positive stock are available to customers immediately. Repeating the import enables **Show in catalog** for previously hidden cards too; manual archive settings and sale status under **Inventory** are preserved. Check that the menu is ready for sale before importing. Manually edited prices apply until the next import.
 
 1. In **Integrations → iiko**, find the restaurant on the connection card and click **Import products** in its row.
-2. Choose **Entire menu** and start adding products. This applies to the selected restaurant.
-3. Review the report: new products are hidden from customers. Check categories, photos, prices, sizes, and availability, then [make the required products available for sale](products-and-categories.md).
+2. Choose **Entire menu**. The selected restaurant's import starts when the results window opens; there is no separate start action.
+3. Review created and updated products, skipped items, errors, and warnings in the report. Find a product by name or article code and select its row to preview the photo, price, stock, extras, and sizes on the right. Use the button that opens the product card to check it in the catalog.
 
-CRM adds missing products and categories, including dishes with supported extras. Repeating the import updates ordinary product prices, sizes, availability, and photos without duplicates. Prices retain the fractional precision of the store currency. Existing card names, descriptions, categories, and visibility are preserved. If iiko has no photo or its download fails, CRM photos are kept. Review the report and catalog before opening sales. To link an existing catalog without creating products, choose **By article code**.
+CRM adds missing products and categories, including dishes with sizes and supported extras. Categories with the same name are reused. Repeating the import updates prices, photos, sizes, extras, and availability without duplicates. Prices retain the fractional precision of the store currency. Existing card names, descriptions, and categories are preserved. If iiko has no photos or the complete set cannot be downloaded, the existing CRM card keeps its photos. Unsupported dishes and items with invalid prices are skipped; check the report for the reason.
 
-Importing updates stock for products added from the menu. If iiko does not limit a dish's quantity, the quantity available for sale may be nominal: review it before opening the store. Previously linked products keep their manually managed stock. If an availability warning appears, cards may have been saved without new stock quantities; repeat the import after the connection recovers.
+Importing updates stock for products added from the menu separately for each terminal. A positive iiko limit becomes the CRM quantity without its fractional part, a stop gives zero, and no limit gives a nominal quantity. A nominal quantity does not confirm the physical number of portions. Size stock is tracked separately. Repeating the import replaces the quantity rather than adding to it. Previously linked products keep their manually managed stock.
 
-Closing the window stops further additions while preserving completed work. Running it again adds the remainder without duplicates. A photo error does not prevent product creation: check report warnings.
+If a stock warning appears, CRM saves product cards but creates no new inventory and preserves previous quantities for affected terminals. Repeat the import after the connection recovers. A photo error does not prevent saving the product.
+
+Closing the window stops further processing while preserving completed work. Running it again adds the remainder without duplicates. The summary shows processed sizes and extras; after a stop or errors, review the unprocessed part.
 
 ### Link existing products { #link-existing-products }
 
-In the restaurant row, click **Import products → By article code** and start linking. Selecting the card alone does not change the catalog.
+In the restaurant row, click **Import products → By article code**. Linking starts when the results window opens.
 
 Each product or variant's article code must exactly match its iiko code, including leading zeros, case, and spaces. The whole catalog is checked, including hidden and archived items. Dishes with sizes cannot be linked this way: use [menu import](#import-products).
 
-Linking preserves product cards, prices, photos, stock, and history; no new products are created. Review linked and skipped items in the report. Correct empty or ambiguous codes and other reported causes, then repeat: existing links remain. If menu retrieval fails, the catalog is unchanged.
+Linking preserves product cards, prices, photos, stock, and history; no new products are created. Review linked and skipped items in the report. Correct empty or ambiguous codes and other reported causes, then repeat: existing links remain. If menu retrieval fails, the catalog is unchanged. To load extras for linked products, run a [full import](#import-products), allowing for its effect on prices and product visibility.
+
+### Sizes and extras { #sizes-and-extras }
+
+A full import creates dish sizes as product variants with their own prices and stock. Change the size selection in iiko and repeat the import: removed sizes become unavailable, while returning sizes keep their existing cards. You cannot create or delete these variants manually in CRM.
+
+In the product card's **Modifiers** section, check extras, groups, required choices, limits, and free quantities. This section shows data from the last full import; change it in iiko and import the menu again. Customers cannot order a linked dish before the first full import. Extras do not create separate catalog products.
+
+Customers choose sizes and extras in the [product card and cart](../app/ui-and-pages.md#product-card). CRM orders show the selected size, extras, and their quantities. Promotions and birthday discounts reduce the dish or selected size price; extras are added without that discount.
 
 ## Orders { #_3 }
 
@@ -151,7 +166,7 @@ Customer actions are described in [Checkout](../app/checkout.md).
 
 ## Stop lists { #- }
 
-A stop list contains dishes whose sale is restricted by the checkout. At zero or lower quantity, CRM hides the dish in every store using that terminal, even if showing products with zero stock is enabled. A positive quantity limits purchases at checkout.
+A stop list contains dishes whose sale is restricted by the checkout. At zero or lower quantity, CRM hides the dish in every store using that terminal, even if showing products with zero stock is enabled. A positive quantity limits purchases at checkout. A size-specific stop applies to that size; a general dish stop applies to all its sizes. Hiding individual extras through the stop list is not supported.
 
 After a stop is removed, CRM availability settings apply again: manual disabling, warehouse stock, and reservations. A stop list update alone does not overwrite warehouse stock; products added from the menu receive stock updates during [import](#import-products).
 

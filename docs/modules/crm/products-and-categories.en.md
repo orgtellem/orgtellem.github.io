@@ -35,7 +35,11 @@ In **Catalog → Products → Create**, choose the appropriate method:
 
 For a simple product, enter a category and sale price under “Main”. You can add up to 6 photos of up to 10 MB each; a 1:1 ratio is recommended. Buyers see the product's characteristics in its card. Set quantities by store under “Assortment”; CRM offers to configure zero quantities on the first save.
 
+Enter prices in the store currency with its allowed number of decimal places. For example, a ruble price can be `79.90`. CRM rejects excess significant decimal places when saving a price.
+
 For a product with variants, add at least one variative attribute and set each variant's price, article code, and photo. Attribute combinations must be unique. See [Combining two products by color](product-colors.md) for an example of a color selector and merging existing products.
+
+For [iiko products](iiko.md#products), CRM creates variants from the menu sizes. Manage those sizes in iiko; you cannot add, delete, or copy these variants manually in CRM.
 
 If using carriers, enter the weight in grams. It affects [delivery calculations](delivery.md); length, width, and height do not. These fields are in the variant record. For a simple product, open it with “Edit” in “Display products list” mode.
 

@@ -34,6 +34,12 @@ Check the description, specifications, price, and availability. If the product h
 
 **Share** opens the system share menu or copies a link. For signed-in customers, the link opens the product inside Telegram if the store connected a bot; otherwise, it opens the website.
 
+### Dish size and extras { #dish-options }
+
+If a dish has sizes, choose the product variant you want. When adding a dish with extras, choose them in the panel that opens. Required groups have an “*”; the allowed quantity appears beside them. An extra has “−” and “+” buttons when the store allows several portions. Complete the required choices before adding the dish.
+
+Check the total price including extras before adding it. Promotions and birthday discounts reduce the price of the dish itself; extras keep their price.
+
 <span id="_5"></span>
 
 ## Favorites { #favorites }
@@ -53,6 +59,8 @@ Tap the heart on a product card to save it to **Favorites**. **Clear** removes t
 
 If the store reserves products in the cart, the reservation and cart quantities reset after a period of inactivity. Check your cart again before checkout.
 
+For a dish with extras, tap **Edit** to change the selection. The same product with different extras or extra quantities occupies separate lines; identical selections merge. The order retains the size and extras.
+
 <span id="_7"></span>
 
 ## Profile, orders, documents, and theme { #profile-orders-documents-and-theme }
@@ -62,4 +70,4 @@ Addresses, bonus points, language, theme, and installation are available in your
 [Tellem legal documents](../../legal/index.md) are linked in the app: in the footers of the home screen, profile, and **About the app**, during sign-in and checkout, and in the cookie banner. Documents open in the interface language.
 
 !!! info "For store owners"
-    Configure [product color variants](../crm/product-colors.md) and [the home screen and app colors](../crm/main-page.md). Warnings, reservations, and profile information sections are under [general settings](../crm/general-settings.md). Get a location's link and QR code from its [store card](../crm/stores-and-delivery.md).
+    Configure [product color variants](../crm/product-colors.md) and [the home screen and app colors](../crm/main-page.md). Import dish sizes and extras from the [iiko menu](../crm/iiko.md#sizes-and-extras). Warnings, reservations, and profile information sections are under [general settings](../crm/general-settings.md). Get a location's link and QR code from its [store card](../crm/stores-and-delivery.md).

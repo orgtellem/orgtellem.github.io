@@ -8,11 +8,13 @@ You need an account to check out — see [Account, installation, and notificatio
 
 ## Checkout screen { #checkout-screen }
 
+If you leave before placing the order, the app asks **Leave checkout?** Choose **Continue checkout** to keep your entered details on screen, or **Leave** to close checkout without saving them. The confirmation also appears when you use the browser's Back button.
+
 <span id="_3"></span>
 
 ### Delivery method { #delivery-method }
 
-Choose an available fulfillment method. Its cost and delivery time appear below the name when known, or the reason it is unavailable. You cannot place an order while delivery is being calculated; if calculation fails, click **Try again**.
+Choose an available fulfillment method. The app selects the first suitable method in the order set by the store. Its cost and delivery time appear below the name when known, or the reason it is unavailable. You cannot place an order while delivery is being calculated; if calculation fails, click **Try again**.
 
 The following fields depend on the method type:
 
@@ -31,7 +33,7 @@ If the method has a free delivery threshold, a tip below it shows how much more 
 
 ### Payment method { #payment-method }
 
-Check the selected payment method offered by the store. The app selects payment on receipt first if it is available.
+Check the selected payment method: the app selects the first enabled method in the order set by the store. Choose another if needed.
 
 - **On receipt** — no payment is needed in the app.
 - **Online** — pay on the provider's page, opened by **Pay online** after placing the order (see **Confirmation and payment**).
@@ -57,11 +59,13 @@ If the code ends or reaches its limit before you confirm the order, the order is
 
 ### Other sections { #other-sections }
 
-Fill in required recipient details and additional fields if the store asks for them. Recipient fields depend on the payment method. First name, last name, phone, and email are filled in from your profile; if you edit or clear a field, profile updates do not replace it. For another recipient, leave **Save for future orders** disabled to preserve your own profile details.
+Fill in required recipient details and additional fields if the store asks for them. Recipient fields depend on the payment method. First name, last name, phone, and email are filled in from your profile; if you edit or clear a field, profile updates do not replace it.
+
+For another recipient, leave **Save for future orders** disabled. Existing profile details stay unchanged, but an empty first or last name is filled in from the order even with this option disabled. Before ordering for someone else, fill in your own first and last name in your profile.
 
 Under **Bonuses**, choose **Spend** to use points from your [connected bonus account](account.md). Checkout shows the permitted amount: 1 point equals 1 unit of the store currency, and points cannot cover delivery. Purchase points are awarded after the order is completed.
 
-Check discounts, delivery, and the total in the cost details. Delivery cost appears separately, including free delivery.
+Check discounts, delivery, and the total in the cost details. Delivery to an address appears separately, including free delivery; other fulfillment methods show this row when their cost is above zero.
 
 <span id="_7"></span>
 

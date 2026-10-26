@@ -39,6 +39,24 @@ In a browser, you can also use `utm_source`, `utm_medium`, and `utm_campaign`; t
 
 ## Check statistics { #statistics }
 
-In **Analytics → Sources**, select a group and period for total and daily registrations. An empty group filter shows only ungrouped tags.
+In **Analytics → Sources**, select a group and period. An empty group filter shows only ungrouped tags. Dates filter when tags were assigned, rather than when accounts were registered; day boundaries follow the CRM user's time zone.
 
-The tag assignment date counts, rather than account registration. Each customer counts once per tag. In a browser, the tag is assigned after following the link and signing in, for both new and existing customers.
+### Mark effectiveness { #effectiveness }
+
+Use **Mark effectiveness** to compare purchases by each customer's first known tag across their entire history. Changing the group or period does not replace that tag with a later one. Customers who purchased before the tag appear separately and do not count toward acquisition metrics. **No purchases before mark** can include customers who registered long ago.
+
+| Metric | How to read it |
+| --- | --- |
+| First order within 30 days | Share of customers with a first completed purchase within 30 days after the tag |
+| Repeat within 30 days / Repeat within 60 days | Share of first-time buyers with a second completed order within 30 or 60 days after the first |
+| 30-day revenue per customer | Revenue within 30 days after the tag, divided by the number of customers included, even those who bought nothing |
+
+Each metric includes customers whose full observation window has passed: from the tag for first orders and revenue, or from the first purchase for repeats. The number of customers included therefore differs. A late first order can count toward repeat purchases even if it falls outside **First order within 30 days**.
+
+Completed orders across all locations in the chain count; revenue follows the [general analytics rules](analytics.md#filters-and-calculations). For rate metrics with fewer than 30 customers in the calculation, counts appear instead of percentages: for example, “10 / 20” means 10 of 20 customers purchased. “—” means there is no data for the calculation. Click **Download CSV** to export the current table with the number of customers included in each calculation.
+
+### Tag links in charts { #tag-links }
+
+The charts below the table show all tag assignments, including existing customers. Each customer counts once per tag and may appear under several tags, so the counts differ from the effectiveness table. In a browser, the tag is assigned after following the link and signing in, for both new and existing customers.
+
+These data do not show clicks or advertising costs and do not prove that the link caused a purchase.

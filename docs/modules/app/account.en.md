@@ -68,7 +68,9 @@ A notification channel disabled in either account stays disabled if at least one
 
 Save an address under **Delivery addresses** to select it at [checkout](checkout.md).
 
-For bonus points, click **Connect bonus system** on the profile card, then **Register**. If no phone number is set, enter it in the window that opens. Points start accumulating after you connect the account; welcome points, if offered by the store, are awarded when you connect. The card shows your balance and nearest expiry date. Open **Bonus points** to check the rules, validity, and history.
+If the store has enabled its bonus program and you do not have a bonus account yet, **Join the bonus program** opens after sign-in. Check or enter your phone number in +7 format and tap **Register**. The number is saved to your profile; you cannot use another customer's number. You can close the window with the close icon and return to registration through **Connect bonus system** in your profile.
+
+Points start accumulating after you connect the account; welcome points, if offered by the store, are awarded when you connect. Their amount appears in the invitation and registration card. After registration, the card shows your balance and nearest expiry date. Open **Bonus points** to check the rules, validity, and history.
 
 <span id="_6"></span>
 

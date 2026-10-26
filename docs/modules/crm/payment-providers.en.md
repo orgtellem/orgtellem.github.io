@@ -20,8 +20,14 @@ Open **Settings → Payments**.
 
 You can edit **Card on receipt** and **Cash on receipt**, but cannot delete them. A method used in orders cannot be deleted either.
 
+Online payments in Tellem are available for orders in rubles. For another currency, use payment on receipt.
+
 !!! warning "Online transfer"
     The app does not show payment details for this previously available method. Disable it in chains under **Catalog → Stores → Manage payment methods**. For an existing **New** order, agree on payment with the customer and click [Accept order](orders.md).
+
+## Method order { #method-order }
+
+In **Settings → Payments**, select a row and click **Move up** or **Move down**. On a phone, find these commands under **Actions**. The order is saved immediately and applies to all store chains; customers see only methods enabled in their chain.
 
 <span id="_3"></span>
 
@@ -45,6 +51,7 @@ Copy the remaining credentials from the selected provider's account.
 | Robokassa | MD5 is the supported hash algorithm |
 | SBP (ArcoPay) | Choose a single-use or reusable SBP link |
 | Sberbank, SBP (Sberbank) | Set **Notification checksum type** and **Notification verification key** so CRM accepts bank notifications |
+| Beta Transfer | Set **Minimum payment amount** according to the provider terms. It limits the positive balance after redeeming bonuses and cannot lower the service's minimum in CRM |
 | Tochka Bank, Tochka Bank (SBP) | [Obtain a token and select account details](#tochka) |
 
 <span id="_5"></span>

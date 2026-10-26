@@ -12,6 +12,8 @@ Open **Settings → Delivery** to configure a method. Check CDEK and Yandex ship
 
 Select **New method → Custom fulfillment method**, **CDEK**, **Ozon**, **Yandex**, or **Russian Post**. A new method is disabled in every store chain: enable it in the store chain's settings ([Stores](stores-and-delivery.md)). Built-in methods and methods used in orders cannot be deleted.
 
+To change the order at checkout, select a method under **Settings → Delivery** and click **Move up** or **Move down**. On a phone, use the **Actions** menu. The order is saved immediately and applies to all store chains; customers see the methods enabled for their chain. The app selects the first suitable method, including pickup point delivery that still requires a city or point selection.
+
 For a **Custom fulfillment method**:
 
 1. Under **General**, set a name, type, conditions, and base price. The type determines [which details the customer enters](../app/checkout.md).

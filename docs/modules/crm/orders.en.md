@@ -17,6 +17,8 @@ Where: **Orders**. Search matches the order number; use column header filters fo
 
 In the order details, check the customer, fulfillment method, address, comment, and total. Links open the customer and applied promo code. Additional product fields appear below the product card.
 
+With iiko connected, check the **Selection** column for the dish size and selected extras, including quantities and extra charges. On a phone, the selection appears below the product name. See [iiko product setup](iiko.md).
+
 Product cost includes discounts and payment method fees, but excludes delivery; redeemed points have not yet been deducted. The final total includes delivery and deducts redeemed points.
 
 In “Payment information”, check the method and online payment state. CDEK and Yandex Delivery orders also have delivery information; Ozon and Russian Post orders do not. See [Delivery](delivery.md) for shipment actions.

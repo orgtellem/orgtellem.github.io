@@ -61,7 +61,7 @@ Without purchases, charts are hidden, but registrations and inactivity remain av
 
 ## Tags { #tags }
 
-In **Analytics → Sources**, compare activity from [invitation links](utm-marks.md#statistics).
+In **Analytics → Sources**, compare [first and repeat purchases by tag](utm-marks.md#effectiveness). The charts below show [invitation link assignments](utm-marks.md#tag-links), including existing customers.
 
 <span id="_7"></span>
 
