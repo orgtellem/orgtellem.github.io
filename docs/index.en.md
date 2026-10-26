@@ -108,7 +108,7 @@ Support: [Telegram](https://t.me/tellem_tech_bot), [VK](https://vk.link/tellem_i
 
 <div class="tellem-home-footer" markdown="1">
 
-[Legal documents](legal/index.md) · [Support](https://t.me/tellem_tech_bot) · [tellem.tech](https://tellem.tech)
+[Legal documents](legal/index.md)
 
 </div>
 

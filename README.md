@@ -54,9 +54,11 @@ Tellem team members can use [Content Workshop](https://github.com/orgtellem/tell
 
 Update both language pages together, with matching actions and captions. Keep screenshots truthful; identify shared Russian UI in the English instructions. An English GIF can use `.en.gif` with translated explanations and the same recording. Check the built image URLs and contents: the localization plugin publishes `home-screen-editor.en.gif` as `/en/media/crm/home-screen-editor.gif`, while the Russian file uses `/media/crm/home-screen-editor.gif`. Shared home-page CSS loads from `/css/home.css` in both languages, so its relative logo URLs resolve under `/media/`.
 
-## Home page maintenance
+## Home page and header maintenance
 
-Keep home-page layout in [home.css](docs/css/home.css), scoped to `.tellem-home` or `body:has(.tellem-home)`. Retain Material's header, navigation, language and theme controls. [home.js](docs/js/home.js) opens the existing search and restores focus on close. Search uses Material's index; test it with real keyboard typing because its query observer listens to `keyup`, which a value-setting helper such as `fill()` does not emit.
+Keep home-page layout in [home.css](docs/css/home.css), scoped to `.tellem-home` or `body:has(.tellem-home)`. Keep the shared neutral header in [extra.css](docs/css/extra.css). The [header override](overrides/partials/header.html) adds localized support and website links to Material 9.7.7's native header. Compare it with the upstream partial when upgrading Material; preserve its search, navigation, language and theme controls. Check icon-only links at narrow widths and both color schemes.
+
+[home.js](docs/js/home.js) opens the existing search and restores focus on close. Search uses Material's index; test it with real keyboard typing because its query observer listens to `keyup`, which a value-setting helper such as `fill()` does not emit.
 
 The first link in each topic card is its primary destination. CSS extends that link across the card and keeps secondary links above it. Check blank-area clicks, secondary destinations and keyboard focus when editing card links.
 

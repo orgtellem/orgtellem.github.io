@@ -106,7 +106,7 @@ Tellem состоит из клиентского приложения, где �
 
 <div class="tellem-home-footer" markdown="1">
 
-[Правовые документы](legal/index.md) · [Поддержка](https://t.me/tellem_tech_bot) · [tellem.tech](https://tellem.tech)
+[Правовые документы](legal/index.md)
 
 </div>
 

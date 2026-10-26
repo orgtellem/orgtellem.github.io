@@ -3,7 +3,7 @@ site_url: "https://orgtellem.github.io"
 site_description: "Документация Tellem: клиентское приложение магазина и CRM — настройка каталога, оплаты, доставки, бонусной системы и Telegram-бота."
 
 nav:
-  - О продукте: index.md
+  - Главная: index.md
   - Начало работы:
       - Подключение и первый вход: getting-started/registration.md
       - Чек-лист запуска магазина: modules/crm/getting-started.md
@@ -55,6 +55,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   language: ru
   features:
     - navigation.tabs
@@ -108,7 +109,7 @@ plugins:
           site_name: "Tellem documentation"
           site_description: "Tellem documentation: set up the customer app and CRM, catalog, payments, delivery, loyalty points, and Telegram bot."
           nav_translations:
-            О продукте: About Tellem
+            Главная: Home
             Начало работы: Getting started
             Подключение и первый вход: Registration and first sign-in
             Чек-лист запуска магазина: Store launch checklist

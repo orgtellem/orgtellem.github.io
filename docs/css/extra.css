@@ -1,5 +1,9 @@
 /* Фирменные цвета Tellem (primary приложения: #7333FC) */
 :root {
+  --tellem-surface-bg: #fff;
+  --tellem-surface-fg: #24232b;
+  --tellem-surface-muted: #676572;
+  --tellem-surface-line: #e7e6ed;
   --md-primary-fg-color: #7333fc;
   --md-primary-fg-color--light: #8f5dff;
   --md-primary-fg-color--dark: #5c29cc;
@@ -7,10 +11,43 @@
 }
 
 [data-md-color-scheme="slate"] {
+  --tellem-surface-bg: #1e2129;
+  --tellem-surface-fg: #f0eff5;
+  --tellem-surface-muted: #b7b5c3;
+  --tellem-surface-line: #3c3f48;
   --md-primary-fg-color: #7333fc;
   --md-accent-fg-color: #a687ff;
   --md-typeset-a-color: #a687ff;
 }
+
+.md-header,
+.md-tabs {
+  --md-primary-bg-color: var(--tellem-surface-fg);
+  --md-primary-bg-color--light: var(--tellem-surface-muted);
+  background-color: var(--tellem-surface-bg);
+  color: var(--tellem-surface-fg);
+}
+
+.md-header {
+  border-bottom: 1px solid var(--tellem-surface-line);
+  box-shadow: none;
+}
+
+.md-header .md-logo img { filter: brightness(0); }
+[data-md-color-scheme="slate"] .md-header .md-logo img { filter: brightness(0) invert(1); }
+.md-header__title { min-width: 0; }
+.md-search__form { border: 1px solid var(--tellem-surface-line); border-radius: .35rem; background: var(--tellem-surface-bg); }
+
+.tellem-header-links { display: flex; flex-shrink: 0; align-items: center; }
+.tellem-header-link.md-header__button {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  font-size: .65rem;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.tellem-header-link.md-header__button:focus-visible { outline: 2px solid var(--md-accent-fg-color); outline-offset: 2px; }
 
 /* У логотипа широкая форма: сохраняем пропорции и отдаём ему высоту шапки. */
 .md-header__button.md-logo {
@@ -29,13 +66,14 @@
 }
 
 .md-tabs__link {
-  color: #fff;
-  opacity: 0.9;
+  color: var(--tellem-surface-muted);
+  opacity: 1;
 }
 
 .md-tabs__link:hover,
-.md-tabs__link--active {
-  opacity: 1;
+.md-tabs__link--active,
+.md-tabs__item--active .md-tabs__link {
+  color: var(--md-typeset-a-color);
 }
 
 .md-typeset a:not(.md-button):not(.headerlink) {
@@ -45,6 +83,8 @@
 }
 
 @media screen and (max-width: 59.984375em) {
+  .tellem-header-link span { display: none; }
+
   .md-header__button.md-logo img {
     height: 1.55rem;
   }
