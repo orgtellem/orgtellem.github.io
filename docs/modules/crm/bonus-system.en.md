@@ -1,3 +1,7 @@
+---
+description: "Configure the Tellem bonus program: earning and spending points, gifts, validity periods, and reminders."
+---
+
 <span id="_1"></span>
 
 # Loyalty program { #loyalty-program }

@@ -1,3 +1,7 @@
+---
+description: "Import products and categories into Tellem from CSV and YML: example file, column mapping, prices, and limitations."
+---
+
 <span id="import"></span>
 
 <span id="_1"></span>
@@ -16,6 +20,23 @@ Where: **Catalog → Import**.
 4. Under “Review before saving”, correct the entries and check photos. Wait for linked photos to finish loading, then click “Save to catalog”.
 
 The catalog does not change until the last step.
+
+## CSV example { #csv-example }
+
+[Download an example with two products](../../examples/catalog-products.en.csv). The product names and prices are examples for a store using RUB; replace them before uploading your own catalog.
+
+During configuration, map **Name** to the product name, **Price** to the selling price, and **Category** to the category. Skip the remaining fields and leave product merging disabled.
+
+<figure markdown="1">
+
+![Example CSV mapping: product name from the name column, selling price from the price column, category from the category column; remaining fields are skipped.](../../media/crm/basics/import-mapping.png){ loading=lazy }
+
+<figcaption>Mapping the example file's three columns to CRM fields. The screenshot shows the Russian interface and the Russian CSV example.</figcaption>
+</figure>
+
+Before saving, check the result: **Green tea** priced at 250.00 and **Ground coffee** priced at 490.00 in **Drinks**. After saving, set [stock in the store](inventory.md#by-store).
+
+## Format and limitations { #format }
 
 In CSV, the first row must contain headers. The delimiter is detected automatically: comma, semicolon, tab, or “|”. YML skips configuration and imports nested categories, article codes, photos, weight, and dimensions; cost price is set equal to the price.
 

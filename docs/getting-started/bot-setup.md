@@ -1,3 +1,7 @@
+---
+description: "Подключение Telegram-бота к Tellem, приветствие, кнопки и ссылки на товары в Mini App."
+---
+
 # Telegram { #telegram }
 
 Подключите бота, чтобы покупатели входили через Telegram и открывали магазин внутри него как Mini App. Бот также присылает [сообщения покупателям](../modules/app/customer-notifications.md) и [уведомления сотрудникам](../modules/crm/crm-notifications.md).

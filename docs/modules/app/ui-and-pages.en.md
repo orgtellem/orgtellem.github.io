@@ -1,3 +1,7 @@
+---
+description: "Find and choose products in the Tellem app, select variants, use favorites and the cart, and proceed to checkout."
+---
+
 <span id="_1"></span>
 
 # Storefront and cart { #storefront-and-cart }

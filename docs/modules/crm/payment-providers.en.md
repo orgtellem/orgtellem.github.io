@@ -1,3 +1,7 @@
+---
+description: "Connect and test Tellem payments, order payment methods, and configure provider credentials and notifications."
+---
+
 <span id="_1"></span>
 
 # Payment { #payment }

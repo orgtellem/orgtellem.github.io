@@ -1,3 +1,7 @@
+---
+description: "Проверка ошибок iiko в Tellem: заказ на кассе, доступ, привязка терминалов, оплата, товары и стоп-лист."
+---
+
 <span id="iiko-errors-a-managers-guide"></span>
 
 <span id="iiko"></span>

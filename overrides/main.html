@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+  {% if page and page.file.src_uri not in ["index.md", "index.en.md"] and not page.file.src_uri.startswith("legal/") %}
+    {% set is_english = config.theme.language == "en" %}
+    {% set label = "Report an error in this guide (GitHub)" if is_english else "Сообщить об ошибке в инструкции (GitHub)" %}
+    {% set title = ("Documentation: " if is_english else "Документация: ") ~ page.title %}
+    {% set body = ("Page: " if is_english else "Страница: ") ~ page.canonical_url ~ "\n\n" ~ ("Describe the error and the expected information:\n" if is_english else "Опишите ошибку и ожидаемую информацию:\n") %}
+    <p class="tellem-doc-feedback">
+      <a href="https://github.com/orgtellem/orgtellem.github.io/issues/new?{{ {'title': title, 'body': body} | urlencode }}" target="_blank" rel="noopener">{{ label }}</a>
+    </p>
+  {% endif %}
+{% endblock %}

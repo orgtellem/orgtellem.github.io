@@ -1,3 +1,7 @@
+---
+description: "Изменение остатков по магазинам Tellem, проверка наличия в сети и снятие товаров с продажи."
+---
+
 <span id="_1"></span>
 
 # Наличие и снятие с продажи { #inventory-and-removing-products-from-sale }

@@ -28,7 +28,7 @@ Keep the [upstream revisions and license notices](.agents/skills/SOURCES.md) wit
 
 ## Local development
 
-Use Python 3.12, matching CI, and an activated virtual environment.
+Use Python 3.12, matching CI, and an activated virtual environment. Browser event tests also require Node.js 18 or newer.
 
 ```sh
 python -m pip install -r requirements.txt
@@ -48,6 +48,38 @@ Check external links and the text's accuracy against the interface separately. S
 
 CI also checks that every page has a translation. Link preview cards are enabled in CI and disabled in local builds by default.
 
+## Site features
+
+Section landing pages give readers a task overview before the detailed instructions. Keep their links and navigation entries in both languages. Material's `navigation.indexes` attaches these pages to their sections.
+
+Use content tabs for alternative instructions, such as installation on different devices. Tabs with the same label share the reader's selection across pages. Keep prerequisites and warnings that apply to every option outside the tabs.
+
+```md
+=== "iPhone / iPad"
+
+    Instructions for Safari.
+
+=== "Android"
+
+    Instructions for a supported browser.
+```
+
+The search dialog can copy a link to the current query. Use page metadata `search: {boost: 2}` to raise a useful task page in results, or a value below `1` to lower it. Test real queries before changing rankings.
+
+Unlinked content images open in GLightbox, with their alternative text as the caption. Keep meaningful alternative text and test Enter, Escape, focus return, and touch navigation. Images already linked to another destination keep that link.
+
+The feedback link below instructions opens a GitHub issue form with the page title and canonical URL. It requires a GitHub account; the header also links to support on Telegram. Legal documents and the home page do not show the feedback link.
+
+The privacy plugin downloads external assets, including Google Fonts, during the build so the published site can serve them locally. The first build requires network access; subsequent builds reuse `.cache/`. Check the browser's network requests after changes to fonts or external media.
+
+Material uses instant navigation. Initialize page-specific JavaScript through `document$.subscribe(...)` and remove old event handlers before rebinding. Test direct loads, internal navigation, browser Back, the language switcher, and returning to the home page.
+
+The language selector keeps the page path and fragment, with a full reload when switching language so navigation labels follow the selected locale. It uses the project's `/` and `/en/` URL contract and shared sitemap; translation links in the sitemap also identify matching pages to search engines.
+
+Material 9.8 receives critical maintenance through [May 5, 2027](https://squidfunk.github.io/mkdocs-material/). Keep content and customizations portable, and evaluate successor compatibility separately before changing the generator.
+
+The current project does not build unchanged with Zensical: its [plugin compatibility list](https://zensical.org/docs/compatibility/mkdocs/plugins/) does not include `mkdocs-static-i18n`, and Git revision dates remain planned. A migration must preserve both language URLs, contextual language links, page dates, and legal redirects before replacing the existing publication command.
+
 ## Product screenshots and GIFs
 
 Tellem team members can use [Content Workshop](https://github.com/orgtellem/tellem-content-workshop) to create product screenshots, GIFs and short videos for documentation and Telegram. A coding agent captures the real interface and prepares the material; you can edit its text in a local browser. The workshop repository requires team access. Its README covers setup and use.
@@ -62,7 +94,7 @@ Keep home-page layout in [home.css](docs/css/home.css), scoped to `.tellem-home`
 
 The first link in each topic card is its primary destination. CSS extends that link across the card and keeps secondary links above it. Check blank-area clicks, secondary destinations and keyboard focus when editing card links.
 
-The logo plays once for four seconds and holds its final state. Keep its light/dark backgrounds aligned with the page (`#fff` / `#1e2129`) and retain the static SVG alternatives for `prefers-reduced-motion`. Rebuild it from the original paths in [logo.svg](docs/media/logo.svg) with [render-wordmark.mjs](scripts/render-wordmark.mjs):
+The logo plays once for four seconds and holds its final state. Keep its light/dark backgrounds aligned with the page (`#fff` / `#1e2129`) and retain the static SVG alternatives for `prefers-reduced-motion`. The renderer reads the accent from `--tellem-brand` in [extra.css](docs/css/extra.css); rebuild both GIFs and SVG fallbacks after changing that color. Rebuild from the original paths in [logo.svg](docs/media/logo.svg) with [render-wordmark.mjs](scripts/render-wordmark.mjs):
 
 ```sh
 node scripts/render-wordmark.mjs --workshop ../tellem-content-workshop --output site/wordmark-rebuild

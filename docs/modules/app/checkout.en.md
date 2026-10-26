@@ -1,3 +1,7 @@
+---
+description: "Place a Tellem order: fulfillment, payment, promo codes, bonus points, order statuses, and available actions."
+---
+
 <span id="_1"></span>
 
 # Checkout and orders { #checkout-and-orders }
@@ -24,6 +28,13 @@ The following fields depend on the method type:
 - **Ozon pickup point** — first select an address, which determines the city, then **Choose a pickup point** with **Search by address or name**. Select the point again if you change the address or method. The recipient's phone number must be registered with Ozon; insurance is already included in the delivery cost.
 - **In establishment** — the same **Choose location** field. Opening the app from an iiko table QR code fills in the venue and table number automatically; you can change the number. The table association resets after an order, when you change the venue or fulfillment method, and when the association expires. Check the table number before checkout.
 - **Online** — no physical delivery or handover; no address or venue is needed.
+
+<figure markdown="1">
+
+![Selecting a store pickup location at checkout: Samara and Tolyatti are listed, with Tolyatti checked.](../../media/app/pickup-location.png){ width="600" loading=lazy }
+
+<figcaption>Example store pickup selection. The screenshot shows the Russian interface with demo names and addresses.</figcaption>
+</figure>
 
 If no fulfillment method is currently available, the checkout button says **Ordering is unavailable**.
 
@@ -120,6 +131,8 @@ Actions on the **Details** tab:
 | **Repeat** | **Completed**, **Canceled**, **Returned** | Adds the order's products to the cart and opens it; you must check out again |
 | **Pay online** | **Awaiting payment**, with online payment | Opens the provider's page |
 | **Support** | Alongside any button above, if the owner added contact details | Opens support contacts |
+
+If the cancellation button is no longer available or you need a refund, contact the store through **Profile → Support**, if the store has added its contacts. Include the order number and ask the store about the refund procedure and timing.
 
 !!! info "For store owners"
     Fulfillment, payment, and reservation setup: [store launch checklist](../crm/getting-started.md). See separate guides for [free delivery thresholds](../crm/free-delivery.md) and [order fields](../crm/custom-fields.md). For processing and cancellations, see [CRM orders](../crm/orders.md).

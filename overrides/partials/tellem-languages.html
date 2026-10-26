@@ -1,0 +1,17 @@
+<div class="md-header__option">
+  <div class="md-select">
+    <button class="md-header__button md-icon" aria-label="{{ lang.t('select.language') }}">
+      {% include ".icons/material/translate.svg" %}
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        {% for language in config.extra.tellem_languages %}
+          {% set translated = page.file.alternates.get(language.lang) if page and page.file.alternates is defined else none %}
+          <li class="md-select__item">
+            <a href="{{ (translated.url if translated else language.link) | url }}" hreflang="{{ language.lang }}" class="md-select__link tellem-language-link" target="_self">{{ language.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

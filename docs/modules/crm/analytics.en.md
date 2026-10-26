@@ -1,3 +1,7 @@
+---
+description: "Review sales, repeat purchases, RFM groups, cohorts, customer sources, and report exports in Tellem."
+---
+
 <span id="_1"></span>
 
 # Home and analytics { #home-and-analytics }

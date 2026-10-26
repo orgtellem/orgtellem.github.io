@@ -1,3 +1,7 @@
+---
+description: "Пример бесплатной доставки в Tellem: порог суммы заказа, проверка условий и показ покупателю."
+---
+
 <span id="free-delivery-to-increase-order-value"></span>
 
 <span id="_1"></span>

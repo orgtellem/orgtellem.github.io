@@ -1,3 +1,7 @@
+---
+description: "Investigate iiko errors in Tellem: orders at the till, access, terminal mapping, payments, products, and stop lists."
+---
+
 <span id="iiko-errors-a-managers-guide"></span>
 
 <span id="iiko"></span>

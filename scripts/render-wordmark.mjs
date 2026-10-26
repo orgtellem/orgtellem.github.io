@@ -12,12 +12,15 @@ assert.ok(values.workshop&&values.output,usage);
 const {chromium}=await import(pathToFileURL(join(resolve(values.workshop),'node_modules/playwright/index.mjs')).href);
 const work=resolve(values.output);await fs.mkdir(work,{recursive:true});
 const source=await fs.readFile(fileURLToPath(new URL('../docs/media/logo.svg',import.meta.url)),'utf8');
+const palette=await fs.readFile(fileURLToPath(new URL('../docs/css/extra.css',import.meta.url)),'utf8');
+const accent=palette.match(/--tellem-brand:\s*(#[0-9a-f]{6})\s*;/i)?.[1];
+assert.ok(accent,'Expected a six-digit --tellem-brand color in extra.css');
 const paths=[...source.matchAll(/<path d="([^"]+)"/g)].slice(0,9).map(match=>match[1]);
 assert.equal(paths.length,9);
 // Six glyphs: the fourth letter uses two paths; paths 7 and 8 form the accent.
 const letters=[[0],[1],[2],[3,4],[5],[6]];
 const themes={light:{paper:'#ffffff',ink:'#25212c',gif:'tellem-wordmark-fall.gif',svg:'tellem-wordmark.svg'},dark:{paper:'#1e2129',ink:'#f3f0fa',gif:'tellem-wordmark-fall-dark.gif',svg:'tellem-wordmark-dark.svg'}};
-const mark=(config)=>`<svg xmlns="http://www.w3.org/2000/svg" width="640" height="250" viewBox="0 0 640 250" role="img" aria-label="Tellem"><title>Tellem</title><rect width="640" height="250" fill="${config.paper}"/><g transform="translate(105 39.767857142857) scale(1.535714285714)">${letters.map((group,index)=>`<g data-letter="${index}" fill="${config.ink}">${group.map(id=>`<path d="${paths[id]}"/>`).join('')}</g>`).join('')}<g data-accent="" fill="#7333fc"><path d="${paths[7]}"/><path d="${paths[8]}"/></g></g></svg>`;
+const mark=(config)=>`<svg xmlns="http://www.w3.org/2000/svg" width="640" height="250" viewBox="0 0 640 250" role="img" aria-label="Tellem"><title>Tellem</title><rect width="640" height="250" fill="${config.paper}"/><g transform="translate(105 39.767857142857) scale(1.535714285714)">${letters.map((group,index)=>`<g data-letter="${index}" fill="${config.ink}">${group.map(id=>`<path d="${paths[id]}"/>`).join('')}</g>`).join('')}<g data-accent="" fill="${accent}"><path d="${paths[7]}"/><path d="${paths[8]}"/></g></g></svg>`;
 const run=(command,args)=>new Promise((yes,no)=>{const child=spawn(command,args,{stdio:['ignore','pipe','pipe']});const stdout=[],stderr=[];child.stdout.on('data',data=>stdout.push(data));child.stderr.on('data',data=>stderr.push(data));child.on('error',no);child.on('close',code=>code===0?yes(Buffer.concat(stdout)):no(new Error(Buffer.concat(stderr).toString())));});
 const browser=await chromium.launch({headless:true});
 const reports=[];

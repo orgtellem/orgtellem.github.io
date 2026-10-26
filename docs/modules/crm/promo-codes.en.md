@@ -1,3 +1,7 @@
+---
+description: "Set up promotions, discount schedules, birthday gifts, and promo codes, and check how Tellem combines discounts."
+---
+
 <span id="_1"></span>
 
 # Promotions and promo codes { #promotions-and-promo-codes }

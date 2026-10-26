@@ -1,3 +1,7 @@
+---
+description: "Подключение AI, Telegram, VK, iiko и пользовательских действий при смене статуса заказа в Tellem."
+---
+
 <span id="_1"></span>
 
 # Интеграции { #integrations }

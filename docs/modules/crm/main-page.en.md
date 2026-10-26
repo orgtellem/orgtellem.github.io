@@ -1,4 +1,5 @@
 ---
+description: "Set up home screen blocks and colors in the Tellem customer app."
 hide:
   - toc
 ---

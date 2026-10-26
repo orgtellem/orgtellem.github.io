@@ -1,3 +1,7 @@
+---
+description: "Configure Tellem general settings, support contacts, profile sections, and the installed app name and icon."
+---
+
 <span id="general-settings-support-and-pwa"></span>
 
 <span id="pwa"></span>

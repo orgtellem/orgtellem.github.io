@@ -1,3 +1,7 @@
+---
+description: "Create your first Tellem promo code step by step: select products, prices, and limits, then check it in the app."
+---
+
 <span id="_1"></span>
 
 # First promo code for a new store { #first-promo-code-for-a-new-store }

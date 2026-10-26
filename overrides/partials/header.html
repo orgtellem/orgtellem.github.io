@@ -76,8 +76,8 @@ IN THE SOFTWARE.
     {% if not config.theme.palette is mapping %}
       {% include "partials/javascripts/palette.html" %}
     {% endif %}
-    {% if config.extra.alternate %}
-      {% include "partials/alternate.html" %}
+    {% if config.extra.tellem_languages %}
+      {% include "partials/tellem-languages.html" %}
     {% endif %}
     {% if "material/search" in config.plugins %}
       {% set search = config.plugins["material/search"] | attr("config") %}

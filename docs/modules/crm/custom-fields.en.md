@@ -1,3 +1,7 @@
+---
+description: "Configure extra Tellem order and product fields: types, required values, customer visibility, and confidential data."
+---
+
 <span id="_1"></span>
 
 # Order fields { #order-fields }

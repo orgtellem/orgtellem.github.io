@@ -1,3 +1,7 @@
+---
+description: "Use Tellem marks and invitation links for ads and partners, associate customers, and compare purchases."
+---
+
 <span id="_1"></span>
 
 # Tags and invitation links { #tags-and-invitation-links }

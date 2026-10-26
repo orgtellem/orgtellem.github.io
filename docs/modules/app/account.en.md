@@ -1,3 +1,7 @@
+---
+description: "Sign in to the Tellem app, manage personal details and bonus points, merge accounts, review sessions, and install the app."
+---
+
 <span id="_1"></span>
 
 # Account, installation, and notifications { #account-installation-and-notifications }
@@ -84,9 +88,19 @@ Open **Active sessions** to check which devices are signed in. After confirmatio
 
 The installed app appears on your home screen and opens in a separate window. Select **Install app** in your profile; sign-in is not required.
 
-- In browsers that support installation, this item appears when the browser is ready to offer installation and opens the system dialog. If it is absent after you close the dialog, reload the page.
-- On iPhone and iPad, open the store in Safari: **Share → Add to Home Screen**. **Install app** in the profile shows these instructions.
-- The item is absent inside Telegram, in an already installed app, and in browsers without installation support. Open the store link in a supported browser.
+=== "Android and computer"
+
+    In a browser that supports installation, select **Install app** in your profile. This item appears when the browser is ready to offer installation and opens the system dialog. If it is absent after you close the dialog, reload the page.
+
+=== "iPhone and iPad"
+
+    Open the store in Safari: **Share → Add to Home Screen**. **Install app** in the profile shows these instructions.
+
+=== "Telegram"
+
+    The installation option is absent inside Telegram. Open the store link in an external browser and follow the instructions for your device.
+
+The installation option is absent in an already installed app and in browsers without installation support.
 
 ## Where to send { #channels }
 

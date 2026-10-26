@@ -1,4 +1,5 @@
 ---
+description: "Tellem guides for store owners and customers: launch a store, manage the catalog and orders, install the app, and get help."
 hide:
   - navigation
   - toc
@@ -22,15 +23,40 @@ hide:
 
 </div>
 
+<div class="grid cards tellem-home-audiences" markdown="1">
+
+- :material-store-outline: [**Store setup**](modules/crm/index.md)
+
+    First sign-in, catalog, and CRM tasks.
+
+- :material-shopping-outline: [**Shopping at a store**](modules/app/index.md)
+
+    Orders, profile, and app installation.
+
+</div>
+
+<div class="tellem-home-howto" markdown="1">
+
+## Quick tasks { #how-to }
+
+- [Add a product](modules/crm/products-and-categories.md#products)
+- [Place an order](modules/app/checkout.md)
+- [Install the app](modules/app/account.md#installation)
+- [Something is not working](troubleshooting.md)
+- [Connect Telegram](getting-started/bot-setup.md)
+- [Set up delivery](modules/crm/delivery.md)
+
+</div>
+
 <div id="_3"></div>
 
-## Where to start { #where-to-start .tellem-home-screen-reader }
+## Sections { #where-to-start }
 
 <div class="grid cards tellem-home-topics" markdown="1">
 
 - :material-compass-outline: **Getting started**
 
-    First sign-in and your store setup checklist.
+    CRM access and your first order.
 
     [Registration](getting-started/registration.md) · [Launch checklist](modules/crm/getting-started.md)
 
@@ -42,15 +68,15 @@ hide:
 
 - :material-package-variant-closed: **Catalog**
 
-    Categories, products, stores, and stock.
+    Products, stores, and stock.
 
-    [Products](modules/crm/products-and-categories.md) · [Stores](modules/crm/stores-and-delivery.md)
+    [Catalog](modules/crm/catalog.md) · [Import](modules/crm/catalog-import.md)
 
 - :material-ticket-percent-outline: **Marketing**
 
     Promotions, promo codes, and bonus points.
 
-    [Promotions](modules/crm/promo-codes.md) · [Bonuses](modules/crm/bonus-system.md)
+    [Marketing](modules/crm/marketing.md) · [First promo code](modules/crm/first-promo-code.md)
 
 - :material-tune-variant: **Settings and integrations**
 
@@ -60,20 +86,15 @@ hide:
 
 - :material-cellphone: **Customer app**
 
-    Choose products, use the cart, and place an order.
+    Cart, orders, and profile.
 
-    [Storefront](modules/app/ui-and-pages.md) · [Orders](modules/app/checkout.md)
+    [App guides](modules/app/index.md) · [Notifications](modules/app/customer-notifications.md)
 
 </div>
 
-<div class="tellem-home-howto" markdown="1">
+<div class="tellem-home-help" markdown="1">
 
-## How do I… { #how-to }
-
-- [How do I add a product?](modules/crm/products-and-categories.md#products)
-- [How do I connect Telegram?](getting-started/bot-setup.md)
-- [How do I create my first promo code?](modules/crm/first-promo-code.md)
-- [How do I set up delivery?](modules/crm/delivery.md)
+[Find a solution](troubleshooting.md) · [Contact support](https://t.me/tellem_tech_bot)
 
 </div>
 

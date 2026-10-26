@@ -1,3 +1,7 @@
+---
+description: "Create, save, and archive audiences in Tellem analytics and understand their usage restrictions."
+---
+
 <span id="_1"></span>
 
 # Segments { #segments }

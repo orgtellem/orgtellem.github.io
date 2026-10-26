@@ -1,3 +1,7 @@
+---
+description: "Создание Telegram-бота через BotFather: название, токен, аватар и переход к подключению в Tellem."
+---
+
 <span id="telegram-"></span>
 
 # Создание Telegram-бота { #creating-a-telegram-bot }

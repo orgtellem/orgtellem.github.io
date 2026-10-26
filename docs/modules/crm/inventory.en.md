@@ -1,3 +1,7 @@
+---
+description: "Change stock at Tellem stores, check availability in a chain, and remove products from sale."
+---
+
 <span id="_1"></span>
 
 # Inventory and removing products from sale { #inventory-and-removing-products-from-sale }

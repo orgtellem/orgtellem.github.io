@@ -1,23 +1,50 @@
-/* Фирменные цвета Tellem (primary приложения: #7333FC) */
+/* Palette from the published tellem.tech site; use its deeper blue for text contrast. */
 :root {
+  --tellem-brand: #1473ff;
+  --tellem-brand-deep: #0755c9;
   --tellem-surface-bg: #fff;
-  --tellem-surface-fg: #24232b;
-  --tellem-surface-muted: #676572;
-  --tellem-surface-line: #e7e6ed;
-  --md-primary-fg-color: #7333fc;
-  --md-primary-fg-color--light: #8f5dff;
-  --md-primary-fg-color--dark: #5c29cc;
-  --md-accent-fg-color: #5c29cc;
+  --tellem-surface-fg: #07182f;
+  --tellem-surface-muted: #526985;
+  --tellem-surface-line: #d6e1ef;
+  --tellem-soft-bg: #f2f6fc;
+  --md-primary-fg-color: var(--tellem-brand-deep);
+  --md-primary-fg-color--light: var(--tellem-brand);
+  --md-primary-fg-color--dark: #07182f;
+  --md-accent-fg-color: var(--tellem-brand-deep);
+  --md-default-fg-color: var(--tellem-surface-fg);
+  --md-default-fg-color--light: var(--tellem-surface-muted);
+  --md-default-fg-color--lighter: #64758b;
+  --md-default-bg-color: var(--tellem-surface-bg);
+  --md-typeset-a-color: var(--tellem-brand-deep);
+  --md-code-bg-color: #edf4ff;
+  --md-footer-bg-color: #f2f6fc;
+  --md-footer-bg-color--dark: #eaf2ff;
+  --md-footer-fg-color: var(--tellem-surface-fg);
+  --md-footer-fg-color--light: var(--tellem-surface-muted);
+  --md-footer-fg-color--lighter: #64758b;
 }
 
 [data-md-color-scheme="slate"] {
   --tellem-surface-bg: #1e2129;
-  --tellem-surface-fg: #f0eff5;
-  --tellem-surface-muted: #b7b5c3;
-  --tellem-surface-line: #3c3f48;
-  --md-primary-fg-color: #7333fc;
-  --md-accent-fg-color: #a687ff;
-  --md-typeset-a-color: #a687ff;
+  --tellem-surface-fg: #d9e9ff;
+  --tellem-surface-muted: #bacbe1;
+  --tellem-surface-line: #3c4e65;
+  --tellem-soft-bg: #263347;
+  --md-primary-fg-color: #9dbfff;
+  --md-primary-fg-color--light: #b7d1ff;
+  --md-primary-fg-color--dark: #0755c9;
+  --md-accent-fg-color: #b7d1ff;
+  --md-default-fg-color: var(--tellem-surface-fg);
+  --md-default-fg-color--light: var(--tellem-surface-muted);
+  --md-default-fg-color--lighter: #9bb0c9;
+  --md-default-bg-color: var(--tellem-surface-bg);
+  --md-typeset-a-color: #9dbfff;
+  --md-code-bg-color: #263347;
+  --md-footer-bg-color: #192638;
+  --md-footer-bg-color--dark: #162133;
+  --md-footer-fg-color: var(--tellem-surface-fg);
+  --md-footer-fg-color--light: var(--tellem-surface-muted);
+  --md-footer-fg-color--lighter: #9bb0c9;
 }
 
 .md-header,
@@ -43,7 +70,7 @@
   display: inline-flex;
   align-items: center;
   gap: .3rem;
-  font-size: .65rem;
+  font-size: .75rem;
   line-height: 1.2;
   white-space: nowrap;
 }
@@ -74,6 +101,11 @@
 .md-tabs__link--active,
 .md-tabs__item--active .md-tabs__link {
   color: var(--md-typeset-a-color);
+}
+
+.md-typeset :is(a, button, summary):focus-visible {
+  outline: 2px solid var(--md-typeset-a-color);
+  outline-offset: 3px;
 }
 
 .md-typeset a:not(.md-button):not(.headerlink) {

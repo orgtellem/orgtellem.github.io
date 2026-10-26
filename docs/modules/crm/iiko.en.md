@@ -1,3 +1,7 @@
+---
+description: "Connect iiko to Tellem, map terminals and payments, import a menu, and set up table QR codes and stop lists."
+---
+
 # iiko { #iiko }
 
 Connect iiko to send orders to the checkout, select tables by QR code, and hide unavailable dishes.

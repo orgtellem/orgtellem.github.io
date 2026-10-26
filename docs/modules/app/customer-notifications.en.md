@@ -1,3 +1,7 @@
+---
+description: "Connect Tellem notifications in Telegram, VK, email, and on your device, grant permissions, and manage mailings."
+---
+
 <span id="_1"></span>
 
 # Customer notifications { #customer-notifications }

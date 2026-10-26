@@ -1,3 +1,7 @@
+---
+description: "Connect a Telegram bot to Tellem and set up the welcome message, buttons, and Mini App product links."
+---
+
 # Telegram { #telegram }
 
 Connect a bot so customers can sign in through Telegram and open your store inside it as a Mini App. The bot also sends [customer messages](../modules/app/customer-notifications.md) and [employee notifications](../modules/crm/crm-notifications.md).

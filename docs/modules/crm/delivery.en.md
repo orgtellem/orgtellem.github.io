@@ -1,3 +1,7 @@
+---
+description: "Configure Tellem fulfillment and free delivery, connect carriers, and manage shipments."
+---
+
 <span id="_1"></span>
 
 # Delivery { #delivery }
@@ -54,47 +58,57 @@ At checkout, customers see how much more to add for free delivery. Each method h
 
 [Example: use free delivery to increase order value](free-delivery.md).
 
-<span id="_3"></span>
+## Connect a carrier { #carrier-setup }
 
-## CDEK { #cdek }
+=== "CDEK"
 
-On the **Integration** tab, enter the **Account** and **Secret password** from your CDEK account and select a **CDEK rate**, such as **Parcel — warehouse to warehouse (136)**. **Refresh rates** reloads the list. Warehouse means a CDEK point; door means an address. The rate determines the method's type: door delivery is **Delivery**, and delivery to a pickup point is **Pickup**. Parcel locker rates are not supported. Automatic registration works only for rates from a door or warehouse to a door or pickup point.
+    <span id="_3"></span>
 
-**Sender postal code** is required. For automatic shipments, also complete:
+    ### CDEK { #cdek }
 
-- **Origin city**: the full city name.
-- **Sender name** and **Sender phone**.
-- For warehouse-origin rates, **CDEK origin point**, where you hand over the parcel. This is not the customer's pickup point.
-- For door-origin rates, **Full sender address**.
+    On the **Integration** tab, enter the **Account** and **Secret password** from your CDEK account and select a **CDEK rate**, such as **Parcel — warehouse to warehouse (136)**. **Refresh rates** reloads the list. Warehouse means a CDEK point; door means an address. The rate determines the method's type: door delivery is **Delivery**, and delivery to a pickup point is **Pickup**. Parcel locker rates are not supported. Automatic registration works only for rates from a door or warehouse to a door or pickup point.
 
-These details are not needed to calculate a rate. If they are missing after payment, the reason appears under **Delivery information**.
+    **Sender postal code** is required. For automatic shipments, also complete:
 
-<span id="_4"></span>
+    - **Origin city**: the full city name.
+    - **Sender name** and **Sender phone**.
+    - For warehouse-origin rates, **CDEK origin point**, where you hand over the parcel. This is not the customer's pickup point.
+    - For door-origin rates, **Full sender address**.
 
-## Yandex { #yandex }
+    These details are not needed to calculate a rate. If they are missing after payment, the reason appears under **Delivery information**.
 
-Connect your company and accept the offer in your Yandex Delivery account ([Yandex guide](https://yandex.ru/support/delivery-profile/ru/other-day/how-to-join)). A successful rate check in CRM does not mean shipment creation is available.
+=== "Yandex"
 
-Enter the **API token** for **Across Russia**, using the selected environment, then select an **Origin station**: a warehouse or acceptance point. After entering the token, use **Refresh stations**. **Packaging weight, g** is added to the product weight.
+    <span id="_4"></span>
 
-A Yandex shipment does not call a courier. If you use your own warehouse, configure dispatches in your Yandex account.
+    ### Yandex { #yandex }
 
-## Ozon { #ozon }
+    Connect your company and accept the offer in your Yandex Delivery account ([Yandex guide](https://yandex.ru/support/delivery-profile/ru/other-day/how-to-join)). A successful rate check in CRM does not mean shipment creation is available.
 
-1. In Ozon Delivery for Business, create a delivery method and note its identifier.
-2. In the Ozon private applications section, create an application with `delivery-api.delivery`, `delivery-api.delivery-point`, and `delivery-api.order` access. Copy its Client ID and Client Secret.
-3. Select **New method → Ozon** and complete **Client ID**, **Client secret**, and **Shipping method ID**. When saving, CRM requests a token from Ozon; invalid credentials cannot be saved. Each dispatch point needs its own configuration.
-4. For **Check connection**, complete **Test recipient phone** with a number registered with Ozon, and **Test pickup point ID**. The sample calculation uses the default box; it does not confirm the final price for a real order.
+    Enter the **API token** for **Across Russia**, using the selected environment, then select an **Origin station**: a warehouse or acceptance point. After entering the token, use **Refresh stations**. **Packaging weight, g** is added to the product weight.
 
-The customer needs a Russian phone number registered with Ozon. Frequent checks of different numbers temporarily make the method unavailable. An order cannot be placed with Ozon until the calculation succeeds. Pickup points take time to load after connection: customers may see **The Ozon pickup point list is loading. Try again in a minute.** Only pickup points are available; couriers and parcel lockers are not supported. The price includes delivery and insurance based on the product total. Ozon's final rate at acceptance may differ from the estimate.
+    A Yandex shipment does not call a courier. If you use your own warehouse, configure dispatches in your Yandex account.
 
-<span id="_5"></span>
+=== "Ozon"
 
-## Russian Post { #russian-post }
+    ### Ozon { #ozon }
 
-Only price and delivery time calculation through Russian Post's public calculator is supported. It uses the recipient's postal code, so the customer must include that code in their address. Russian Post pickup points are not available.
+    1. In Ozon Delivery for Business, create a delivery method and note its identifier.
+    2. In the Ozon private applications section, create an application with `delivery-api.delivery`, `delivery-api.delivery-point`, and `delivery-api.order` access. Copy its Client ID and Client Secret.
+    3. Select **New method → Ozon** and complete **Client ID**, **Client secret**, and **Shipping method ID**. When saving, CRM requests a token from Ozon; invalid credentials cannot be saved. Each dispatch point needs its own configuration.
+    4. For **Check connection**, complete **Test recipient phone** with a number registered with Ozon, and **Test pickup point ID**. The sample calculation uses the default box; it does not confirm the final price for a real order.
 
-Complete **Calculation object code** (the shipment type in the calculator) and **Sender postal code**. **Declared value** provides insurance: a fixed amount, the order amount, or a percentage of it, capped by **Maximum declared value**. The object code must support declared value. When insurance is enabled, CRM checks this with Russian Post and will not save an unsupported configuration.
+    The customer needs a Russian phone number registered with Ozon. Frequent checks of different numbers temporarily make the method unavailable. An order cannot be placed with Ozon until the calculation succeeds. Pickup points take time to load after connection: customers may see **The Ozon pickup point list is loading. Try again in a minute.** Only pickup points are available; couriers and parcel lockers are not supported. The price includes delivery and insurance based on the product total. Ozon's final rate at acceptance may differ from the estimate.
+
+=== "Russian Post"
+
+    <span id="_5"></span>
+
+    ### Russian Post { #russian-post }
+
+    Only price and delivery time calculation through Russian Post's public calculator is supported. It uses the recipient's postal code, so the customer must include that code in their address. Russian Post pickup points are not available.
+
+    Complete **Calculation object code** (the shipment type in the calculator) and **Sender postal code**. **Declared value** provides insurance: a fixed amount, the order amount, or a percentage of it, capped by **Maximum declared value**. The object code must support declared value. When insurance is enabled, CRM checks this with Russian Post and will not save an unsupported configuration.
 
 <span id="_6"></span>
 

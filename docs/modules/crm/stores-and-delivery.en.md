@@ -1,3 +1,7 @@
+---
+description: "Set up Tellem stores and chains, addresses, fulfillment and payment methods, links, and QR codes."
+---
+
 <span id="_1"></span>
 
 # Stores { #stores }
@@ -30,6 +34,13 @@ Enable the required methods in **Manage fulfillment methods**. Create missing on
 ## Payment methods { #payment-methods }
 
 Under **Manage payment methods**, enable services created in [Settings → Payments](payment-providers.md). New chains have **Cash on receipt** and **Card on receipt** enabled. Two methods of the same type, such as two YooKassa configurations, cannot be enabled together.
+
+<figure markdown="1">
+
+![Enabled methods in a store chain: pickup and door courier delivery under fulfillment, and cash on receipt under payment.](../../media/crm/basics/store-methods.png){ loading=lazy }
+
+<figcaption>Example chain settings: enable fulfillment and payment methods separately. The screenshot shows the Russian interface.</figcaption>
+</figure>
 
 <span id="qr-code-and-link"></span>
 

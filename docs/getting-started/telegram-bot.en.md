@@ -1,3 +1,7 @@
+---
+description: "Create a Telegram bot with BotFather: choose a name, get a token, add an avatar, and connect it to Tellem."
+---
+
 <span id="telegram-"></span>
 
 # Creating a Telegram bot { #creating-a-telegram-bot }

@@ -1,3 +1,7 @@
+---
+description: "Prepare and send Tellem mailings, choose an audience, check available channels, and review the result."
+---
+
 <span id="_1"></span>
 
 # Mailings { #mailings }

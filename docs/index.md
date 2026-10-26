@@ -1,4 +1,5 @@
 ---
+description: "Инструкции для владельцев магазинов и покупателей Tellem: запуск магазина, каталог, заказы, установка приложения и помощь."
 hide:
   - navigation
   - toc
@@ -22,15 +23,40 @@ hide:
 
 </div>
 
+<div class="grid cards tellem-home-audiences" markdown="1">
+
+- :material-store-outline: [**Настройка магазина**](modules/crm/index.md)
+
+    Первый вход, каталог и работа в CRM.
+
+- :material-shopping-outline: [**Покупка в магазине**](modules/app/index.md)
+
+    Заказы, профиль и установка приложения.
+
+</div>
+
+<div class="tellem-home-howto" markdown="1">
+
+## Быстрые действия { #how-to }
+
+- [Добавить товар](modules/crm/products-and-categories.md#products)
+- [Оформить заказ](modules/app/checkout.md)
+- [Установить приложение](modules/app/account.md#installation)
+- [Что-то не работает](troubleshooting.md)
+- [Подключить Telegram](getting-started/bot-setup.md)
+- [Настроить доставку](modules/crm/delivery.md)
+
+</div>
+
 <div id="_3"></div>
 
-## С чего начать { #where-to-start .tellem-home-screen-reader }
+## Разделы { #where-to-start }
 
 <div class="grid cards tellem-home-topics" markdown="1">
 
 - :material-compass-outline: **Начало работы**
 
-    Первый вход и порядок настройки магазина.
+    Доступ в CRM и первый заказ.
 
     [Регистрация](getting-started/registration.md) · [Чек-лист запуска](modules/crm/getting-started.md)
 
@@ -42,15 +68,15 @@ hide:
 
 - :material-package-variant-closed: **Каталог**
 
-    Категории, товары, магазины и наличие.
+    Товары, магазины и наличие.
 
-    [Товары](modules/crm/products-and-categories.md) · [Магазины](modules/crm/stores-and-delivery.md)
+    [Каталог](modules/crm/catalog.md) · [Импорт](modules/crm/catalog-import.md)
 
 - :material-ticket-percent-outline: **Маркетинг**
 
-    Акции, промокоды и бонусы покупателям.
+    Акции, промокоды и бонусы.
 
-    [Акции](modules/crm/promo-codes.md) · [Бонусы](modules/crm/bonus-system.md)
+    [Маркетинг](modules/crm/marketing.md) · [Первый промокод](modules/crm/first-promo-code.md)
 
 - :material-tune-variant: **Настройки и интеграции**
 
@@ -60,20 +86,15 @@ hide:
 
 - :material-cellphone: **Клиентское приложение**
 
-    Выбор товаров, корзина и оформление заказа.
+    Корзина, заказы и профиль.
 
-    [Витрина](modules/app/ui-and-pages.md) · [Заказы](modules/app/checkout.md)
+    [Приложение](modules/app/index.md) · [Уведомления](modules/app/customer-notifications.md)
 
 </div>
 
-<div class="tellem-home-howto" markdown="1">
+<div class="tellem-home-help" markdown="1">
 
-## Как… { #how-to }
-
-- [Как добавить товар?](modules/crm/products-and-categories.md#products)
-- [Как подключить Telegram?](getting-started/bot-setup.md)
-- [Как создать первый промокод?](modules/crm/first-promo-code.md)
-- [Как настроить доставку?](modules/crm/delivery.md)
+[Найти решение проблемы](troubleshooting.md) · [Написать в поддержку](https://t.me/tellem_tech_bot)
 
 </div>
 

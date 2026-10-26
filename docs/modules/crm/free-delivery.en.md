@@ -1,3 +1,7 @@
+---
+description: "Set up a free delivery example in Tellem: order value threshold, condition checks, and the customer view."
+---
+
 <span id="free-delivery-to-increase-order-value"></span>
 
 <span id="_1"></span>

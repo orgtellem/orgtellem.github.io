@@ -9,9 +9,11 @@ nav:
       - Чек-лист запуска магазина: modules/crm/getting-started.md
       - Создание Telegram-бота: getting-started/telegram-bot.md
   - CRM:
+      - modules/crm/index.md
       - Заказы: modules/crm/orders.md
       - Клиенты: modules/crm/clients.md
       - Каталог:
+          - modules/crm/catalog.md
           - Магазины: modules/crm/stores-and-delivery.md
           - Категории и товары: modules/crm/products-and-categories.md
           - Объединение товаров по цвету: modules/crm/product-colors.md
@@ -21,6 +23,7 @@ nav:
       - Главная и аналитика: modules/crm/analytics.md
       - Сегменты: modules/crm/segments.md
       - Маркетинг:
+          - modules/crm/marketing.md
           - Рассылки: modules/crm/mass-mailings.md
           - Акции и промокоды: modules/crm/promo-codes.md
           - Первый промокод: modules/crm/first-promo-code.md
@@ -28,22 +31,24 @@ nav:
           - Бонусы: modules/crm/bonus-system.md
           - Метки: modules/crm/utm-marks.md
       - Настройки:
-          - Основные, Поддержка, PWA: modules/crm/general-settings.md
+          - Основные: modules/crm/general-settings.md
           - Уведомления: modules/crm/crm-notifications.md
           - Оплата: modules/crm/payment-providers.md
           - Доставка: modules/crm/delivery.md
-          - Поля Заказа: modules/crm/custom-fields.md
+          - Поля заказа: modules/crm/custom-fields.md
       - Интеграции:
-          - AI и пользовательские: modules/crm/integrations.md
+          - Другие интеграции: modules/crm/integrations.md
           - Telegram: getting-started/bot-setup.md
           - VK: modules/crm/vk.md
           - iiko: modules/crm/iiko.md
           - Ошибки iiko: modules/crm/iiko-errors.md
   - Клиентское приложение:
+      - modules/app/index.md
       - Витрина и корзина: modules/app/ui-and-pages.md
       - Оформление и заказы: modules/app/checkout.md
-      - Аккаунт, установка и уведомления: modules/app/account.md
+      - Аккаунт и установка: modules/app/account.md
       - Уведомления покупателю: modules/app/customer-notifications.md
+  - Помощь: troubleshooting.md
   - Правовые документы:
       - Все документы: legal/index.md
       - Политика обработки персональных данных: legal/personal-data-policy/index.md
@@ -61,6 +66,9 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.path
     - navigation.top
     - navigation.footer
@@ -68,9 +76,13 @@ theme:
     - toc.follow
     - search.highlight
     - search.suggest
+    - search.share
+    - content.tabs.link
     - content.code.copy
   palette:
     - media: "(prefers-color-scheme)"
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-auto
         name: Как в системе
@@ -98,6 +110,8 @@ plugins:
   - search:
       lang: ru
   - i18n:
+      # Our selector supports the root locale and /en/ with one shared sitemap.
+      reconfigure_material: false
       languages:
         - locale: ru
           name: Русский
@@ -133,19 +147,20 @@ plugins:
             Бонусы: Bonuses
             Метки: Marks
             Настройки: Settings
-            Основные, Поддержка, PWA: General, Support, PWA
+            Основные: General
             Уведомления: Notifications
             Оплата: Payments
             Доставка: Delivery
-            Поля Заказа: Order Fields
+            Поля заказа: Order fields
             Интеграции: Integrations
-            AI и пользовательские: AI and custom integrations
+            Другие интеграции: Other integrations
             Ошибки iiko: iiko errors
             Клиентское приложение: Customer app
             Витрина и корзина: Storefront and cart
             Оформление и заказы: Checkout and orders
-            Аккаунт, установка и уведомления: Account, installation, and notifications
+            Аккаунт и установка: Account and installation
             Уведомления покупателю: Customer notifications
+            Помощь: Help
             Правовые документы: Legal documents
             Все документы: All documents
             Политика обработки персональных данных: Personal Data Processing Policy
@@ -155,8 +170,11 @@ plugins:
             Согласие при отправке заявки: Request consent
             Лицензионный договор-оферта: License Agreement (Public Offer)
           theme:
+            language: en
             palette:
               - media: "(prefers-color-scheme)"
+                primary: custom
+                accent: custom
                 toggle:
                   icon: material/brightness-auto
                   name: Use system theme
@@ -214,6 +232,11 @@ plugins:
       enabled: !ENV [ENABLE_SOCIAL_CARDS, false]
   - minify:
       minify_html: true
+  - privacy
+  - glightbox:
+      auto_caption: true
+      effect: none
+      slide_effect: none
 
 markdown_extensions:
   - admonition
@@ -223,6 +246,8 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
@@ -250,6 +275,13 @@ validation:
 
 extra:
   generator: false
+  tellem_languages:
+    - name: Русский
+      link: /
+      lang: ru
+    - name: English
+      link: /en/
+      lang: en
   social:
     - icon: fontawesome/brands/telegram
       link: https://t.me/tellem_tech_bot

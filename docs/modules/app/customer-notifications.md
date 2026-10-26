@@ -1,3 +1,7 @@
+---
+description: "Подключение уведомлений Tellem в Telegram, VK, e-mail и на устройстве, разрешения и управление рассылками."
+---
+
 <span id="_1"></span>
 
 # Уведомления покупателю { #customer-notifications }

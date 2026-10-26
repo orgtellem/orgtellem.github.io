@@ -1,3 +1,7 @@
+---
+description: "Configure Tellem employee notifications: recipients, stores, channels, and customer message text."
+---
+
 <span id="_1"></span>
 
 # Notifications { #notifications }

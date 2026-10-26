@@ -1,3 +1,7 @@
+---
+description: "Register, create a subscription, get CRM access, and complete your first store settings in Tellem."
+---
+
 <span id="_1"></span>
 
 # Connection and first sign-in { #connection-and-first-sign-in }
@@ -15,7 +19,7 @@ Create a subscription and get access to the CRM, then set up your store.
 **Open CRM** and **Open website** appear on the subscription card before the store is ready. The addresses work after payment and preparation. If you close the payment page, click **Renew** to return to it.
 
 !!! note "CRM access"
-    The Tellem team will send your CRM sign-in details. Contact [support](../index.md) to add employees as well.
+    The Tellem team will send your CRM sign-in details. Contact [Tellem support](https://t.me/tellem_tech_bot) to add employees as well.
 
 <span id="crm"></span>
 
@@ -23,7 +27,7 @@ Create a subscription and get access to the CRM, then set up your store.
 
 Open `https://<subdomain>.tellem.store/crm` (or **Open CRM** in your personal account), enter your **Login** and **Password**, and click **Sign in**.
 
-There is no password recovery button. Contact support if you lose your password.
+There is no password recovery button. Contact [Tellem support](https://t.me/tellem_tech_bot) if you lose your password.
 
 To change your password, open **the user menu in the header → Profile → Password**, enter the new password and confirmation, then click **Save**.
 

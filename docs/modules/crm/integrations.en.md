@@ -1,3 +1,7 @@
+---
+description: "Connect AI, Telegram, VK, iiko, and custom actions on order status changes in Tellem."
+---
+
 <span id="_1"></span>
 
 # Integrations { #integrations }

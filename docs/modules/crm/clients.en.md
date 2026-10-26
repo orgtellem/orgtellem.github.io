@@ -1,3 +1,7 @@
+---
+description: "Find customers and review contacts, order history, bonus accounts, and birthdays in Tellem CRM."
+---
+
 <span id="_1"></span>
 
 # Customers { #customers }

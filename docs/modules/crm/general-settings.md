@@ -1,3 +1,7 @@
+---
+description: "Основные настройки Tellem, контакты поддержки, разделы профиля и оформление установленного приложения."
+---
+
 <span id="general-settings-support-and-pwa"></span>
 
 <span id="pwa"></span>

@@ -1,3 +1,7 @@
+---
+description: "Connect a VK community to Tellem: access key, messaging permission, notifications, and mailings."
+---
+
 <span id="vk-connect-a-community"></span>
 
 # VK: connect a community { #vk }

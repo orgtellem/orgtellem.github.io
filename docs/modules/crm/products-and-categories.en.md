@@ -1,3 +1,7 @@
+---
+description: "Create categories, products, and variants, add images, use the archive, and control catalog visibility in Tellem."
+---
+
 <span id="_1"></span>
 
 # Categories and products { #categories-and-products }
@@ -34,6 +38,13 @@ In **Catalog → Products → Create**, choose the appropriate method:
 | “Add from iiko” | The product must be sent to iiko; an [integration](iiko.md#products) is required |
 
 For a simple product, enter a category and sale price under “Main”. You can add up to 6 photos of up to 10 MB each; a 1:1 ratio is recommended. Buyers see the product's characteristics in its card. Set quantities by store under “Assortment”; CRM offers to configure zero quantities on the first save.
+
+<figure markdown="1">
+
+![Main fields of a simple product: Green tea, Tea category, a price of RUB 250.00, and article code TEA-001.](../../media/crm/basics/product-fields.png){ loading=lazy }
+
+<figcaption>Example main fields of a product. The screenshot shows the Russian interface and demo data.</figcaption>
+</figure>
 
 Enter prices in the store currency with its allowed number of decimal places. For example, a ruble price can be `79.90`. CRM rejects excess significant decimal places when saving a price.
 

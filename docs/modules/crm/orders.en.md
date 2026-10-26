@@ -1,3 +1,7 @@
+---
+description: "Check payment and order contents, allocate products, manage statuses, cancel orders, and record returns in Tellem CRM."
+---
+
 <span id="_1"></span>
 <span id="list"></span>
 
@@ -42,6 +46,13 @@ In “Payment information”, check the method and online payment state. CDEK an
 
 During distribution, select warehouses for all items, then complete the action. If the sales area, meaning the order's store or chain, has one open warehouse, acceptance distributes products and immediately sets “Getting ready”, including for “Online” fulfillment.
 
+<figure markdown="1">
+
+![Allocating one cappuccino: 1 unit selected for the Samara warehouse, 0 for Tolyatti, and 0 remaining to allocate.](../../media/crm/basics/order-distribution.png){ loading=lazy }
+
+<figcaption>Example warehouse selection for one unit before completing allocation. The screenshot shows the Russian interface.</figcaption>
+</figure>
+
 If an “Online” order remains “Pending processing”, it can be completed without distribution. For CDEK and Yandex Delivery, carrier acceptance and delivery to the recipient set “In delivery” and “Completed”.
 
 <span id="_5"></span>
@@ -66,6 +77,9 @@ Before completion, choose “Cancel order”; after completion, choose “Return
 With one open warehouse in the sales area, confirmation returns products and sets “Canceled” or “Returned”. With several, choose where to return items in the return window and save.
 
 “Canceled”, “Returned”, and “Payment error” are final statuses with no action buttons.
+
+!!! warning "Refunding payment"
+    Changing the status to **Canceled** or **Returned** does not itself refund the customer. For a paid order, arrange the refund separately using the original payment method; for an online payment, check the procedure and result with the payment provider. The order status does not confirm that money has been refunded.
 
 <span id="notifications"></span>
 

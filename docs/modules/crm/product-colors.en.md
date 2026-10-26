@@ -1,3 +1,7 @@
+---
+description: "Group Tellem products by color: configure a template, variants, stock, and customer color selection."
+---
+
 <span id="_1"></span>
 
 # Combining two products by color { #combining-two-products-by-color }
