@@ -5,7 +5,7 @@ import {spawn} from 'node:child_process';
 import {parseArgs} from 'node:util';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 
-const usage='Usage: node scripts/render-wordmark.mjs --workshop ../tellem-content-workshop --output site/wordmark-rebuild';
+const usage='Usage: node scripts/render-wordmark.mjs --workshop ../tellem-workshop --output site/wordmark-rebuild';
 const {values}=parseArgs({options:{workshop:{type:'string'},output:{type:'string'},help:{type:'boolean'}}});
 if(values.help){console.log(usage);process.exit(0);}
 assert.ok(values.workshop&&values.output,usage);

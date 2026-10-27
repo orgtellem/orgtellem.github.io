@@ -50,7 +50,9 @@ CI also checks that every page has a translation. Link preview cards are enabled
 
 ## Product screenshots and GIFs
 
-Tellem team members can use [Content Workshop](https://github.com/orgtellem/tellem-content-workshop) to create product screenshots, GIFs and short videos for documentation and Telegram. A coding agent captures the real interface and prepares the material; you can edit its text in a local browser. The workshop repository requires team access. Its README covers setup and use.
+Tellem team members can use [Content Workshop](https://github.com/tellem-tech/tellem-workshop) to create product screenshots, GIFs and short videos for documentation and Telegram. A coding agent captures the real interface and prepares the material; you can edit its text in a local browser. The workshop repository requires team access. Its README covers setup and use.
+
+For `scripts/render-wordmark.mjs`, pass the current workshop checkout with `--workshop`. Use `--workshop ../tellem-content-workshop` while local directories keep their old names, then `--workshop ../tellem-workshop` after the directory rename.
 
 Update both language pages together, with matching actions and captions. Keep screenshots truthful; identify shared Russian UI in the English instructions. An English GIF can use `.en.gif` with translated explanations and the same recording. Check the built image URLs and contents: the localization plugin publishes `home-screen-editor.en.gif` as `/en/media/crm/home-screen-editor.gif`, while the Russian file uses `/media/crm/home-screen-editor.gif`. Shared home-page CSS loads from `/css/home.css` in both languages, so its relative logo URLs resolve under `/media/`.
 

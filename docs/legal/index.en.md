@@ -15,4 +15,4 @@ The Tellem License Agreement governs customers' use of Tellem. Sellers publish t
 
 ## Previous versions { #versions }
 
-The site publishes the current versions. Earlier versions are available in the [document change history](https://github.com/orgtellem/orgtellem.github.io/commits/master/docs/legal/).
+The site publishes the current versions. Earlier versions are available in the [document change history](https://github.com/tellem-tech/tellem-docs/commits/master/docs/legal/).

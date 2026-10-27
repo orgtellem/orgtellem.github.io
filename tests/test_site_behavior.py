@@ -62,7 +62,7 @@ class SiteBehaviorTest(unittest.TestCase):
                 target = urlsplit(link)
                 query = parse_qs(target.query)
                 self.assertEqual(target.netloc, "github.com")
-                self.assertEqual(target.path, "/orgtellem/orgtellem.github.io/issues/new")
+                self.assertEqual(target.path, "/tellem-tech/tellem-docs/issues/new")
                 self.assertIn(canonical, query["body"][0])
                 self.assertIn(page.title, query["title"][0])
                 self.assertIn("Report an error" if language == "en" else "Сообщить об ошибке", html)

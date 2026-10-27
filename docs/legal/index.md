@@ -15,4 +15,4 @@
 
 ## Прежние редакции { #versions }
 
-На сайте опубликованы действующие редакции. Прежние версии доступны в [истории изменений документов](https://github.com/orgtellem/orgtellem.github.io/commits/master/docs/legal/).
+На сайте опубликованы действующие редакции. Прежние версии доступны в [истории изменений документов](https://github.com/tellem-tech/tellem-docs/commits/master/docs/legal/).
