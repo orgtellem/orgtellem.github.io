@@ -8,21 +8,22 @@ description: "Configure Tellem employee notifications: recipients, stores, chann
 
 Configure order and stock messages for staff, and add text to customer notifications.
 
-Open **Settings → Notifications** and select a notification from the list on the right.
+Open **Settings → Notifications**. On the **Staff** tab, choose an **Event**. On the **Customers** tab,
+customize order status messages.
 
 <span id="for-sellers"></span>
 
 <span id="_2"></span>
 
-## For sellers { #seller-notifications }
+## For staff { #seller-notifications }
 
 | Notification | When it is sent |
 |---|---|
-| Low product quantity | Stock changes and falls below **If less than**; archived products are excluded |
+| Low product quantity | Stock changes and falls below **Stock below**; archived products are excluded |
 | New order notification | An order is created as **New** or **Awaiting payment**, before payment |
 | Canceled order notification | A customer or staff member cancels an order |
 | Overdue payment notification | An unpaid order is canceled or enters **Payment error** because the deadline expired or payment was declined |
-| Unread order reminder | At the configured interval while **New** orders remain; the **If less than** field sets the interval in minutes |
+| Unread order reminder | At the configured interval while **New** orders remain; **Repeat after** sets the interval in minutes |
 | iiko errors | An order, status update, or stop list could not be transferred; the message includes [next steps](iiko-errors.md) |
 
 Set the payment deadline in the [payment method](payment-providers.md).
@@ -33,16 +34,30 @@ Set the payment deadline in the [payment method](payment-providers.md).
 
 ## Recipients { #seller-recipients }
 
-1. Under **Notification recipients**, click **Add** and select the staff member's account from the customer list. A Telegram account is not required.
-2. Choose a **Channel**: **All channels** uses all available channels; **Automatic** chooses one, preferring Telegram, then email. You can also choose a specific channel. Contact details come from the customer card.
+1. Under **Recipients**, click **Add** and select the staff member's account from the customer list. A Telegram account is not required.
+2. Choose a delivery method in **Send via**. Contact details come from the customer card.
 3. Choose the **Stores** whose notifications the staff member needs. Without a selected store, messages will not arrive. Low stock notifications do not have this field.
 
-Settings save immediately. Telegram requires a linked account and an enabled [bot integration](../../getting-started/bot-setup.md). Email requires mail delivery to be configured on the platform. Unavailable channels are skipped.
+On a computer, the fields appear in the recipient's row. On a phone, tap **Settings** next to the recipient,
+edit the fields in the dialog, and tap **Save**. **Cancel** and closing the dialog keep the previous settings.
 
-!!! warning "Disabling a notification"
-    The enable switch for seller notifications controls Telegram delivery; emails to selected recipients continue.
+To remove a recipient, click the trash icon in their row on a computer, or choose **Settings → Remove**
+on a phone. Confirm removal. The staff member stops receiving messages only for the selected event;
+their settings for other events stay unchanged.
 
-**iiko errors** has no separate switch: it is enabled while at least one iiko connection is saved. It shares recipients with the connection wizard's **Notifications** step. Without recipients, nobody receives a message; if the affected venue is unknown, all selected staff receive it.
+| Send via | Result |
+|---|---|
+| Telegram | Only in Telegram |
+| Email | Only by email |
+| Telegram and email | Both channels, if available |
+| Automatic | One available channel, preferring Telegram, then email |
+| Do not send | Pause messages for this recipient and keep their settings |
+
+On a computer, changes in the row save immediately. Telegram requires a linked account and an enabled [bot integration](../../getting-started/bot-setup.md). Email requires mail delivery to be configured on the platform. If a channel is unavailable, a warning appears below **Send via**.
+
+With **Automatic**, the CRM chooses an available channel before sending. A Telegram delivery error does not trigger another message by email.
+
+**iiko errors** is available while at least one iiko connection is saved. It shares recipients with the connection wizard's **Notifications** step. Without recipients, nobody receives a message; if the affected venue is unknown, the selected staff with delivery enabled receive it.
 
 <span id="for-customers"></span>
 
@@ -50,7 +65,7 @@ Settings save immediately. Telegram requires a linked account and an enabled [bo
 
 ## For customers { #customer-status }
 
-Customers receive **Order status change** messages through all [available channels they have enabled](../app/customer-notifications.md). Seller recipient settings do not affect them.
+Customers receive **Order status change** messages through all [available channels they have enabled](../app/customer-notifications.md). Staff recipient settings do not affect them.
 
 To add your own text to the system message:
 
