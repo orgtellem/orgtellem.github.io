@@ -37,10 +37,12 @@ Channels cannot be selected in the form: automatic selection uses the channels a
 
 1. Click “Create”. For a selected audience, enable “Use RFM segments”, choose segments and a “Sales area”. The calculation covers all time; a single location is selected automatically. Without the checkbox, recipients are all customers with mailings enabled.
 2. Set a date at least 2 minutes ahead. Sending starts within a minute after that time.
-3. Enter up to 4,000 characters. Choose Markdown or HTML, which are Telegram text formatting options, and check “Show preview”. Invalid formatting cannot be saved.
+3. Enter up to 4,000 characters. Choose Markdown or HTML for Telegram text formatting and check “Show preview”. The form checks formatting before saving; correct any errors it reports.
 4. If needed, add an image up to 10 MB: SVG, PNG, JPEG, GIF, WebP, BMP, or HEIC.
 5. Click “Save”, check the audience and channel in the confirmation, then click “Yes”.
 6. To send a scheduled message early, choose “Send now” and confirm.
+
+In Telegram, the image and text arrive in one card. You can also send an image-only card. HTML preserves emphasis, links, and line breaks. Markdown uses the previous Telegram formatting rules, so saved mailings do not need to be rewritten.
 
 Only an “Await” mailing can be edited or cancelled. RFM segments require a sales area; if an older scheduled mailing has none, add it with “Edit” or sending will fail. Saved audiences from [Analytics → Segments](segments.md) are not used for mailings.
 
@@ -66,7 +68,7 @@ The first line becomes the subject and heading, up to 100 characters. HTML keeps
 | “Canceled” | Cancelled manually or nobody has an available channel |
 | “Failed” | No channel accepted the message or validation failed before sending |
 | “Partially sent” | Some channels accepted the message and others did not |
-| “Unknown result” | VK did not confirm acceptance; the message may have arrived. Repeat is blocked |
+| “Unknown result” | A channel did not confirm acceptance; the message may have arrived. Repeat is blocked |
 
 “Repeat” opens a copy with the image, format, segments, and sales area for editing. After partial sending, repeating duplicates messages in channels that already accepted them. Check the result before sending again.
 

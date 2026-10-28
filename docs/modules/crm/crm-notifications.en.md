@@ -48,14 +48,17 @@ their settings for other events stay unchanged.
 | Send via | Result |
 |---|---|
 | Telegram | Only in Telegram |
+| VK | Only in private messages with the VK community |
 | Email | Only by email |
-| Telegram and email | Both channels, if available |
-| Automatic | One available channel, preferring Telegram, then email |
+| Telegram, VK and email | Every available channel |
+| Automatic | One available channel, preferring Telegram, then VK, then email |
 | Do not send | Pause messages for this recipient and keep their settings |
 
 On a computer, changes in the row save immediately. Telegram requires a linked account and an enabled [bot integration](../../getting-started/bot-setup.md). Email requires mail delivery to be configured on the platform. If a channel is unavailable, a warning appears below **Send via**.
 
-With **Automatic**, the CRM chooses an available channel before sending. A Telegram delivery error does not trigger another message by email.
+For VK, connect the [store community](vk.md). The staff member must link VK to their account and [allow community messages](../app/customer-notifications.md#vk). VK supports every event in the table above. Customer notification and mailing switches in the staff member's profile do not affect these messages.
+
+With **Automatic**, the CRM chooses an available channel before sending. If delivery fails in the chosen channel, the CRM does not redirect the message to another.
 
 **iiko errors** is available while at least one iiko connection is saved. It shares recipients with the connection wizard's **Notifications** step. Without recipients, nobody receives a message; if the affected venue is unknown, the selected staff with delivery enabled receive it.
 

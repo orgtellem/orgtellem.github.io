@@ -64,6 +64,8 @@ Share the [connection guide with screenshots](../app/customer-notifications.md#v
 
 Customers choose their [notification channels in their profile](../app/customer-notifications.md). Marketing mailings also require **Mailings** to be enabled; see [Send a mailing](mass-mailings.md).
 
+For staff, select VK under [**Settings → Notifications → Staff**](crm-notifications.md#seller-recipients). The staff member must also link their VK account and allow community messages. VK supports every event available in notification settings.
+
 <span id="if-the-connection-fails"></span>
 
 <span id="_1"></span>
