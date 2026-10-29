@@ -6,12 +6,20 @@ description: "Create your first Tellem promo code step by step: select products,
 
 # First promo code for a new store { #first-promo-code-for-a-new-store }
 
-In this example, a new store offers START1000: the selected product costs RUB 39,000 instead of RUB 40,000. The discount is RUB 1,000 per unit.
+In this example, a coffee shop offers DEMO250: an iced cappuccino costs RUB 250 instead of RUB 300. The discount is RUB 50 per unit.
 
 Where: **Marketing → Promo codes**. First [create the product](products-and-categories.md#products), set its regular price, and [add stock](inventory.md#by-store).
 
 !!! note "One use does not enforce a first-order restriction"
     A customer limit of 1 allows one order with this code. If the buyer does not enter it on their first purchase, the code remains available for a later order. Give buyers the code before their first purchase and state this condition in the offer.
+
+???+ example "Example: the DEMO250 promo code"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Creating DEMO250: the code and the active status, one use per customer, an iced cappuccino at RUB 250 instead of RUB 300, then saving and the active code in the list.](../../media/crm/crm-first-promo-code.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-first-promo-code.en.gif)
+    </figure>
 
 <span id="1-open-the-form"></span>
 
@@ -26,17 +34,13 @@ Click “Create” and enter these example values:
 
 | Field | Value |
 | --- | --- |
-| “Promo code name” | RUB 1,000 off your first order |
+| “Promo code name” | Demo: iced cappuccino for RUB 250 |
 | “State” | “Active” |
 | “Start date” | Current date and time |
 | “End date” | Empty for an indefinite code, or the offer's end date |
-| “Code for customers” | START1000; letter case matters |
+| “Code for customers” | DEMO250; letter case matters |
 | “Maximum uses” | Empty, without a total limit |
 | “Maximum uses for client” | 1 |
-
-The shared screenshots show the Russian interface.
-
-![START1000 example: active status, period, and limits.](../../media/crm/first-promo-code/settings.png)
 
 A total limit of 1 would allow only one use across the store. For one use per buyer, leave the total limit empty.
 
@@ -50,15 +54,13 @@ A total limit of 1 would allow only one use across the store. For one use per bu
 ## 2. Select the product and final price { #2-select-the-product-and-final-price }
 
 1. In “Discount and products”, choose the fixed-price option.
-2. Use **Add products → Select from the list** to select a product. This example uses a scooter priced at RUB 40,000.
-3. Enter 39000 in “Price with promo code” and move to another field. Check the final price of RUB 39,000 in the selected product table.
+2. Use **Add products → Select from the list** to select a product. This example uses an iced cappuccino priced at RUB 300.
+3. Enter 250 in “Price with promo code” and move to another field. Check the final price of RUB 250 in the selected product table.
 
-![Example final price: 39000 instead of the regular RUB 40,000.](../../media/crm/first-promo-code/price.png)
-
-For your own product, subtract the discount from the regular price. The result must be at least RUB 1. Entering 1000 in the price field would mean selling it for RUB 1,000.
+For your own product, subtract the discount from the regular price. The result must be at least RUB 1. Entering 50 in the price field would mean selling it for RUB 50.
 
 !!! note "State the offer conditions"
-    The example discounts each unit of the selected product by RUB 1,000: two units give RUB 2,000 off. Other products keep their regular prices. This is not a fixed RUB 1,000 discount on any cart. State the product and quantity rule alongside the offer.
+    The example discounts each unit of the selected product by RUB 50: two units give RUB 100 off. Other products keep their regular prices. This is not a fixed RUB 50 discount on any cart. State the product and quantity rule alongside the offer.
 
 <span id="5-save-and-check"></span>
 
@@ -68,7 +70,7 @@ For your own product, subtract the discount from the regular price. The result m
 
 Check the code, active status, selected product, price, and customer limit of 1, then click “Save”.
 
-In the application, add one unit and apply START1000 at [checkout](../app/checkout.md). The example price becomes RUB 39,000.
+In the application, add one unit and apply DEMO250 at [checkout](../app/checkout.md). The example price becomes RUB 250.
 
 To check, apply the code before confirming the order. Creating an order consumes a use; cancellation does not restore it. For repeated checks, use a separate test buyer or test code.
 
