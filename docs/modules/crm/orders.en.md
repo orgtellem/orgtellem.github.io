@@ -37,6 +37,14 @@ In “Payment and total”, check the method and online payment state. CDEK and 
 
 Action buttons sit below the order information and remain available while you scroll. Choose an action and confirm the transition; the available buttons depend on the status. Custom statuses and transitions cannot be added.
 
+???+ example "Example: a pickup order from “New” to “Completed”"
+
+    Example with demo data. The recording shows the Russian interface. The store has one open stock, so an accepted order goes straight to “Getting ready”.
+
+    <figure markdown="span">
+    [![A pickup order: the New filter, the order details, then Accept order, Order is pending pickup and Complete order with confirmation; the final status is Completed.](../../media/crm/crm-order-status-flow.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-order-status-flow.en.gif)
+    </figure>
+
 | Status | Action | New status |
 | --- | --- | --- |
 | “New”, “Awaiting payment”, “Awaiting payment confirmation”, “Paid” | “Accept order” | “Pending processing” |
