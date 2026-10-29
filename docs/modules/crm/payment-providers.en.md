@@ -41,14 +41,6 @@ In **Settings → Payments**, select a row and click **Move up** or **Move down*
 
 Check the return to the app and status changes using a real order for an agreed small amount. Do not enable the method in all chains before this check.
 
-## Request history { #request-history }
-
-To investigate a payment, a CRM administrator opens **Settings → Payments → Request history**. Choose a connection, enter the exact order number or payment ID, and click **Apply and refresh**. On a phone, find **Request history** under **Actions**.
-
-The journal contains requests to providers and incoming notifications from the last 48 hours. Select a record and open **Details** to inspect the request, response, or error. A connection test may have no order. Secret credentials, contact details, and payment links are hidden; large or unreadable content may also be hidden or truncated.
-
-HTTP 200 means a response was received, but does not confirm payment. Check the order status. Notifications without a verified association with an order are marked separately. If you cannot see the history button, give the order number to a CRM administrator.
-
 <span id="provider-details"></span>
 
 <span id="_4"></span>
