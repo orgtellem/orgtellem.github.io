@@ -11,7 +11,9 @@ description: "Check payment and order contents, allocate products, manage status
 
 Find an order, check its payment and products, then move it through its statuses.
 
-Where: **Orders**. Search matches the order number; use column header filters for other conditions. Open a row to view the order in a side panel.
+Open **Orders**. Search by order number, or select a status and fulfillment method in **Filter**. Collapsing the filter keeps the selected conditions; on a computer, you can also use column header filters.
+
+On a phone, browse the compact list: each row shows the customer, status, total, fulfillment, and payment method. Open a row to view details: on a computer, they appear to the right of the list; on a phone, they open over it. To export to Excel on a phone, open **Actions**.
 
 <span id="order-panel"></span>
 
@@ -19,13 +21,13 @@ Where: **Orders**. Search matches the order number; use column header filters fo
 
 ## Check the order { #check-the-order }
 
-In the order details, check the customer, fulfillment method, address, comment, and total. Links open the customer and applied promo code. Additional product fields appear below the product card.
+In the details, check the customer, fulfillment, products, and order total. Expand the comment when needed. Links open the customer and applied promo code. Additional product fields appear below the product card.
 
 With iiko connected, check the **Selection** column for the dish size and selected extras, including quantities and extra charges. On a phone, the selection appears below the product name. See [iiko product setup](iiko.md).
 
 Product cost includes discounts and payment method fees, but excludes delivery; redeemed points have not yet been deducted. The final total includes delivery and deducts redeemed points.
 
-In “Payment information”, check the method and online payment state. CDEK and Yandex Delivery orders also have delivery information; Ozon and Russian Post orders do not. See [Delivery](delivery.md) for shipment actions.
+In “Payment and total”, check the method and online payment state. CDEK and Yandex Delivery orders also have delivery information; Ozon and Russian Post orders do not. See [Delivery](delivery.md) for shipment actions.
 
 <span id="statuses-and-buttons"></span>
 
@@ -33,7 +35,7 @@ In “Payment information”, check the method and online payment state. CDEK an
 
 ## Statuses and actions { #statuses-and-actions }
 
-“Order management” buttons depend on the status; transitions require confirmation. Custom statuses and transitions cannot be added.
+Action buttons sit below the order information and remain available while you scroll. Choose an action and confirm the transition; the available buttons depend on the status. Custom statuses and transitions cannot be added.
 
 | Status | Action | New status |
 | --- | --- | --- |
