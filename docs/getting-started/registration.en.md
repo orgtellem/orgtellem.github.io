@@ -31,6 +31,8 @@ There is no password recovery button. Contact [Tellem support](https://t.me/tell
 
 To change your password, open **the user menu in the header → Profile → Password**, enter the new password and confirmation, then click **Save**.
 
+To open your personal account in a new tab, choose **the user menu in the header → Personal account**.
+
 <span id="_3"></span>
 
 ## Welcome configuration wizard { #welcome-configuration-wizard }
