@@ -62,7 +62,11 @@ Screenshots show the Russian interface.
 Sign-in methods are at the bottom of the profile. **Unlink** is available only if another sign-in method remains: your own password or a linked service.
 
 !!! warning "Merging cannot be undone"
-    If the service is linked to another Tellem account, the app offers **Merge accounts**. Orders, bonus points, addresses, and favorites move to the selected account.
+    If the service is linked to another Tellem account, the app offers **Merge accounts**. Orders, addresses, the cart, and favorites move to the selected account.
+
+If both accounts have bonus accounts, the selected account's balance remains: the balances are not added together. If only the other account has a bonus account, it moves with its balance. The bonus transaction history is preserved.
+
+An opt-out from marketing messages on either account remains in effect after merging.
 
 A notification channel disabled in either account stays disabled if at least one enabled channel remains after merging. Otherwise, the selected account's channels are kept. Check [notification settings](customer-notifications.md#channels) after merging.
 
