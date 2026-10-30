@@ -23,18 +23,19 @@ Choose an available fulfillment method. The app selects the first suitable metho
 The following fields depend on the method type:
 
 - **Delivery** — an address: **Select a delivery address** or **Add new address**. If none are saved, the tip says **No saved addresses. Add one in your profile.**
-- **Pickup** — a store location in **Choose location**.
+- **Pickup** — a store location. Tap it to choose another one in **Choose a pickup point**; until a location is selected, the field reads **Choose location**.
 - **CDEK or Yandex Delivery pickup point** — choose **City / locality**: enter at least two letters and select the suggestion with the correct region. Then find a pickup point by street, name, or code. You do not need to create a home address. Select the point again if you change the city or method. If loading fails, click **Try again**.
 - **Ozon pickup point** — first select an address, which determines the city, then **Choose a pickup point** with **Search by address or name**. Select the point again if you change the address or method. The recipient's phone number must be registered with Ozon; insurance is already included in the delivery cost.
 - **In establishment** — the same **Choose location** field. Opening the app from an iiko table QR code fills in the venue and table number automatically; you can change the number. The table association resets after an order, when you change the venue or fulfillment method, and when the association expires. Check the table number before checkout.
 - **Online** — no physical delivery or handover; no address or venue is needed.
 
-<figure markdown="1">
+???+ example "Example: a pickup order with payment on receipt"
 
-![Selecting a store pickup location at checkout: Samara and Tolyatti are listed, with Tolyatti checked.](../../media/app/pickup-location.png){ width="600" loading=lazy }
+    Example with demo data. The recording shows the Russian interface.
 
-<figcaption>Example store pickup selection. The screenshot shows the Russian interface with demo names and addresses.</figcaption>
-</figure>
+    <figure markdown="span">
+    [![Checkout in the app: placing an order for 350 RUB, pickup at the demo store, cash on receipt, the total in the cost details; after placing the order, the thank-you screen and the order with the New status.](../../media/app/app-checkout-pickup.en.gif){ width="960" height="540" loading=lazy }](../../media/app/app-checkout-pickup.en.gif)
+    </figure>
 
 If no fulfillment method is currently available, the checkout button says **Ordering is unavailable**.
 
