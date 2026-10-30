@@ -28,13 +28,29 @@ A new customer placed their first completed order across the chain in the select
 
 Use the information button to read metric formulas. Changes are compared with the preceding period of the same length. “View guests” on a card opens the corresponding customer list.
 
+??? example "Example: Home metrics"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![Metric cards on Home; the new customers card with its change arrow and the button that opens the guest list is highlighted.](../../media/crm/crm-dashboard.en.png){ width="1280" height="720" loading=lazy }](../../media/crm/crm-dashboard.en.png)
+    </figure>
+
 Inactive guests have no completed orders in the 90 days ending at the selected period's end, or at the current moment if earlier. Without filters, the chain-wide base includes guests who have never purchased. With a location selected, including the only location selected automatically, or a city, order type, or platform filter, it includes all-time buyers in that selection.
 
 ## Customers and RFM { #rfm }
 
-In **Analytics → Guests**, buyers are grouped by how recently they purchased, how often they buy, and how much they spend. This grouping method is called RFM. Select a segment to view its customers, then open a guest's record. “All customers” beside the matrix also includes guests without purchases in the chain-wide view.
+In **Analytics → Customers**, buyers are grouped by how recently they purchased, how often they buy, and how much they spend. This grouping method is called RFM. Select a segment to view its customers, then open a guest's record. “All customers” beside the matrix also includes guests without purchases in the chain-wide view.
 
-The matrix uses the report period. Mailings and saved segments use a separate all-time calculation for each location, updated separately, including after saving **Settings → RFM analytics**. The groups can therefore differ. Guests without completed orders receive no RFM segment.
+???+ example "Example: from the RFM matrix to a customer's orders"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Analytics, Customers: the RFM matrix, the champions segment, the segment's customer list, opening a guest, the customer profile window and its Orders tab.](../../media/crm/crm-rfm-drilldown.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-rfm-drilldown.en.gif)
+    </figure>
+
+The matrix calculates RFM over the entire history of the selected locations: a customer's purchases are combined, and each customer counts once. Mailings and saved segments use a separate all-time calculation for each location, updated separately, including after saving **Settings → RFM analytics**. The groups can therefore differ. Guests without completed orders receive no RFM segment.
 
 ### Audience segments { #audience-segments }
 
@@ -44,7 +60,15 @@ To select customers using your own conditions and estimate whether you can conta
 
 ## Cohorts { #cohorts }
 
-In **Analytics → Cohorts**, compare repeat purchases by customers who first bought in the same month. This group is called a cohort.
+In **Analytics → Repeat orders**, under **Cohort analysis**, compare repeat purchases by customers who first bought in the same month. This group is called a cohort.
+
+??? example "Example: cohort table"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![Cohort retention table: the May 2026 row is highlighted — 10 customers, 100% in M+0 and 60% (6 of 10) in M+1.](../../media/crm/crm-cohorts.en.png){ width="1280" height="720" loading=lazy }](../../media/crm/crm-cohorts.en.png)
+    </figure>
 
 - Each row is the month of the first completed purchase; “Customers” shows the group size.
 - “M+0” is 100%. Later months show the share of returning customers and “N of M”. Each customer counts once per month; future months show “—”.
