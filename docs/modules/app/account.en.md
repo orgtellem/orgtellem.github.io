@@ -100,6 +100,14 @@ Open **Active sessions** to check which devices are signed in. After confirmatio
 
 The installed app appears on your home screen and opens in a separate window. Select **Install app** in your profile; sign-in is not required.
 
+??? example "Example: “Install app” in the profile"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![The lower part of the profile without signing in: the Install app row below the interface language block is highlighted, with legal document links under it.](../../media/app/app-install.en.png){ width="1280" height="720" loading=lazy }](../../media/app/app-install.en.png)
+    </figure>
+
 === "Android and computer"
 
     In a browser that supports installation, select **Install app** in your profile. This item appears when the browser is ready to offer installation and opens the system dialog. If it is absent after you close the dialog, reload the page.
