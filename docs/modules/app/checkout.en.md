@@ -56,7 +56,15 @@ If no methods are enabled, the field stays empty (**Select a payment method**) a
 
 ### Promo code { #promo-code }
 
-Enter a code in **Enter promo code** and apply it using the button on the right. The field then becomes locked; use **Remove promo code** to clear it. Codes are case-sensitive; leading and trailing spaces are ignored. The discount appears under **Discount** and applies only to selected items included in the promo code.
+Enter a code in **Enter promo code** and apply it using the round button on the right. The field then becomes locked; tap **×** in the field to remove the code. Codes are case-sensitive; leading and trailing spaces are ignored. The discount appears under **Discount** and applies only to selected items included in the promo code.
+
+??? example "Example: a wrong code, DEMO250 and removing the code"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Checkout in the app: the wrong code DEMO999 shows a not-found message under the field; DEMO250 locks the field and adds a discount of −50 RUB with a total of 250 RUB in the cost details; the × clears the code and the total is 300 RUB again.](../../media/app/app-promo-code-apply.en.gif){ width="960" height="540" loading=lazy }](../../media/app/app-promo-code-apply.en.gif)
+    </figure>
 
 | Message below the field | Reason |
 |---|---|
