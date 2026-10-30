@@ -13,7 +13,11 @@ Find an order, check its payment and products, then move it through its statuses
 
 Open **Orders**. Search by order number, or select a status and fulfillment method in **Filter**. Collapsing the filter keeps the selected conditions; on a computer, you can also use column header filters.
 
-On a phone, browse the compact list: each row shows the customer, status, total, fulfillment, and payment method. Open a row to view details: on a computer, they appear to the right of the list; on a phone, they open over it. To export to Excel on a phone, open **Actions**.
+On a phone, browse the compact list: each row shows the customer, status, total, fulfillment, and payment method. Open a row to view details: on a wide screen, they appear in a panel on the right over the table, keeping the table's width; on a small screen, they open in a dialog. To export to Excel on a phone, open **Actions**.
+
+On a wide screen, drag the panel's left edge to change its width. While the section stays open, your chosen width remains when you switch orders or reopen the details.
+
+Close the details with the close button in the header or Escape.
 
 <span id="order-panel"></span>
 
