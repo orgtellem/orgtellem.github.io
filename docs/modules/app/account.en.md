@@ -61,23 +61,23 @@ When you sign in or link a service, the app fills in empty first name, last name
 
 ### Birthday discount example { #birthday }
 
-In **Personal data**, choose the day and month of your birthday, without the year, and click **Save**. **Remove date** clears both fields; save that change too. You can enter your birthday even if the store offers no gift. If a gift is available, its amount and validity period appear next to the date and on the profile card.
+In **Personal data**, choose the day and month of your birthday, without the year, and click **Save**. **Remove date** clears both fields; save that change too. You can enter your birthday even if the store offers no gift.
 
-??? example "Example: birthday in Personal data"
+If the store offers a birthday gift and you have not saved a date yet, the profile shows a **Birthday not set** card with the gift amount. Click it to open **Personal data**. Once you save the date, the card disappears, and the gift amount and validity period appear under the date.
 
-    Example with demo data. The image shows the Russian interface.
+??? example "Example: birthday discount in the profile"
+
+    Example with demo data: a **10%** discount applies for **3 days before, on the birthday, and 3 days after**, or 7 days in total. For a birthday on October 31, that is October 28 through November 3. Your store's terms may differ. The images show the Russian interface.
 
     <figure markdown="span">
-    [![Personal data: the birthday card is highlighted, with day 15, month 5 and the remove-date link; the Save button is at the bottom.](../../media/app/app-birthday.en.png){ width="1280" height="720" loading=lazy }](../../media/app/app-birthday.en.png)
+    [![Profile: the Birthday not set card is highlighted; its text offers a 10% discount on products if you enter your birthday in advance. The Anna Petrova card is above it.](../../media/app/app-birthday-card.en.png){ width="1280" height="720" loading=lazy }](../../media/app/app-birthday-card.en.png)
+    </figure>
+
+    <figure markdown="span">
+    [![Personal data: the Birthday card is highlighted, with day 31, month 10, a line saying the 10% discount on products applies from 28.10 through 03.11 inclusive, and the Remove date link.](../../media/app/app-birthday.en.png){ width="1280" height="720" loading=lazy }](../../media/app/app-birthday.en.png)
     </figure>
 
 For a discount, save the date before the promotion period begins; for gift points, before the birthday starts. Saving it later does not unlock a gift whose period has begun. Bonus points require a connected bonus account; you can connect it on the birthday itself if you saved the date in advance.
-
-The profile card screenshot shows an example: a **10%** discount applies for **3 days before, on the birthday, and 3 days after**, or 7 days in total. Your store's terms may differ.
-
-The screenshot shows the Russian interface.
-
-![Profile card showing an example 10% discount and its validity dates.](../../media/birthday-rewards/customer-profile.png){ width="440" loading=lazy }
 
 ### Linking and merging accounts { #linking-and-merging-accounts }
 

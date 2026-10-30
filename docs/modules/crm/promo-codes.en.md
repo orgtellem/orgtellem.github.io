@@ -140,7 +140,7 @@ If a birthday promotion exists, open it with “Edit”, even if it is disabled.
 
 Only one gift can be enabled: a discount or [birthday points](bonus-system.md#birthday). Before changing the gift type, disable the previous one in its editor.
 
-Buyers must save their date before their period begins; entering it later does not unlock a gift already in progress. February 29 uses February 28 in a non-leap year. Buyers see conditions and dates in their [profile](../app/account.md#birthday).
+Buyers must save their date before their period begins; entering it later does not unlock a gift already in progress. February 29 uses February 28 in a non-leap year. Buyers see conditions and dates in **Personal data** of their [profile](../app/account.md#birthday).
 
 After the first order, gift conditions are saved for the current period. Disabling the original promotion stops the discount; a new promotion does not award a second gift for the same year. Delivery is excluded. Rules for comparing discounts appear [below](#combining-discounts).
 
