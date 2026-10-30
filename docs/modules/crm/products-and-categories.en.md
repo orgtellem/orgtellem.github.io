@@ -16,9 +16,17 @@ Where: **Catalog → Categories**, **Catalog → Products**, **Catalog → Archi
 
 1. In **Catalog → Categories**, click “Create”, enter a name, and add an image if needed.
 2. For a nested category, select “Parent category”; without one, the category is at the top level. Selecting a category before creation makes it the parent.
-3. Save. Drag categories to change their order; drop one onto another to nest it.
+3. Save. To change the order, drag a category to the top edge of another row; to nest it, drop it on the middle of a row. Dropping it on the uncategorized row moves it back to the top level.
 
-Use a square image up to 10 MB. “View products” opens the selected category's products; “Remove from category” moves them to the uncategorized category.
+??? example "Example: creating and nesting a category"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Creating a category: Create, the image, the name, the empty parent category field and Save; dragging the new row above the desserts category and onto it, the subcategory in the list and in the app.](../../media/crm/crm-category-create.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-category-create.en.gif)
+    </figure>
+
+Use a square image up to 10 MB. The selected category's products appear to the right of the list; on a narrow screen, use “Actions → View products”; “Remove from category” moves them to the uncategorized category.
 
 Buyers cannot see the uncategorized category, so assign products a category. A category is also hidden if the chain has no active products in it, or no available products when zero-stock items are hidden.
 
