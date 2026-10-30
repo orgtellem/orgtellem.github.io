@@ -37,9 +37,17 @@ To open your personal account in a new tab, choose **the user menu in the header
 
 ## Welcome configuration wizard { #welcome-configuration-wizard }
 
-Complete the wizard on your first sign-in and click **Finish**; otherwise, it appears again at the next sign-in. Choose at least one option for each question.
+Complete the wizard on your first sign-in and click **Finish**. Until it is finished, the wizard opens on every CRM page load for every employee. Choose at least one option for each question.
 
-The business type affects the [Telegram bot's button label](bot-setup.md). **Online store** also hides store addresses in the app. The other answers do not configure the store; follow the checklist below.
+???+ example "Example: welcome configuration wizard"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![The four steps of the welcome configuration wizard: the restaurant or café business type, features, number of seats and payment methods; after Finish the home page opens.](../media/crm/crm-welcome-wizard.en.gif){ width="960" height="540" loading=lazy }](../media/crm/crm-welcome-wizard.en.gif)
+    </figure>
+
+The business type affects the [Telegram bot's button label](bot-setup.md). **Online shop** also hides store addresses in the app. The other answers do not configure the store; follow the checklist below.
 
 Before creating a store or order, check the [country in general settings](../modules/crm/general-settings.md). You cannot change it afterwards.
 
