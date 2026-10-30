@@ -19,11 +19,11 @@ customize order status messages.
 
 | Notification | When it is sent |
 |---|---|
-| Low product quantity | Stock changes and falls below **Stock below**; archived products are excluded |
-| New order notification | An order is created as **New** or **Awaiting payment**, before payment |
-| Canceled order notification | A customer or staff member cancels an order |
-| Overdue payment notification | An unpaid order is canceled or enters **Payment error** because the deadline expired or payment was declined |
-| Unread order reminder | At the configured interval while **New** orders remain; **Repeat after** sets the interval in minutes |
+| Low stock | Stock changes and falls below **Stock below**; archived products are excluded |
+| New order | An order is created as **New** or **Awaiting payment**, before payment |
+| Order cancellation | A customer or staff member cancels an order |
+| Overdue payment | An unpaid order is canceled or enters **Payment error** because the deadline expired or payment was declined |
+| Unread orders | At the configured interval while **New** orders remain; **Repeat after** sets the interval in minutes |
 | iiko errors | An order, status update, or stop list could not be transferred; the message includes [next steps](iiko-errors.md) |
 
 Set the payment deadline in the [payment method](payment-providers.md).
@@ -37,6 +37,14 @@ Set the payment deadline in the [payment method](payment-providers.md).
 1. Under **Recipients**, click **Add** and select the staff member's account from the customer list. A Telegram account is not required.
 2. Choose a delivery method in **Send via**. Contact details come from the customer card.
 3. Choose the **Stores** whose notifications the staff member needs. Without a selected store, messages will not arrive. Low stock notifications do not have this field.
+
+???+ example "Example: recipient of new order notifications"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Adding a staff member as a recipient of the New order event: the automatic channel and the demo store; the settings save at once.](../../media/crm/crm-staff-notifications.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-staff-notifications.en.gif)
+    </figure>
 
 On a computer, the fields appear in the recipient's row. On a phone, tap **Settings** next to the recipient,
 edit the fields in the dialog, and tap **Save**. **Cancel** and closing the dialog keep the previous settings.
