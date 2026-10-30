@@ -48,8 +48,6 @@ Adding a category includes only its current products. “Entire menu” also inc
 
 For example, to offer 20% off the entire menu from 08:00 to 12:00, choose “Entire menu”, enter 20, and set daily hours:
 
-The shared illustrations on this page show the Russian interface.
-
 ???+ example "Example: 20% off the entire menu from 08:00 to 12:00"
 
     Example with demo data. The recording shows the Russian interface.
@@ -130,7 +128,13 @@ The discount covers the entire menu, including new products, and does not change
 
 For example, 3 days before, the birthday, and 3 days after give 7 days. An October 15 birthday gives a period of October 12–18 inclusive.
 
-![Birthday discount editor: an example of 10% off over seven days.](../../media/birthday-rewards/crm-discount.png)
+??? example "Example: birthday discount"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![The birthday discount form: a 10% discount, several days around the birthday turned on with 3 days before and 3 after; the line with the total of 7 discount days is highlighted, with Cancel and Save promotion at the bottom.](../../media/crm/crm-birthday-discount.en.png){ width="1280" height="720" loading=lazy }](../../media/crm/crm-birthday-discount.en.png)
+    </figure>
 
 If a birthday promotion exists, open it with “Edit”, even if it is disabled. To replace it, delete the existing promotion first. Deleting it does not give buyers a second gift for a year already used.
 
@@ -168,6 +172,14 @@ The code becomes active and ends according to its dates with a delay. To stop it
 - An empty limit means unlimited use. For example, an empty total limit and a customer limit of 1 let every buyer use the code once.
 
 In the list, “Maximum uses” shows the configured limit; “Number of uses” shows how many uses have been consumed. Reaching the total limit sets the code to “Finished”.
+
+??? example "Example: limit and number of uses"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![The promo code list: for the code DEMO10 the total limit of 50 and 3 uses are highlighted; DEMO250 has no limit and 0 uses.](../../media/crm/crm-promo-code-limits.en.png){ width="1280" height="720" loading=lazy }](../../media/crm/crm-promo-code-limits.en.png)
+    </figure>
 
 !!! warning "Cancellation does not restore a use"
     Creating an order consumes a use. To check the price, apply the code in the application without confirming the order. Cancelling an order does not restore the limit.
