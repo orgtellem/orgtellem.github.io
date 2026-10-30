@@ -47,6 +47,14 @@ flowchart TB
 3. Check that the employee received a notification. For the next actions, see [order processing](orders.md).
 4. If you accept online payments, also complete the [real-order payment check](payment-providers.md#testing): the test link does not check order status updates.
 
+???+ example "Example: a test order from checkout to acceptance"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![A test order: in the app a cappuccino goes to the cart and is ordered for pickup with cash on receipt; in the CRM the New order is found under Orders and accepted with Accept order; in the app, My orders shows the order as Pending processing.](../../media/crm/launch-test-order.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/launch-test-order.en.gif)
+    </figure>
+
 **Check:** the order appears in the CRM, the employee receives a notification, and the contents and total match checkout in the app.
 
 If the app shows **Ordering is unavailable**, return to [store settings](#store) and check fulfillment methods. Find other cases in [Help](../../troubleshooting.md#store-owners). For a launch offer, [create your first promo code](first-promo-code.md).
