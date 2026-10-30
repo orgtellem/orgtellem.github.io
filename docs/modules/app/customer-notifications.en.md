@@ -14,6 +14,14 @@ Connect order and bonus messages under **Profile → Notifications**. You can al
 
 A connected channel has a switch. If the store offers only one channel and it is already enabled, no switch appears. You cannot disable the last enabled channel: connect or enable another first. If none is enabled, follow **Connect a channel…**.
 
+??? example "Example: the Notifications screen"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![The notifications sheet: the where-to-send block with its only channel, email (anna@example.com), is highlighted; the mailings switch is above it.](../../media/app/app-notification-channels.en.png){ width="1280" height="720" loading=lazy }](../../media/app/app-notification-channels.en.png)
+    </figure>
+
 To connect a channel, select the action in its row:
 
 - **Telegram:** **Connect**, or **Open bot** if it has not been started. [Start the store bot](#telegram).

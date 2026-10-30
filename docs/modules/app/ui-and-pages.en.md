@@ -28,6 +28,14 @@ Open **Catalog** to choose products, **Favorites** for saved items, or **Previou
 
 Search is at the bottom. The cart button appears when it contains products and shows their quantity and amount.
 
+??? example "Example: the home screen with a cart"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![The home screen: the store name and address in the header; the Catalog and Favorites buttons and the previously ordered heading are highlighted; Search and the cart button with 580 RUB and 2 items are at the bottom.](../../media/app/app-home-overview.en.png){ width="1280" height="720" loading=lazy }](../../media/app/app-home-overview.en.png)
+    </figure>
+
 <span id="_3"></span>
 
 ## Catalog and search { #catalog-and-search }

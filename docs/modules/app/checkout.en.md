@@ -39,6 +39,14 @@ The following fields depend on the method type:
 
 If no fulfillment method is currently available, the checkout button says **Ordering is unavailable**.
 
+??? example "Example: ordering is unavailable"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![The fulfillment method block: the only method, courier delivery, is highlighted with the red line saying delivery is not available in this region; the saved address is below.](../../media/app/app-order-unavailable.en.png){ width="1280" height="720" loading=lazy }](../../media/app/app-order-unavailable.en.png)
+    </figure>
+
 If the method has a free delivery threshold, a tip below it shows how much more to add. Reaching the threshold shows **Free delivery**. Check the condition after the order is recalculated.
 
 <span id="_4"></span>
@@ -140,6 +148,14 @@ Actions on the **Details** tab:
 | **Repeat** | **Completed**, **Canceled**, **Returned** | Adds the order's products to the cart and opens it; you must check out again |
 | **Pay online** | **Awaiting payment**, with online payment | Opens the provider's page |
 | **Support** | Alongside any button above, if the owner added contact details | Opens support contacts |
+
+??? example "Example: an order in the New status"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![An order on the Details tab: the New status, creation date and recipient; the Support and Cancel buttons are highlighted.](../../media/app/app-my-orders.en.png){ width="1280" height="720" loading=lazy }](../../media/app/app-my-orders.en.png)
+    </figure>
 
 If the cancellation button is no longer available or you need a refund, contact the store through **Profile → Support**, if the store has added its contacts. Include the order number and ask the store about the refund procedure and timing.
 

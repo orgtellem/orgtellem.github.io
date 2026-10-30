@@ -14,6 +14,14 @@ Sign in to place orders, save addresses, and connect bonus points. Without signi
 
 Open your profile using the button in the home screen header. The card with your name opens **Personal data**; **My orders**, **Delivery addresses**, and bonus points, if enabled by the store, are nearby. Find store contacts under **Support**; this item appears if the owner added contact details.
 
+??? example "Example: the top of the profile"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![The profile sheet: the name card and the 100 bonus points, My orders and Delivery addresses tiles are highlighted; the store card is below.](../../media/app/app-profile-overview.en.png){ width="1280" height="720" loading=lazy }](../../media/app/app-profile-overview.en.png)
+    </figure>
+
 Choose your sales area, interface language, and theme in the profile. The language on first opening depends on Telegram or your browser; after sign-in, your choice is saved to your account. **System** theme follows your device; **Light** and **Dark** are manual choices. The app does not inherit Telegram's theme.
 
 <span id="_3"></span>
@@ -55,13 +63,19 @@ When you sign in or link a service, the app fills in empty first name, last name
 
 In **Personal data**, choose the day and month of your birthday, without the year, and click **Save**. **Remove date** clears both fields; save that change too. You can enter your birthday even if the store offers no gift. If a gift is available, its amount and validity period appear next to the date and on the profile card.
 
+??? example "Example: birthday in Personal data"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![Personal data: the birthday card is highlighted, with day 15, month 5 and the remove-date link; the Save button is at the bottom.](../../media/app/app-birthday.en.png){ width="1280" height="720" loading=lazy }](../../media/app/app-birthday.en.png)
+    </figure>
+
 For a discount, save the date before the promotion period begins; for gift points, before the birthday starts. Saving it later does not unlock a gift whose period has begun. Bonus points require a connected bonus account; you can connect it on the birthday itself if you saved the date in advance.
 
-The screenshots show an example: a **10%** discount applies for **3 days before, on the birthday, and 3 days after**, or 7 days in total. Your store's terms may differ.
+The profile card screenshot shows an example: a **10%** discount applies for **3 days before, on the birthday, and 3 days after**, or 7 days in total. Your store's terms may differ.
 
-Screenshots show the Russian interface.
-
-![Customer personal details: day and month of birth without the year, an example 10% discount, and Save.](../../media/birthday-rewards/customer-birthday.png){ width="440" loading=lazy }
+The screenshot shows the Russian interface.
 
 ![Profile card showing an example 10% discount and its validity dates.](../../media/birthday-rewards/customer-profile.png){ width="440" loading=lazy }
 
