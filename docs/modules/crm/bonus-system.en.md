@@ -22,13 +22,21 @@ Where: **Marketing → Bonuses**. See the [application profile](../app/account.m
 
 ## Enable and configure { #enable-and-configure }
 
-Before enabling the program, review the active earning percentages, redemption limits, welcome gift, and validity period. For Tellem rules, click “Configure”. Contact the Tellem team about a third-party loyalty program.
+Rules and the “Configure” button appear when the loyalty program is on. Review the active earning percentages, redemption limits, welcome gift, and validity period. Contact the Tellem team about a third-party loyalty program.
 
-1. Select a rule set or click “Create new rules”. Only one set can be active.
-2. Add at least one earning condition: an order amount from 0 and a percentage from 1 to 99. Set the maximum redemption percentage from 0 to 100 and decide whether to allow earning and redeeming together.
-3. Enable welcome points if needed. Buyers receive them when joining the program, rather than when registering in the store.
-4. For a new set, click “Make active”, then “Save rules”. Without the first action, the set remains a draft. Changes to active rules also apply after saving.
-5. Enable the loyalty program with the switch on the main screen. The same switch disables it immediately.
+???+ example "Example: bonus rules"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Bonus setup: Configure, then Create new rules, an earning condition from 0 at 5%, redemption up to 30%, 100 welcome points, Make active and Save rules, the program switch; in the app the customer joins the program and sees 100 points in the profile.](../../media/crm/crm-bonus-setup.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-bonus-setup.en.gif)
+    </figure>
+
+1. Enable the loyalty program with the switch on the main screen. The same switch disables it immediately.
+2. For Tellem rules, click “Configure”. Rule sets open as tabs; to add a set, click “Create new rules”. Only one set can be active.
+3. Add at least one earning condition: an order amount from 0 and a percentage from 1 to 99. Set the maximum redemption percentage from 0 to 100 and decide whether to allow earning and redeeming together.
+4. Enable welcome points if needed. Buyers receive them when joining the program, rather than when registering in the store.
+5. For a new set, click “Make active”, then “Save rules”. Without the first action, the set remains a draft. Changes to active rules also apply after saving.
 
 !!! warning "Deleting rules"
     Only inactive sets can be deleted. “Delete rules” removes the set immediately, without confirmation.
@@ -71,7 +79,15 @@ Compensation is available for a saved customer for the most recent birthday, inc
 
 ## Expiry and reminders { #expiry }
 
-In Tellem rules, enable “Limit bonus validity” and enter a positive whole number of days.
+In Tellem rules, enable “Limit bonus validity” and enter a positive whole number of days in “Valid for, days”.
+
+??? example "Example: bonus validity"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![The bonus validity block of the bonus settings window: Limit bonus validity is on and the validity is 90 days; the switch and the field are highlighted.](../../media/crm/crm-bonus-expiry.en.png){ width="1280" height="720" loading=lazy }](../../media/crm/crm-bonus-expiry.en.png)
+    </figure>
 
 - Each new award, including a manual top-up, lasts this many days from crediting.
 - When expiry is first enabled, the existing balance receives the full period starting when the rules are saved.
