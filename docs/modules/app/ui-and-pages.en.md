@@ -16,6 +16,14 @@ If the store shows **18+ content**, continue only after confirming **I am 18 or 
 
 Tap the name and address in the header to choose a store or store chain (sales area). The catalog and stock depend on your choice. A guest opening a store-specific link or QR code goes to that store's catalog.
 
+??? example "Example: choosing a sales area"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![The home screen: tapping the name and address in the header, the sheet for choosing a sales area listing two areas, choosing the second one, and the updated home screen with its catalog.](../../media/app/app-zone-switch.en.gif){ width="960" height="540" loading=lazy }](../../media/app/app-zone-switch.en.gif)
+    </figure>
+
 Open **Catalog** to choose products, **Favorites** for saved items, or **Previously ordered** to find past purchases. Home screen blocks and warnings depend on store settings; the store warning appears only after sign-in.
 
 Search is at the bottom. The cart button appears when it contains products and shows their quantity and amount.
