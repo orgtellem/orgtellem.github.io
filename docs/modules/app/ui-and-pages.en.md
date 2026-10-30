@@ -32,6 +32,14 @@ Choose a category or enter a search query; product and category results appear a
 
 Check the description, specifications, price, and availability. If the product has variants, such as size or color, choose one before adding it. Tap a photo to open it full screen or the SKU, the product's code, to copy the code.
 
+??? example "Example: product variants in the card"
+
+    Example with demo products. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![The cappuccino with cheese foam card at 340 RUB: the volume row with the 300 ml and 400 ml buttons and the cheese foam row with No and Yes are highlighted.](../../media/app/app-dish-options.en.png){ width="1280" height="720" loading=lazy }](../../media/app/app-dish-options.en.png)
+    </figure>
+
 - **Buy** adds the product and opens the cart with only that product selected.
 - **Add to cart** adds it without opening the cart. For an item already added, **Go to cart** opens the cart; adjust the quantity beside it, up to available stock.
 - Products with no stock show an inactive **Out of stock** button. When stock is low, the card shows the exact quantity.
