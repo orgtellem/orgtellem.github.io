@@ -20,6 +20,22 @@ Click **Create**, or **Actions → Create** on a phone. Choose **Single store** 
 - Add at least one store to a chain. **Add store** selects an existing one; **Create** in the selection window adds a new one. A store can belong to several chains; its name must be unique within a chain.
 - **Temporarily closed** keeps the chain in the customer's list but hides its products. **Store chain closure message** is not displayed in the app. **Archived** hides the entire chain.
 
+???+ example "Example: a single store"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Creating a store: Create, then Create store, the name, city, street and house number, turning on pickup and saving; the store appears in the list.](../../media/crm/crm-store-create.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-store-create.en.gif)
+    </figure>
+
+??? example "Example: a store chain"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Creating a chain: Create, then Create chain, the name, Add store with a store selected, turning on pickup and saving; the chain appears in the list.](../../media/crm/crm-chain-create.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-chain-create.en.gif)
+    </figure>
+
 <span id="_3"></span>
 
 ## Fulfillment methods { #fulfillment-methods }
