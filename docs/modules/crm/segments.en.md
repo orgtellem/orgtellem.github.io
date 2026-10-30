@@ -24,7 +24,15 @@ Contact requires mailings to be enabled and a contact in the selected channel. T
 
 1. Click “Create segment” and enter a name and sales area. A single location is selected automatically. Customer profiles are evaluated across all time for that area.
 2. Choose conditions for purchases, RFM groups, products, fulfillment, time, or source.
-3. Check the customer count and save. The detailed table appears on the main screen.
+3. Check the customer count and click **Create segment**; in an existing segment, **Save changes**. The detailed table appears on the main screen.
+
+???+ example "Example: creating a segment"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Creating a segment in Analytics, Segments: the segment builder, the name, the condition of up to 30 days since the last order, the customer count and message availability, Create segment, then the segment tiles and its customer table.](../../media/crm/crm-segment-create.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-segment-create.en.gif)
+    </figure>
 
 All selected conditions apply together; an empty field imposes no restriction. An unknown value does not match a condition: for example, no profile does not mean zero orders. Avoid the negative-feedback condition: its data is not collected, so both “Yes” and “No” produce an empty audience.
 
