@@ -54,14 +54,15 @@ Action buttons sit below the order information and remain available while you sc
 | “In delivery”, “Pending pickup” | “Complete order” | “Completed” |
 | “Completed” | “Return order” | “Returned” |
 
-During distribution, select warehouses for all items, then complete the action. If the sales area, meaning the order's store or chain, has one open warehouse, acceptance distributes products and immediately sets “Getting ready”, including for “Online” fulfillment.
+During distribution, select warehouses for all items, click “Distribute products” in the window, then “Complete distribution”. If the sales area, meaning the order's store or chain, has one open warehouse, acceptance distributes products and immediately sets “Getting ready”, including for “Online” fulfillment.
 
-<figure markdown="1">
+??? example "Example: distributing an order between warehouses"
 
-![Allocating one cappuccino: 1 unit selected for the Samara warehouse, 0 for Tolyatti, and 0 remaining to allocate.](../../media/crm/basics/order-distribution.png){ loading=lazy }
+    Example with demo data. The recording shows the Russian interface. The chain has several open warehouses, so an accepted order waits for distribution in “Pending processing”.
 
-<figcaption>Example warehouse selection for one unit before completing allocation. The screenshot shows the Russian interface.</figcaption>
-</figure>
+    <figure markdown="span">
+    [![A pickup order: after Accept order the status is Pending processing; in the distribution window the plus button next to the Samara demo store sets 1 and nothing remains to distribute; Distribute products, Complete distribution and Yes set the status to Getting ready.](../../media/crm/crm-order-stock-distribution.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-order-stock-distribution.en.gif)
+    </figure>
 
 If an “Online” order remains “Pending processing”, it can be completed without distribution. For CDEK and Yandex Delivery, carrier acceptance and delivery to the recipient set “In delivery” and “Completed”.
 
