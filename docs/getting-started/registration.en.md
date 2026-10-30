@@ -33,6 +33,8 @@ To change your password, open **the user menu in the header → Profile → Pass
 
 To open your personal account in a new tab, choose **the user menu in the header → Personal account**.
 
+If a lock appears in the header, click it to see why access is restricted. From this window, you can open your personal account or contact support.
+
 <span id="_3"></span>
 
 ## Welcome configuration wizard { #welcome-configuration-wizard }
