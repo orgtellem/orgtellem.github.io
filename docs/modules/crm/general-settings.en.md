@@ -28,7 +28,19 @@ Open **Settings → General**.
 
 ### Store customer notice { #customer-notice }
 
-Create a message, such as an order delay notice, and select a chain. Only signed-in customers of that chain see it. Enable it using **Active** in the table: this switch disables the chain's other notices. The switch inside the notice editor does not.
+Create a message, such as an order delay notice, and select a chain. Only signed-in customers of that chain see it. Enable it using **Active** in the table: this switch disables the chain's other notices. The switch inside the notice editor does not. Customers see the message on the app's home screen, below the **Catalog** and **Favorites** buttons.
+
+??? example "Example: an order preparation time notice"
+
+    Example with demo data. The images show the Russian interface.
+
+    <figure markdown="span">
+    [![The store customer notice section in Settings, General: the demo chain has a 40-minute preparation notice and its Active switch is on and highlighted.](../../media/crm/crm-customer-notice.en.png){ width="1280" height="720" loading=lazy }](../../media/crm/crm-customer-notice.en.png)
+    </figure>
+
+    <figure markdown="span">
+    [![The app home screen for a signed-in customer: the preparation notice is highlighted below the Catalog and Favorites buttons.](../../media/app/app-customer-notice.en.png){ width="1280" height="720" loading=lazy }](../../media/app/app-customer-notice.en.png)
+    </figure>
 
 <span id="additional-information-in-the-customer-profile"></span>
 
