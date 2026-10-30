@@ -21,17 +21,17 @@ Where: **Clients**. A buyer appears in the list after using the application; you
 
 Enter a query and press Enter: search matches first name, last name, patronymic, Telegram username, and email. For phone numbers, use the column header filter. The Excel button exports the table.
 
-Open the customer portrait and use the buttons in the contacts block to open Telegram or your email application. You can use an unverified email address to send a message. Use [Mailings](mass-mailings.md) to message several customers.
+Open the customer portrait and click “Contact” next to the customer's name: it opens Telegram or, if the customer has no Telegram username, your email application. If both are available, the envelope button beside it opens email. You can use an unverified email address to send a message. Use [Mailings](mass-mailings.md) to message several customers.
 
 <span id="_4"></span>
 
 ## Customer record { #customer-record }
 
-Click a customer row, or select it and press Enter, to open “Customer portrait”. On a wide screen, the portrait opens in a panel on the right over the table, keeping the table's width; on a small screen, it opens in a dialog.
+Click a customer row, or select it and press Enter, to open the customer portrait. On a wide screen, it opens in the “Customer” panel on the right over the table, keeping the table's width; on a small screen, it opens in the “Customer portrait” dialog.
 
-On a wide screen, drag the panel's left edge to change its width. While the section stays open, your chosen width remains when you switch customers or reopen the portrait.
+On a wide screen, drag the panel's left edge to change its width. Your chosen width remains when you switch customers or reopen the portrait, and after you leave the section it is kept for your next visit.
 
-Close the portrait with its close button or Escape. If you edited data, confirm whether to save or discard the changes before closing it or choosing another customer.
+Close the portrait with its close button; Escape also closes the “Customer” panel. If you edited data, confirm whether to save or discard the changes before closing it or choosing another customer.
 
 ???+ example "Example: customer search and record"
 
@@ -75,6 +75,6 @@ The history shows membership in the audience at launch. Opt-outs, new orders, an
 
 Enter or change the day and month without a year, then save before the gift period begins. If you delete the date manually, the application does not fill it again from an external service. Buyers see gift conditions in their [profile](../app/account.md#birthday).
 
-An owner or administrator can compensate for missed points with “Compensate birthday gift” in the contact block. Review the [compensation conditions](bonus-system.md#birthday-compensation) before confirming.
+When “Birthday gift” is set to “Birthday bonuses”, an owner or administrator can compensate for missed points with “Compensate birthday gift” in the contact block on the “Profile” tab. Review the [compensation conditions](bonus-system.md#birthday-compensation) before confirming.
 
 Use [Segments](segments.md) to select an audience by purchase behavior, or [Analytics](analytics.md#rfm) to review customer metrics.

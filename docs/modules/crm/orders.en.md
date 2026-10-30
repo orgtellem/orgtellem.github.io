@@ -13,9 +13,9 @@ Find an order, check its payment and products, then move it through its statuses
 
 Open **Orders**. Search by order number, or select a status and fulfillment method in **Filter**. Collapsing the filter keeps the selected conditions; on a computer, you can also use column header filters.
 
-On a phone, browse the compact list: each row shows the customer, status, total, fulfillment, and payment method. Open a row to view details: on a wide screen, they appear in a panel on the right over the table, keeping the table's width; on a small screen, they open in a dialog. To export to Excel on a phone, open **Actions**.
+On a phone, browse the compact list: each row shows the customer, status, total, fulfillment, and payment method. Open a row to view details: on a wide screen, they appear in a panel on the right over the table, keeping the table's width; on a small screen, the “Order details” panel fills the screen. To export to Excel on a phone, open **Actions**.
 
-On a wide screen, drag the panel's left edge to change its width. While the section stays open, your chosen width remains when you switch orders or reopen the details.
+On a wide screen, drag the panel's left edge to change its width. Your chosen width remains when you switch orders or reopen the details, and after you leave the section it is kept for your next visit.
 
 Close the details with the close button in the header or Escape.
 
@@ -73,7 +73,7 @@ During distribution, select warehouses for all items, click “Manage products�
     Example with demo data. The recording shows the Russian interface. The chain has several open warehouses, so an accepted order waits for distribution in “Pending processing”.
 
     <figure markdown="span">
-    [![A pickup order: after Accept order the status is Pending processing; in the distribution window the plus button next to the Samara demo store sets 1 and nothing remains to distribute; Distribute products, Complete distribution and Yes set the status to Getting ready.](../../media/crm/crm-order-stock-distribution.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-order-stock-distribution.en.gif)
+    [![A pickup order in the order details panel over the table: after Accept order the status is Pending processing; in the distribution window the plus button next to the Samara demo store sets 1 and nothing remains to distribute; Manage products, Complete distribution and Yes set the status to Getting ready.](../../media/crm/crm-order-stock-distribution.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-order-stock-distribution.en.gif)
     </figure>
 
 If an “Online” order remains “Pending processing”, it can be completed without distribution. For CDEK and Yandex Delivery, carrier acceptance and delivery to the recipient set “In delivery” and “Completed”.

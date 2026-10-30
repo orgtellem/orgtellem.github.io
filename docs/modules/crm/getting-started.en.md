@@ -43,16 +43,16 @@ flowchart TB
 ## 4. Test order { #test-order }
 
 1. In the CRM user menu, open **Go to app**. Place an order with payment on receipt.
-2. In the CRM, open **Orders**, find the **New** order, and click **Accept order**.
+2. In the CRM, open **Orders**, find the **New** order, open it, and click **Accept order** in the **Order details** panel.
 3. Check that the employee received a notification. For the next actions, see [order processing](orders.md).
 4. If you accept online payments, also complete the [real-order payment check](payment-providers.md#testing): the test link does not check order status updates.
 
 ???+ example "Example: a test order from checkout to acceptance"
 
-    Example with demo data. The recording shows the Russian interface.
+    Example with demo data. The recording shows the Russian interface. The chain has several open warehouses, so an accepted order waits for distribution in “Pending processing”.
 
     <figure markdown="span">
-    [![A test order: in the app a cappuccino goes to the cart and is ordered for pickup with cash on receipt; in the CRM the New order is found under Orders and accepted with Accept order; in the app, My orders shows the order as Pending processing.](../../media/crm/launch-test-order.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/launch-test-order.en.gif)
+    [![A test order: in the app a cappuccino goes to the cart and is ordered for pickup with cash on receipt; in the CRM the New order is found under Orders, opens in the Order details panel and is accepted with Accept order; in the app, My orders shows the order as Pending processing.](../../media/crm/launch-test-order.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/launch-test-order.en.gif)
     </figure>
 
 **Check:** the order appears in the CRM, the employee receives a notification, and the contents and total match checkout in the app.
