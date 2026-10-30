@@ -55,6 +55,14 @@ A chain counts stock from open stores with “On sale” enabled, subtracts prod
 | Archive the product | **Catalog → Products → Actions → Archive** | **Catalog → Archive → Publish** |
 | Disable “Show in catalog” for a variant | Product record → “Main” → variants | Enable it and save the record |
 
-Changing quantity or sale availability leaves an “Out of stock” label or hides the product according to the zero-stock setting. Archiving hides it regardless of stock. A variant's checkbox removes it from catalog lists; it remains selectable inside the product card, as in the [color example](product-colors.md).
+Changing quantity or sale availability leaves an “Out of stock” label or hides the product according to the zero-stock setting. Archiving hides it regardless of stock. A variant's checkbox removes it from catalog lists; it remains selectable inside the product card, as in the [color example](product-colors.md). With the zero-quantity setting on, sold-out products stay visible with the label; with it off, they are hidden. A product is sold out when no store of the chain has it.
+
+??? example "Example: a product sells out"
+
+    Example with demo data: the product is stocked in one store, so zeroing it there is enough; if it is stocked in several stores of the chain, zero it in each. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![The iced cappuccino quantity is set to 0 and the app shows it as out of stock; after the zero-quantity setting is turned off the product is gone from the catalog; after entering 10 it is back with the add button.](../../media/crm/crm-stop-sale-effect.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-stop-sale-effect.en.gif)
+    </figure>
 
 The [iiko](iiko.md) stop list limits availability separately from manually entered stock. [Importing an iiko menu](iiko.md#import-products) also sets stock for imported products; importing again replaces it with the current quantity from iiko.
