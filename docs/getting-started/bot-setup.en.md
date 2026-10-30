@@ -14,15 +14,17 @@ You need your bot's token. If you do not have a bot or do not know where to find
 
 ## 1. Connect the bot { #1-connect-the-bot }
 
-1. Open **Integrations → Telegram**, marker **1** in the screenshot.
-2. Enable **Telegram integration**, marker **2**.
-3. Paste the token from BotFather into **Bot token**, marker **3**. Press **Tab** or click outside the field to finish editing.
+1. Open **Integrations → Telegram**.
+2. Enable **Telegram integration**.
+3. Paste the token from BotFather into **Bot token**. Press **Tab** or click outside the field to finish editing.
 
-Screenshots show the Russian interface.
+???+ example "Example: connect a bot, add a welcome message and a link"
 
-![CRM screen with markers: 1 — Integrations → Telegram, 2 — the integration switch, 3 — the token field. The token and account details are hidden.](../media/telegram/crm-connect.png)
+    Example with demo data; the token in the recording is a placeholder. The recording also covers steps 2 and 4 and shows the Russian interface.
 
-[View the full-size screenshot](../media/telegram/crm-connect.png).
+    <figure markdown="span">
+    [![Turning on the Telegram integration, entering the bot token, writing the welcome message and adding a link button; after a page refresh the settings remain.](../media/crm/crm-telegram-setup.en.gif){ width="960" height="540" loading=lazy }](../media/crm/crm-telegram-setup.en.gif)
+    </figure>
 
 Treat the token like a password. There is no **Save** button on the main form; changes are saved after editing. Turning integration off stops the bot and disables Telegram sign-in.
 
@@ -32,7 +34,7 @@ Telegram sign-in and account linking need no separate setup. The Telegram button
 
 ## 2. Write a welcome message { #2-write-a-welcome-message }
 
-On the same screen, enter the text customers should receive after pressing **Start** or sending `/start` in **Welcome message**. While the text is empty, the bot replies “Welcome!”.
+On the same screen, enter the text customers should receive after pressing **Start** or sending `/start` in **Welcome message**. By default, the field contains “Welcome!”; replace it with your own text.
 
 For example, replace “My Store” with your name:
 
@@ -42,10 +44,6 @@ Browse our catalog and place an order here.
 Press the button below to start shopping.
 ```
 
-![Welcome message settings with markers: 1 — message text, 2 — Upload file, 3 — Functional buttons. Existing text and the filename are hidden.](../media/telegram/crm-welcome.png)
-
-[View the full-size screenshot](../media/telegram/crm-welcome.png).
-
 The bot adds a button based on the business type chosen in the [first sign-in wizard](registration.md): **Open store** for an offline store, **Open catalog** for an online store, or **Open menu** for a restaurant or café. If no type is selected, it uses **Open store**. You do not need to create this button manually.
 
 If **Multilingual editor** is enabled in [Settings → General](../modules/crm/general-settings.md), fill in the welcome message and additional button labels for the languages you use.
@@ -54,7 +52,7 @@ If **Multilingual editor** is enabled in [Settings → General](../modules/crm/g
 
 ## 3. Add an image — optional { #3-add-an-image-optional }
 
-Click **Upload file** — marker **2** in the screenshot above — and choose a welcome image. This image appears in the message; the bot's avatar is [configured separately in BotFather](telegram-bot.md).
+Click **Upload file** in the welcome message block and choose a welcome image. This image appears in the message; the bot's avatar is [configured separately in BotFather](telegram-bot.md).
 
 The file can be up to **10 MB**. Supported formats are PNG, JPG/JPEG, SVG, GIF, WebP, BMP, and HEIC. With an image, the message becomes a caption, which [Telegram limits](https://core.telegram.org/bots/api#sendphoto) to **1024 characters**. The cross next to the file removes the welcome image.
 
@@ -62,13 +60,9 @@ The file can be up to **10 MB**. Supported formats are PNG, JPG/JPEG, SVG, GIF, 
 
 ## 4. Add links — optional { #4-add-links-optional }
 
-1. Click **Functional buttons** — marker **3** in the screenshot above. The **Welcome buttons** window opens.
+1. Click **Functional buttons**. The **Welcome buttons** window opens.
 2. Click **Create**. Set a label in **Text**, such as **Our website**. Enter the page address in the field below; the `https://` prefix is already present.
 3. Click **Save** in the editing window. Use **Edit** and **Delete** for later changes.
-
-![Welcome buttons window: the list and Create button on the left, Text and link fields with the https:// prefix on the right. No additional buttons have been added in this example.](../media/telegram/crm-buttons.png)
-
-[View the full-size screenshot](../media/telegram/crm-buttons.png).
 
 Each link appears as a separate button below the welcome message, before the app launch button.
 
