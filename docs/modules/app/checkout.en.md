@@ -18,7 +18,7 @@ If you leave before placing the order, the app asks **Leave checkout?** Choose *
 
 ### Delivery method { #delivery-method }
 
-Choose an available fulfillment method. The app selects the first suitable method in the order set by the store. Its cost and delivery time appear below the name when known, or the reason it is unavailable. You cannot place an order while delivery is being calculated; if calculation fails, click **Try again**.
+Choose an available fulfillment method. The app selects the first suitable method in the order set by the store. With more than two methods, tap the field and choose one in **Choose a delivery method**. Its cost and delivery time appear below the name when known, or the reason it is unavailable. You cannot place an order while delivery is being calculated; if calculation fails, click **Try again**.
 
 The following fields depend on the method type:
 

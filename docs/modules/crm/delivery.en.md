@@ -24,6 +24,14 @@ For a **Custom fulfillment method**:
 2. Under **Price**, add **Order amount from → Delivery price** thresholds if needed. The highest reached threshold applies; below all thresholds, the base price applies. Example: courier delivery costs ₽300 and is free from ₽2,000.
 3. Under **Geography**, limit regions and cities. An empty list allows the method everywhere; an empty field in a row means any value.
 
+???+ example "Example: a custom fulfillment method"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Creating a fulfillment method: New method, then Custom fulfillment method, the name, the Delivery type, time and base price, a price threshold on the Price tab; the method is turned on in the chain, and the app shows its price and time among the fulfillment methods.](../../media/crm/crm-delivery-method.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-delivery-method.en.gif)
+    </figure>
+
 **Carriers**:
 
 | Carrier | What the customer gets | Type | Shipments in CRM |
