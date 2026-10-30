@@ -17,9 +17,17 @@ Where: **Marketing → Marks** to create tags and **Analytics → Sources** for 
 1. Select “Mark” above the table and click “Create”.
 2. Enter a name and type. For “Custom”, enter a unique code up to 30 characters. For UTM format, enter the source, medium, and campaign name, up to 20 characters each. UTM parameters are standard link fields identifying the source and campaign.
 3. Use Latin letters, digits, and hyphens. The combination of three UTM values must be unique.
-4. Optionally choose a group and save.
+4. Optionally choose a group and click **OK**.
 
 A group combines tags in statistics and has no link of its own. For example, create a “Bloggers (October)” group and a tag for each blogger.
+
+???+ example "Example: a UTM mark"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Creating a UTM mark: Mark, then Create, the UTM format, the name, source, traffic type and campaign name, the group, OK; then Copy link and the invite link in the mark's card.](../../media/crm/crm-utm-mark.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-utm-mark.en.gif)
+    </figure>
 
 <span id="_3"></span>
 
