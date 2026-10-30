@@ -41,7 +41,7 @@ Screenshots show the Russian interface.
 1. After sign-in or linking, allow messages using the VK button in **VK notifications**. Use the same VK account linked to the store.
 2. Wait for connection to finish. If permission is already granted, click **Connect notifications**.
 
-![VK notifications: Connect notifications when message permission has already been granted.](../../media/vk-setup/customer-connect.png){ width="440" }
+![VK notifications: Connect notifications when message permission has already been granted.](../../media/vk-setup/customer-connect.png){ width="352" }
 
 The permission covers private community messages about orders and bonus points, plus mailings if you enable them. It does not join the community or subscribe you to its posts.
 
