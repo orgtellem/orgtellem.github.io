@@ -17,7 +17,15 @@ Open **Settings → Payments**.
 1. Click **New service**, choose a provider, and enter credentials from its account. The name is shown to customers and must be unique.
 2. Set a commission and payment deadline if needed. Commission increases product prices, excluding delivery; Alfa-Bank has no commission field. After the deadline, an unpaid order enters **Payment error** with a delay.
 3. Under **Order fields**, configure contact visibility and requirements. Email is required for T-Bank and SBP (T-Bank), and for Tochka Bank when fiscal receipts are enabled. SBP is Russia's Faster Payments System.
-4. Click **Save**. For a new service, **Save as active** enables it in all chains and disables other services of the same type. For testing, choose **Save as inactive**, then enable it in the [required chain](stores-and-delivery.md).
+4. Click **OK**. For a new service, a dialog asks how to save it: **Save as active** enables it in all chains and disables other services of the same type. For testing, choose **Save as inactive**, then enable it in the [required chain](stores-and-delivery.md).
+
+???+ example "Example: a new payment method"
+
+    Example with demo data; the credentials in the recording are placeholders. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Creating a payment method: New service, then YooKassa; the name and credentials, the commission, the order fields; OK, then Save as inactive; turning the method on in the chain and seeing it under the payment method in the app.](../../media/crm/crm-payment-method.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-payment-method.en.gif)
+    </figure>
 
 !!! warning "Secret credentials"
     Enter passwords, tokens, and secret keys only in CRM and the provider's account. Do not include them in screenshots or support requests. Use notification addresses shown in CRM without changes.
