@@ -14,12 +14,20 @@ For a restaurant menu, use [the iiko menu import](iiko.md#import-products).
 
 Where: **Catalog → Import**.
 
-1. Under “Loading data”, choose the file type and upload the file. For CSV, also choose “Product” or “Category”: one type of record can be imported at a time.
+1. Under “Loading data”, choose the file type and upload the file. For CSV, also choose “Product” or “Category” in “Entity type”: one type of record can be imported at a time.
 2. For CSV, under “Import configuration”, match file columns to CRM fields. Skip fields you do not need; common values can be entered once for all rows. Use links for photos.
-3. If rows with the same name in one category should become variants of one product, enable product merging and specify the differences, such as weight, size, or color.
-4. Under “Review before saving”, correct the entries and check photos. Wait for linked photos to finish loading, then click “Save to catalog”.
+3. If rows with the same name in one category should become variants of one product, enable “Combine rows with the same product name” in the product merging section and specify the differences, such as weight, size, or color.
+4. Under “Review before saving”, correct the entries and check photos. The price appears in the product window that opens from the product name. Wait for linked photos to finish loading, then click “Save to catalog”. CRM shows a success message, and the products appear in **Catalog → Products**.
 
 The catalog does not change until the last step.
+
+???+ example "Example: importing two products from CSV"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Importing products from CSV: CSV and Product are selected and catalog-products.csv is uploaded; in the import settings the name, sale price and category take the Name, Price and Category columns; the product window shows the Drinks category and a price of 250.00 for the green tea; saving shows a success message, and the catalog lists the green tea and the ground coffee first.](../../media/crm/crm-catalog-import.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-catalog-import.en.gif)
+    </figure>
 
 ## CSV example { #csv-example }
 
@@ -29,7 +37,7 @@ During configuration, map **Name** to the product name, **Price** to the selling
 
 <figure markdown="1">
 
-![Example CSV mapping: product name from the name column, selling price from the price column, category from the category column; remaining fields are skipped.](../../media/crm/basics/import-mapping.png){ loading=lazy }
+![Example CSV mapping: product name from the name column, selling price from the price column, category from the category column; remaining fields are skipped.](../../media/crm/crm-import-mapping.en.png){ loading=lazy }
 
 <figcaption>Mapping the example file's three columns to CRM fields. The screenshot shows the Russian interface and the Russian CSV example.</figcaption>
 </figure>
