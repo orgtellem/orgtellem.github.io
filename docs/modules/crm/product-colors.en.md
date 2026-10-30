@@ -8,9 +8,9 @@ description: "Group Tellem products by color: configure a template, variants, st
 
 Combine two separate products into one group so customers can choose a color directly in the product card.
 
-Where: **Catalog → Products**. The shared screenshots show the Russian interface.
+Where: **Catalog → Products**.
 
-In this example, a café sells **vanilla macarons, 3 pieces**, for **360 rubles**, in pink and pistachio colors. The filling and flavor are the same; only the almond shells' color differs.
+In this example, a café sells two products from the Matcha category, **Demo matcha pink** and **Demo matcha green**, for **295 rubles** each. Only the color and the photo differ.
 
 <span id="1"></span>
 
@@ -20,8 +20,8 @@ The catalog must already contain two simple products:
 
 | Product | Photo | Price |
 |---|---|---|
-| Vanilla macaron — pink, 3 pieces | Pink macarons | 360 rubles |
-| Vanilla macaron — pistachio color, 3 pieces | Green macarons | 360 rubles |
+| Demo matcha pink | Pink drink | 295 rubles |
+| Demo matcha green | Green drink | 295 rubles |
 
 If the products do not exist, add each through **Create → Create single** — see [Categories and products](products-and-categories.md). For a restaurant menu sent to iiko, use **Add from iiko** and the matching menu items.
 
@@ -33,12 +33,10 @@ If the products do not exist, add each through **Create → Create single** — 
 ## 2. Merge the products { #2-merge-the-products }
 
 1. Select **Group variative products**.
-2. Search for “Macaron” and press **Enter**.
+2. Search for “Demo matcha” and press **Enter**.
 3. Select both rows using the checkboxes.
 4. Open **Actions → Transform to variants**.
-5. In the product editor, set **Name of group** to **Vanilla macaron, 3 pieces** and check the category.
-
-![Two products selected using checkboxes; Transform to variants is available in the Actions menu.](../../media/crm/product-colors/select-products.png)
+5. In the product editor, set **Name of group** to **Demo matcha** and check the category.
 
 <span id="3"></span>
 
@@ -48,7 +46,13 @@ On **Main**, under **Variative attributes**, click **Create**. In the attribute 
 
 If no suitable template exists, create one in the same window: set **Name** to **Color**, **Type** to **Color**, and click **Save**. Then select the template for the group.
 
-![The Color template has Color selected as its type.](../../media/crm/product-colors/color-template.png)
+???+ example "Example: from two products to the Color attribute"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Merging products by color: Group variative products is selected, “Demo matcha” is typed into the search, two rows are ticked, Actions → Transform to variants opens the product editor, “Demo matcha” is entered as the group name, then Create under Variative attributes opens the templates, Color is ticked and Select is clicked.](../../media/crm/crm-product-colors-merge.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-product-colors-merge.en.gif)
+    </figure>
 
 The **Color** type gives customers colored circles. A text attribute with the same name shows text buttons.
 
@@ -56,45 +60,47 @@ The **Color** type gives customers colored circles. A text attribute with the sa
 
 ## 4. Assign colors to variants { #4-assign-colors-to-variants }
 
-In the variants list, select the pink macaron and click **Edit**. In its card, scroll to **Variative attributes** and click **Edit** in the **Color** row.
+In the variants list, select the pink variant and click **Edit**. In its card, scroll to **Variative attributes** and click **Edit** in the **Color** row.
 
 Choose an existing shade or **Create…**. For a new color, enter its name and choose a shade using the colored square:
 
 | Variant | Color name | Example color code |
 |---|---|---|
-| Pink macaron | Pink | `#E7A3AD` |
-| Green macaron | Pistachio | `#ABC47D` |
+| Demo matcha pink | Pink | `#E7A3AD` |
+| Demo matcha green | Green | `#2ECC71` (ready shade) |
 
-![Creating a pink shade from the variant card: Pink as the name and a colored square.](../../media/crm/product-colors/create-color.png)
+Save the color, check the variant's photo and price, set an article code such as **DEMO-PINK**, and click **Save** in the variant card. Repeat for the green variant with **DEMO-GREEN** and pick the ready color **Green** from the list. The color values must differ.
 
-Save the color, check the variant's photo and price, set an article code such as **VAN-PINK-3**, and click **Save** in the variant card. Repeat for pistachio with **VAN-GREEN-3**. The color values must differ.
-
-To show **one card** in the category, leave **Show in catalog** enabled only for the pink variant. Pistachio remains available through the selector inside the card. To show both cards in the category, enable this checkbox for both variants.
-
-![A group with two differently colored variants; Show in catalog is enabled only for pink.](../../media/crm/product-colors/variants.png)
+To show **one card** in the category, leave **Show in catalog** enabled only for the pink variant. Green remains available through the selector inside the card. To show both cards in the category, enable this checkbox for both variants.
 
 <span id="5"></span>
 
 ## 5. Set stock and save { #5-set-stock-and-save }
 
-On **Assortment**, select a store and set each variant's quantity using **Edit** in its row. Confirm each row using the checkmark button. This example uses **30 sets** of each color. Repeat for other stores as needed — see [Inventory](inventory.md).
-
-![Assortment: each color has its own article code and example stock of 30.](../../media/crm/product-colors/stock.png)
+On **Assortment**, select a store and set each variant's quantity using **Edit** in its row. Confirm each row using the checkmark button. This example uses **30 pieces** of each color. Repeat for other stores as needed — see [Inventory](inventory.md).
 
 Click **Save** at the bottom of the product editor. If the CRM offers to configure empty stock in other stores, choose **Yes** to configure it or **No** if the product is not yet sold there.
+
+???+ example "Example: colors, article codes, and stock of the variants"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Colors and stock of the variants: the pink variant is ticked and Edit opens its card, the color Pink is created under Variative attributes, the article code DEMO-PINK is entered and Save is clicked. The green variant follows the same steps faster with the color Green and DEMO-GREEN. Show in catalog is turned off for green, both variants get a quantity of 30 on Assortment, and Save with the answer No finishes.](../../media/crm/crm-product-colors-variants.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-product-colors-variants.en.gif)
+    </figure>
 
 <span id="6"></span>
 
 ## 6. Check the customer experience { #6-check-the-customer-experience }
 
-Open the app, select the correct store, and find the macaron in its category. The card shows **Color: Pink** and two colored circles below the price. Tapping the pistachio circle switches the variant: the photo, name, color label, and article code change. An outline marks the selected circle.
+Open the app, select the correct store, and find Demo matcha pink in the Matcha category. The card shows **Color: Pink** and two colored circles below the price. Tapping the green circle switches the variant: the photo, name, color label, and article code change. An outline marks the selected circle.
 
-<div class="grid" markdown>
+???+ example "Example: choosing a color in the product card"
 
-![Customer card: pink macarons, the pink circle selected, article code VAN-PINK-3.](../../media/crm/product-colors/customer-pink.png){ width="300" }
+    Example with demo products. The recording shows the Russian interface.
 
-![After tapping the green circle: pistachio macarons, Pistachio as the color, article code VAN-GREEN-3.](../../media/crm/product-colors/customer-green.png){ width="300" }
+    <figure markdown="span">
+    [![App: a guest opens the catalog and the Matcha category, then the Demo matcha pink card with the label Color: Pink and two colored circles. Tapping the green circle opens Demo matcha green with the article code DEMO-GREEN, and tapping the pink circle brings back the first variant.](../../media/app/app-product-colors.en.gif){ width="960" height="540" loading=lazy }](../../media/app/app-product-colors.en.gif)
+    </figure>
 
-</div>
-
-The example price stays at **360 rubles**; if variants have different prices, it changes too. The purchase buttons apply to the selected color. Before opening sales, switch between both colors and check photos, prices, and stock. More details: [Storefront and cart](../app/ui-and-pages.md).
+The example price stays at **295 rubles**; if variants have different prices, it changes too. The purchase buttons apply to the selected color. Before opening sales, switch between both colors and check photos, prices, and stock. More details: [Storefront and cart](../app/ui-and-pages.md).
