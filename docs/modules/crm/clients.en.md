@@ -19,12 +19,20 @@ Where: **Clients**. A buyer appears in the list after using the application; you
 
 ## Find and contact a customer { #find-and-contact-a-customer }
 
-Search matches first name, last name, patronymic, Telegram username, and email. For phone numbers, use the column header filter. The Excel button exports the table.
+Enter a query and press Enter: search matches first name, last name, patronymic, Telegram username, and email. For phone numbers, use the column header filter. The Excel button exports the table.
 
-Select a customer and open the contact action:
+Select a customer and open “Contact”. The menu shows only the channels available for that customer:
 
 - “Telegram” opens a chat if the customer has a Telegram username.
-- “Email” sends an email from CRM to a verified address; the first line becomes the subject. If sending fails, check email availability with the Tellem team.
+- “Email” opens a message window for the verified address; the first line becomes the subject. If sending fails, check email availability with the Tellem team.
+
+???+ example "Example: customer search and record"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Searching for Anna with Enter, selecting the customer and opening the contact menu with the email channel, then the customer portrait window with its Orders tab and the Bonuses tab with a balance of 100 and the bonus history.](../../media/crm/crm-client-card.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-client-card.en.gif)
+    </figure>
 
 Contact buttons inside the customer record open Telegram or your email application; these also accept unverified email addresses. Use [Mailings](mass-mailings.md) to message several customers.
 
@@ -32,11 +40,11 @@ Contact buttons inside the customer record open Telegram or your email applicati
 
 ## Customer record { #customer-record }
 
-Open the record with the edit button, or choose “Show orders” to go straight to orders. Save changes before leaving.
+Open the “Customer portrait” record with “Edit”, or choose “Show orders” to go straight to orders. Save changes before leaving.
 
-Contacts and addresses are read-only: the buyer changes them in their [application profile](../app/account.md). Under “Access”, permissions let you disable delivery or pickup orders. Buyers then stop seeing all methods of that type, including carriers. “Online” and “In establishment” remain available; the catalog-viewing permission has no effect on access.
+Contacts and addresses are read-only: the buyer changes them in their [application profile](../app/account.md). On the “Permissions” tab, you can disable delivery or pickup orders. Buyers then stop seeing all methods of that type, including carriers. “Online” and “In establishment” remain available; the catalog-viewing permission has no effect on access.
 
-In “Orders”, open the required order. See [Orders](orders.md) for processing it.
+The “Orders” tab shows the customer's order history. To process an order, find it by number in [Orders](orders.md).
 
 ### Points { #bonuses }
 
