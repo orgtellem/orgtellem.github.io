@@ -24,12 +24,20 @@ In **Sign in or sign up**, enter your email, click **Get code**, enter the six-d
 
 **Receive informational store mailings** is selected by default and applies only when creating an account. Later, change your subscription in [notification settings](customer-notifications.md#mailings).
 
+???+ example "Example: signing in with an email code"
+
+    Example with demo products. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Signing in as a guest: Add to cart on the latte card opens the sign-in form; the guest enters an email, requests a code, enters it and signs in; the latte is already in the cart.](../../media/app/app-sign-in-email.en.gif){ width="960" height="540" loading=lazy }](../../media/app/app-sign-in-email.en.gif)
+    </figure>
+
 Other sign-in methods:
 
 - **Sign in with password** uses your email and password. **Forgot password?** sends a reset code; requesting a new code invalidates the previous one. A new password must contain at least 8 characters.
 - **Telegram, VK ID, and Yandex**: select an available button above the form. For Telegram, start the store bot and return to the app. If Telegram does not open, click **Telegram didn't open? Open the link**. If confirmation expires, start sign-in again.
 
-After signing in from a product card, you return to the same product. The sales area selected before sign-in replaces the one saved in your profile, including when signing in through VK ID or Yandex. Closing the sign-in form returns you to the product.
+After signing in from a product card, you return to the same product. If sign-in started from **Add to cart**, the product is added to the cart and the card closes; after **Buy**, the cart opens. The sales area selected before sign-in replaces the one saved in your profile, including when signing in through VK ID or Yandex. Closing the sign-in form returns you to the product.
 
 In the Telegram Mini App, the app running inside Telegram, sign-in uses your Telegram account. Passwords, **Active sessions**, **Sign out**, Telegram linking, and push notifications are unavailable there. To manage them, open the store link in a browser and sign in using the Telegram button.
 
