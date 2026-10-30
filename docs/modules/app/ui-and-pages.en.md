@@ -58,6 +58,14 @@ Tap the heart on a product card to save it to **Favorites**. **Clear** removes t
 2. Check quantities, which cannot exceed available stock. After reducing a quantity to zero, you can use **Undo** while the button is visible.
 3. Check **Total** for the selected items and click **Place order for <amount>**. Apply promo codes and bonus points in the next step: [checkout](checkout.md).
 
+???+ example "Example: from the catalog to the cart"
+
+    Example with demo products. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Choosing a category in the catalog, the cappuccino card with the 400 ml size, adding it to the cart, quantity 2, and the button to place the order for 700 RUB.](../../media/app/app-catalog-to-cart.en.gif){ width="960" height="540" loading=lazy }](../../media/app/app-catalog-to-cart.en.gif)
+    </figure>
+
 !!! warning "Deleting products"
     **Delete** removes all selected items after confirmation. You cannot undo this deletion.
 
