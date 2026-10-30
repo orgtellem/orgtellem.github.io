@@ -42,6 +42,14 @@ Channels cannot be selected in the form: automatic selection uses the channels a
 5. Click “Save”, check the audience and channel in the confirmation, then click “Yes”.
 6. To send a scheduled message early, choose “Send now” and confirm.
 
+???+ example "Example: a mailing to one RFM segment"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![A mailing to an RFM segment: RFM segments are enabled and the at-risk segment is chosen, a date a few days ahead and the text are set, the preview is checked, then Save and Yes; the list shows the scheduled mailing.](../../media/crm/crm-mailing-create.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-mailing-create.en.gif)
+    </figure>
+
 In Telegram, the image and text arrive in one card. You can also send an image-only card. HTML preserves emphasis, links, and line breaks. Markdown uses the previous Telegram formatting rules, so saved mailings do not need to be rewritten.
 
 Only an “Await” mailing can be edited or cancelled. RFM segments require a sales area; if an older scheduled mailing has none, add it with “Edit” or sending will fail. Saved audiences from [Analytics → Segments](segments.md) are not used for mailings.
