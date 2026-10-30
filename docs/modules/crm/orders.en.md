@@ -54,7 +54,7 @@ Action buttons sit below the order information and remain available while you sc
     Example with demo data. The recording shows the Russian interface. The store has one open warehouse, so an accepted order goes straight to “Getting ready”.
 
     <figure markdown="span">
-    [![A pickup order: the New filter, the order details, then Accept order, Order is pending pickup and Complete order with confirmation; the final status is Completed.](../../media/crm/crm-order-status-flow.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-order-status-flow.en.gif)
+    [![A pickup order: the New filter, the order details panel over the table, then Accept order, Order is pending pickup and Complete order with confirmation; the final status is Completed.](../../media/crm/crm-order-status-flow.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-order-status-flow.en.gif)
     </figure>
 
 | Status | Action | New status |

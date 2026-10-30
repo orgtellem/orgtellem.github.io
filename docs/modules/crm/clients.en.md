@@ -33,6 +33,14 @@ On a wide screen, drag the panel's left edge to change its width. While the sect
 
 Close the portrait with its close button or Escape. If you edited data, confirm whether to save or discard the changes before closing it or choosing another customer.
 
+???+ example "Example: customer search and record"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Searching for Anna with Enter and clicking her row opens the Customer panel on the right over the table, with the Champions segment. The panel is widened by dragging its left edge, then the Orders tab and the Bonuses tab with a balance of 100 and the bonus history are shown; the close button closes the panel.](../../media/crm/crm-client-card.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-client-card.en.gif)
+    </figure>
+
 When you open the portrait from an analytics list, CRM keeps the report's locations and period. If you open the portrait for a specific location, CRM keeps that location selected. Otherwise, CRM chooses the available location with the highest total R + F + M score from the [saved calculation](analytics.md#rfm), respecting the report's location filter. CRM selects a single location even without scores; with several locations and no scores, choose one manually.
 
 Above the tabs, review the RFM segment, completed purchases over all time, their total, and days without a purchase. The entire summary uses the segment color from [Analytics](analytics.md#rfm). With no purchases, the record explains this instead of showing zero metrics. Select a “Sales area” in the summary to review that location.
