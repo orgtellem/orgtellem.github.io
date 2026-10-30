@@ -25,7 +25,15 @@ In the details, check the customer, fulfillment, products, and order total. Expa
 
 With iiko connected, check the **Selection** column for the dish size and selected extras, including quantities and extra charges. On a phone, the selection appears below the product name. See [iiko product setup](iiko.md).
 
-Product cost includes discounts and payment method fees, but excludes delivery; redeemed points have not yet been deducted. The final total includes delivery and deducts redeemed points.
+“Products price” includes discounts and payment method fees, but excludes delivery; redeemed points have not yet been deducted. “Total price” includes delivery and deducts redeemed points.
+
+??? example "Example: order total with a promo code and points"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![The payment and total block of the order panel for an order with a promo code, delivery and bonus points: products 680 RUB, delivery 300 RUB, a demo 20% promo code, 150 points spent and a total of 830 RUB; the block is highlighted.](../../media/crm/crm-order-panel.en.png){ width="1280" height="720" loading=lazy }](../../media/crm/crm-order-panel.en.png)
+    </figure>
 
 In “Payment and total”, check the method and online payment state. CDEK and Yandex Delivery orders also have delivery information; Ozon and Russian Post orders do not. See [Delivery](delivery.md) for shipment actions.
 
