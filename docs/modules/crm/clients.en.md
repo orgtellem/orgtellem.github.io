@@ -42,6 +42,8 @@ Contact buttons inside the customer record open Telegram or your email applicati
 
 Open the “Customer portrait” record with “Edit”, or choose “Show orders” to go straight to orders. Save changes before leaving.
 
+If you open the portrait from a report for a specific location, CRM keeps that location selected. Otherwise, CRM chooses the available location with the highest total R + F + M score from the [saved calculation](analytics.md#rfm), respecting the report's location filter. CRM selects a single location even without scores; with several locations and no scores, choose one manually.
+
 Contacts and addresses are read-only: the buyer changes them in their [application profile](../app/account.md). On the “Permissions” tab, you can disable delivery or pickup orders. Buyers then stop seeing all methods of that type, including carriers. “Online” and “In establishment” remain available; the catalog-viewing permission has no effect on access.
 
 “[username unavailable]” in the Telegram contact means the buyer has linked Telegram, but the username is unavailable. This label does not indicate whether they receive bot messages. A dash means Telegram is not linked.
