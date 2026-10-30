@@ -54,9 +54,17 @@ Add a section with a name and content, such as store rules. Enable **Public sect
 
 ## Support { #support }
 
-Open **Settings → Support → Add contact**. Select the staff member's account and enter a display name and description. They must sign in to the app first; each account can be added once.
+Open **Settings → Support → Add contact**. In **Customer**, select the staff member's account and enter a display name and description. They must sign in to the app first; each account can be added once.
 
 Customers see the contact in their profile and orders: the name, description, and available Telegram and email icons. The contact's phone number is hidden from customers. Until contacts are added, the app hides **Support**.
+
+???+ example "Example: a support contact"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Adding a support contact: in Settings, Support the staff member's account is chosen in Customer, the display name and description are entered and saved; in the app, the Support row in Profile opens the contact card.](../../media/crm/crm-support-contact.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-support-contact.en.gif)
+    </figure>
 
 Contacts with Telegram also receive iiko order error messages. Configure [CRM notification recipients](crm-notifications.md#seller-recipients) separately.
 
