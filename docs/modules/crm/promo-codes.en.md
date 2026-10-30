@@ -41,16 +41,22 @@ Where: **Marketing → Sales** and **Marketing → Promo codes**.
 1. In **Marketing → Sales**, click “Create promotion” and choose “Regular promotion”.
 2. Enter a name for buyers. With the [multilingual editor](general-settings.md) enabled, enter it for each store language.
 3. In “Discount and products”, choose a [price change type](#price-types). Add products through “Add products → Select from the list” or “From category”, or choose “Entire menu”.
-4. Set the overall period. Without an end date, the promotion is indefinite. Choose “Await” for an automatic start; for a discount during certain hours, set a [daily schedule](#schedule).
+4. Set the overall period. Without an end date, the promotion is indefinite. “Active” starts it as soon as you save; choose “Await” for an automatic start; for a discount during certain hours, set a [daily schedule](#schedule).
 5. Check prices and conditions in the preview, then click “Save”. “Cancel” keeps the previous settings.
 
 Adding a category includes only its current products. “Entire menu” also includes products added later and supports percentage discounts only. Removing a row from a promotion does not delete the product from the catalog.
 
-For example, to offer 20% off the entire menu from 12:00 to 16:00, choose “Entire menu”, enter 20, and set daily hours:
+For example, to offer 20% off the entire menu from 08:00 to 12:00, choose “Entire menu”, enter 20, and set daily hours:
 
 The shared illustrations on this page show the Russian interface.
 
-![Example of an entire-menu discount from 12:00 to 16:00.](../../media/crm/scheduled-sale-creation.gif)
+???+ example "Example: 20% off the entire menu from 08:00 to 12:00"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Creating a morning discount: entire menu, a 20% discount, the Active status, a daily schedule from 08:00 to 12:00, the preview, saving, and discounted products in the app.](../../media/crm/crm-sale-happy-hours.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-sale-happy-hours.en.gif)
+    </figure>
 
 “Await”, “Active”, and “Finished” change according to the overall dates; updates can be delayed. Daily hours do not change the status: an active promotion gives no discount outside its schedule. To end it early, open it, choose “Finished”, and save.
 
