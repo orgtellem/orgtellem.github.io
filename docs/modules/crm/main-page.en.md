@@ -39,7 +39,15 @@ Images have a 10 MB limit. Recommended proportions are 2:3 for top banners, for 
 ## Color scheme { #color-scheme }
 
 1. Open “Color scheme” and select “Light” or “Dark”.
-2. Set colors and check text, buttons, and messages in the preview. Each color is saved as soon as you select it.
+2. Set colors and check text, buttons, and the price in the preview. Each color is saved as soon as you select it.
 3. To reset the open theme, click “Make colors by default” and confirm.
 
-The preview uses a product with a photo; if none exists, add one to the [catalog](products-and-categories.md#products). Preview availability is an example. Buyers choose a theme in their [application profile](../app/account.md).
+??? example "Example: color scheme"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Changing the light theme's accent color with a check in the phone preview, viewing the dark theme, and resetting to the default colors.](../../media/crm/crm-color-scheme.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-color-scheme.en.gif)
+    </figure>
+
+The preview uses the most recently added catalog product with a photo; if none exists, add one to the [catalog](products-and-categories.md#products). Preview availability is an example. Buyers choose a theme in their [application profile](../app/account.md).
