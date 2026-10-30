@@ -44,4 +44,4 @@ All selected conditions apply together; an empty field imposes no restriction. A
 
 “Archive” removes a segment from “Saved”. Under “Archive”, choose “Restore and save”, review the conditions, and save to restore it. Segments cannot be deleted.
 
-Segments are shared: any CRM user can change or archive them. The [RFM matrix](analytics.md#rfm) uses its own filters. A [mailing](mass-mailings.md) cannot select a segment saved here; it has a separate RFM group filter.
+Segments are shared: any CRM user can change or archive them. The [RFM matrix](analytics.md#rfm) uses its own filters. A [campaign](mass-mailings.md#recipients) can use a segment saved here alongside standard RFM groups from the same location.

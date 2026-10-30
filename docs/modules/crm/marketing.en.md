@@ -46,4 +46,4 @@ Choose a task and open its guide. Set discount and messaging conditions before a
 
 </div>
 
-Before launch, check [how discounts combine](promo-codes.md#combining-discounts). For messages, consider [available channels and advertising consent](mass-mailings.md#recipients). Saved audiences from **Analytics → Segments** cannot be selected for a mailing; mailings have a separate filter for [groups based on purchase recency, frequency, and amount (RFM)](analytics.md#rfm).
+Before launch, check [how discounts combine](promo-codes.md#combining-discounts). For messages, consider [available channels and advertising consent](mass-mailings.md#recipients). See [campaign audiences](mass-mailings.md#recipients) for standard RFM groups and saved segments.
