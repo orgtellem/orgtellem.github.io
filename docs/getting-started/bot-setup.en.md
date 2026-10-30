@@ -20,7 +20,7 @@ You need your bot's token. If you do not have a bot or do not know where to find
 
 ???+ example "Example: connect a bot, add a welcome message and a link"
 
-    Example with demo data; the token in the recording is a placeholder. The recording also covers steps 2 and 4 and shows the Russian interface.
+    Example with demo data; the token in the recording is a placeholder. The recording also covers the [welcome message](#2-write-a-welcome-message) and [links](#4-add-links-optional) and shows the Russian interface.
 
     <figure markdown="span">
     [![Turning on the Telegram integration, entering the bot token, writing the welcome message and adding a link button; after a page refresh the settings remain.](../media/crm/crm-telegram-setup.en.gif){ width="960" height="540" loading=lazy }](../media/crm/crm-telegram-setup.en.gif)
@@ -52,7 +52,7 @@ If **Multilingual editor** is enabled in [Settings → General](../modules/crm/g
 
 ## 3. Add an image — optional { #3-add-an-image-optional }
 
-Click **Upload file** in the welcome message block and choose a welcome image. This image appears in the message; the bot's avatar is [configured separately in BotFather](telegram-bot.md).
+Click **Load image** in the welcome message block and choose a welcome image. This image appears in the message; the bot's avatar is [configured separately in BotFather](telegram-bot.md).
 
 The file can be up to **10 MB**. Supported formats are PNG, JPG/JPEG, SVG, GIF, WebP, BMP, and HEIC. With an image, the message becomes a caption, which [Telegram limits](https://core.telegram.org/bots/api#sendphoto) to **1024 characters**. The cross next to the file removes the welcome image.
 
@@ -60,7 +60,7 @@ The file can be up to **10 MB**. Supported formats are PNG, JPG/JPEG, SVG, GIF, 
 
 ## 4. Add links — optional { #4-add-links-optional }
 
-1. Click **Functional buttons**. The **Welcome buttons** window opens.
+1. Click **Functional buttons**. The **Welcome message buttons** window opens.
 2. Click **Create**. Set a label in **Text**, such as **Our website**. Enter the page address in the field below; the `https://` prefix is already present.
 3. Click **Save** in the editing window. Use **Edit** and **Delete** for later changes.
 

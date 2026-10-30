@@ -67,9 +67,9 @@ Choose an existing shade or **Create…**. For a new color, enter its name and c
 | Variant | Color name | Example color code |
 |---|---|---|
 | Demo matcha pink | Pink | `#E7A3AD` |
-| Demo matcha green | Green | `#2ECC71` (ready shade) |
+| Demo matcha green | Green | `#2ECC71` (existing shade) |
 
-Save the color, check the variant's photo and price, set an article code such as **DEMO-PINK**, and click **Save** in the variant card. Repeat for the green variant with **DEMO-GREEN** and pick the ready color **Green** from the list. The color values must differ.
+Save the color, check the variant's photo and price, set an article code such as **DEMO-PINK**, and click **Save** in the variant card. Repeat for the green variant with **DEMO-GREEN** and choose the existing shade **Green** from the list. The color values must differ.
 
 To show **one card** in the category, leave **Show in catalog** enabled only for the pink variant. Green remains available through the selector inside the card. To show both cards in the category, enable this checkbox for both variants.
 

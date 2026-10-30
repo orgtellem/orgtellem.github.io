@@ -24,7 +24,7 @@ Contact requires mailings to be enabled and a contact in the selected channel. T
 
 1. Click “Create segment” and enter a name and sales area. A single location is selected automatically. Customer profiles are evaluated across all time for that area.
 2. Choose conditions for purchases, RFM groups, products, fulfillment, time, or source.
-3. Check the customer count and click **Create segment**; in an existing segment, **Save changes**. The detailed table appears on the main screen.
+3. Check the customer count and click “Create segment”; in an existing segment, “Save changes”. The detailed table appears on the main screen.
 
 ???+ example "Example: creating a segment"
 

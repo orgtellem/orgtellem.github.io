@@ -51,7 +51,7 @@ Action buttons sit below the order information and remain available while you sc
 
 ???+ example "Example: a pickup order from “New” to “Completed”"
 
-    Example with demo data. The recording shows the Russian interface. The store has one open stock, so an accepted order goes straight to “Getting ready”.
+    Example with demo data. The recording shows the Russian interface. The store has one open warehouse, so an accepted order goes straight to “Getting ready”.
 
     <figure markdown="span">
     [![A pickup order: the New filter, the order details, then Accept order, Order is pending pickup and Complete order with confirmation; the final status is Completed.](../../media/crm/crm-order-status-flow.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-order-status-flow.en.gif)
@@ -66,7 +66,7 @@ Action buttons sit below the order information and remain available while you sc
 | “In delivery”, “Pending pickup” | “Complete order” | “Completed” |
 | “Completed” | “Return order” | “Returned” |
 
-During distribution, select warehouses for all items, click “Distribute products” in the window, then “Complete distribution”. If the sales area, meaning the order's store or chain, has one open warehouse, acceptance distributes products and immediately sets “Getting ready”, including for “Online” fulfillment.
+During distribution, select warehouses for all items, click “Manage products” in the window, then “Complete distribution”. If the sales area, meaning the order's store or chain, has one open warehouse, acceptance distributes products and immediately sets “Getting ready”, including for “Online” fulfillment.
 
 ??? example "Example: distributing an order between warehouses"
 

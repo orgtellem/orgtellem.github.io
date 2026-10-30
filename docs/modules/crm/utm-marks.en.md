@@ -17,7 +17,7 @@ Where: **Marketing → Marks** to create tags and **Analytics → Sources** for 
 1. Select “Mark” above the table and click “Create”.
 2. Enter a name and type. For “Custom”, enter a unique code up to 30 characters. For UTM format, enter the source, medium, and campaign name, up to 20 characters each. UTM parameters are standard link fields identifying the source and campaign.
 3. Use Latin letters, digits, and hyphens. The combination of three UTM values must be unique.
-4. Optionally choose a group and click **OK**.
+4. Optionally choose a group and click “OK”.
 
 A group combines tags in statistics and has no link of its own. For example, create a “Bloggers (October)” group and a tag for each blogger.
 

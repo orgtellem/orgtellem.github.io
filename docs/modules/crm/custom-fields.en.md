@@ -29,7 +29,7 @@ Configure first name, last name, phone, and email for each method under **Go to 
 ## Additional order fields { #additional-order-fields }
 
 1. Click **Create** and choose what the field applies to: **Fulfillment method** for the whole order, or **Product variant** for selected products. For the first option, you must select a fulfillment method.
-2. Choose the field type: text, number, checkbox, date and time, or a drop-down list of values. For a dropdown list, add at least two values.
+2. Choose the field type: text, number, checkbox, date and time, or a drop-down list of values. For a drop-down list, add at least two values.
 3. Set a unique name using Latin letters and digits, the **Display name** customers see, and a display order greater than zero. Leave the integration key empty unless a connected integration needs it. Do not change the unique name after connecting an integration.
 4. Click **OK** and check the field on the [checkout screen](../app/checkout.md).
 

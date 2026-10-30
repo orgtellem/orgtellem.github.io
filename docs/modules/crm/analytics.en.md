@@ -47,7 +47,7 @@ In **Analytics → Customers**, buyers are grouped by how recently they purchase
     Example with demo data. The recording shows the Russian interface.
 
     <figure markdown="span">
-    [![Analytics, Customers: the RFM matrix, the champions segment, the segment's customer list, opening a guest, the customer profile window and its Orders tab.](../../media/crm/crm-rfm-drilldown.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-rfm-drilldown.en.gif)
+    [![Analytics, Customers: the RFM matrix, the champions segment, the segment's customer list, opening a guest, the customer portrait window and its Orders tab.](../../media/crm/crm-rfm-drilldown.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-rfm-drilldown.en.gif)
     </figure>
 
 The matrix calculates RFM over the entire history of the selected locations: a customer's purchases are combined, and each customer counts once. Mailings and saved segments use a separate all-time calculation for each location, updated separately, including after saving **Settings → RFM analytics**. The groups can therefore differ. Guests without completed orders receive no RFM segment.
@@ -60,7 +60,7 @@ To select customers using your own conditions and estimate whether you can conta
 
 ## Cohorts { #cohorts }
 
-In **Analytics → Repeat orders**, under **Cohort analysis**, compare repeat purchases by customers who first bought in the same month. This group is called a cohort.
+In **Analytics → Repeat orders**, under “Cohort analysis”, compare repeat purchases by customers who first bought in the same month. This group is called a cohort.
 
 ??? example "Example: cohort table"
 

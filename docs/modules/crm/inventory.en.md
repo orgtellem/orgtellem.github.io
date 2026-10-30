@@ -31,7 +31,7 @@ Where: **Catalog → Inventory**.
 
 If a product is missing, click “Add”: the new row has quantity 0. The same stock entries are available under “Assortment” in the product record.
 
-New products appear with quantity 0 in all stores when automatic assortment creation is enabled; this always happens after [import](catalog-import.md). A store created after the products has no stock entries yet: add them. The zero-quantity product setting in **Settings → General** determines whether buyers see sold-out products marked “Out of stock” or do not see them in the catalog.
+New products appear with quantity 0 in all stores when automatic assortment creation is enabled; this always happens after [import](catalog-import.md). A store created after the products has no stock entries yet: add them. The “Assortment with zero quantity” setting in **Settings → General** determines whether buyers see sold-out products marked “Out of stock” or do not see them in the catalog.
 
 <span id="by-store-chain"></span>
 
@@ -55,14 +55,14 @@ A chain counts stock from open stores with “On sale” enabled, subtracts prod
 | Archive the product | **Catalog → Products → Actions → Archive** | **Catalog → Archive → Publish** |
 | Disable “Show in catalog” for a variant | Product record → “Main” → variants | Enable it and save the record |
 
-Changing quantity or sale availability leaves an “Out of stock” label or hides the product according to the zero-stock setting. Archiving hides it regardless of stock. A variant's checkbox removes it from catalog lists; it remains selectable inside the product card, as in the [color example](product-colors.md). With the zero-quantity setting on, sold-out products stay visible with the label; with it off, they are hidden. A product is sold out when no store of the chain has it.
+Changing quantity or sale availability leaves an “Out of stock” label when “Assortment with zero quantity” is on and hides the product when it is off. A product is sold out when no store of the chain has it. Archiving hides it regardless of stock. A variant's checkbox removes it from catalog lists; it remains selectable inside the product card, as in the [color example](product-colors.md).
 
 ??? example "Example: a product sells out"
 
-    Example with demo data: the product is stocked in one store, so zeroing it there is enough; if it is stocked in several stores of the chain, zero it in each. The recording shows the Russian interface.
+    Example with demo data: the product is stocked in one store, so the recording zeroes it only there. The recording shows the Russian interface.
 
     <figure markdown="span">
-    [![The iced cappuccino quantity is set to 0 and the app shows it as out of stock; after the zero-quantity setting is turned off the product is gone from the catalog; after entering 10 it is back with the add button.](../../media/crm/crm-stop-sale-effect.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-stop-sale-effect.en.gif)
+    [![The iced cappuccino quantity is set to 0 and the app shows it as out of stock; after “Assortment with zero quantity” is turned off the product is gone from the catalog; after entering 10 it is back with the add button.](../../media/crm/crm-stop-sale-effect.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-stop-sale-effect.en.gif)
     </figure>
 
 The [iiko](iiko.md) stop list limits availability separately from manually entered stock. [Importing an iiko menu](iiko.md#import-products) also sets stock for imported products; importing again replaces it with the current quantity from iiko.

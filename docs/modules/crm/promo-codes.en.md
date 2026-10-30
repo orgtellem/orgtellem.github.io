@@ -41,7 +41,7 @@ Where: **Marketing → Sales** and **Marketing → Promo codes**.
 1. In **Marketing → Sales**, click “Create promotion” and choose “Regular promotion”.
 2. Enter a name for buyers. With the [multilingual editor](general-settings.md) enabled, enter it for each store language.
 3. In “Discount and products”, choose a [price change type](#price-types). Add products through “Add products → Select from the list” or “From category”, or choose “Entire menu”.
-4. Set the overall period. Without an end date, the promotion is indefinite. “Active” starts it as soon as you save; choose “Await” for an automatic start; for a discount during certain hours, set a [daily schedule](#schedule).
+4. Set the overall period. Without an end date, the promotion is indefinite. “Active” starts it as soon as you save if the start date has already passed; choose “Await” for an automatic start; for a discount during certain hours, set a [daily schedule](#schedule).
 5. Check prices and conditions in the preview, then click “Save”. “Cancel” keeps the previous settings.
 
 Adding a category includes only its current products. “Entire menu” also includes products added later and supports percentage discounts only. Removing a row from a promotion does not delete the product from the catalog.

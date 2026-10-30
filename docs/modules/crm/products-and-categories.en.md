@@ -45,7 +45,7 @@ In **Catalog → Products → Create**, choose the appropriate method:
 | “Create variants” | Variants of one product differ by color, size, price, article code, or photo |
 | “Add from iiko” | The product must be sent to iiko; an [integration](iiko.md#products) is required |
 
-For a simple product, enter a category and sale price under “Main”. You can add up to 6 photos of up to 10 MB each; a 1:1 ratio is recommended. Buyers see the product's characteristics in its card. Set quantities by store under “Assortment”; CRM offers to configure zero quantities on the first save. Answering **No** saves the product with zero quantity in those stores.
+For a simple product, enter a category and sale price under “Main”. You can add up to 6 photos of up to 10 MB each; a 1:1 ratio is recommended. Buyers see the product's characteristics in its card. Set quantities by store under “Assortment”; CRM offers to configure zero quantities on the first save. Answering “No” saves the product with zero quantity in those stores.
 
 ???+ example "Example: creating a simple product"
 

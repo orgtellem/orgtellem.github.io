@@ -47,7 +47,7 @@ Enable the required methods in **Manage fulfillment methods**. Create missing on
 
 ??? example "Example: fulfillment and payment methods"
 
-    Example with demo data. “Online” is available only to a chain with one store, so the recording takes the second store out of the window for a moment. The recording shows the Russian interface.
+    Example with demo data. **Online** is available only to a chain with one store, so the recording takes the second store out of the window for a moment. The recording shows the Russian interface.
 
     <figure markdown="span">
     [![Setting a chain's methods: Edit, turning on Online switches off pickup and courier delivery, turning pickup back on switches Online off, cash on receipt stays on, then Save and the saved message.](../../media/crm/crm-store-methods.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-store-methods.en.gif)
