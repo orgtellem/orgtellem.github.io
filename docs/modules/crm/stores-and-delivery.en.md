@@ -45,18 +45,19 @@ Enable the required methods in **Manage fulfillment methods**. Create missing on
 !!! warning "Method restrictions"
     Customers cannot check out without an enabled method. **Online** is incompatible with other methods: enabling one disables the other. A chain using **Online** can contain only one store.
 
+??? example "Example: fulfillment and payment methods"
+
+    Example with demo data. “Online” is available only to a chain with one store, so the recording takes the second store out of the window for a moment. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Setting a chain's methods: Edit, turning on Online switches off pickup and courier delivery, turning pickup back on switches Online off, cash on receipt stays on, then Save and the saved message.](../../media/crm/crm-store-methods.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-store-methods.en.gif)
+    </figure>
+
 <span id="_4"></span>
 
 ## Payment methods { #payment-methods }
 
 Under **Manage payment methods**, enable services created in [Settings → Payments](payment-providers.md). New chains have **Cash on receipt** and **Card on receipt** enabled. Two methods of the same type, such as two YooKassa configurations, cannot be enabled together.
-
-<figure markdown="1">
-
-![Enabled methods in a store chain: pickup and door courier delivery under fulfillment, and cash on receipt under payment.](../../media/crm/basics/store-methods.png){ loading=lazy }
-
-<figcaption>Example chain settings: enable fulfillment and payment methods separately. The screenshot shows the Russian interface.</figcaption>
-</figure>
 
 <span id="qr-code-and-link"></span>
 
