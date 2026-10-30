@@ -44,6 +44,8 @@ Open the “Customer portrait” record with “Edit”, or choose “Show order
 
 Contacts and addresses are read-only: the buyer changes them in their [application profile](../app/account.md). On the “Permissions” tab, you can disable delivery or pickup orders. Buyers then stop seeing all methods of that type, including carriers. “Online” and “In establishment” remain available; the catalog-viewing permission has no effect on access.
 
+“[username unavailable]” in the Telegram contact means the buyer has linked Telegram, but the username is unavailable. This label does not indicate whether they receive bot messages. A dash means Telegram is not linked.
+
 The “Orders” tab shows the customer's order history. To process an order, find it by number in [Orders](orders.md).
 
 ### Points { #bonuses }

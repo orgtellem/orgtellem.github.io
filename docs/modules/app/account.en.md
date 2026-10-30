@@ -67,7 +67,7 @@ Screenshots show the Russian interface.
 
 ### Linking and merging accounts { #linking-and-merging-accounts }
 
-Sign-in methods are at the bottom of the profile. **Unlink** is available only if another sign-in method remains: your own password or a linked service.
+Sign-in methods are at the bottom of the profile. **Unlink** is available only if another sign-in method remains: your own password, a verified email address, or a linked service. Before unlinking your last contact channel, connect another notification channel under [Where to send](customer-notifications.md#channels). A password or another sign-in method alone does not meet this requirement.
 
 !!! warning "Merging cannot be undone"
     If the service is linked to another Tellem account, the app offers **Merge accounts**. Orders, addresses, the cart, and favorites move to the selected account.
