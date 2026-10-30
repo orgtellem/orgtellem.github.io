@@ -64,7 +64,15 @@ Under **Manage payment methods**, enable services created in [Settings → Payme
 
 ## QR code and link { #qr-links }
 
-Select a store or chain row and click **Print QR code**. Check **Location** in the print window. Print the code or click **Copy link** to share it on your website or social media. The link opens the selected store in a browser; Telegram is not required.
+Select a store or chain row and click **Print QR code**. Check **Point of sale** in the print window. Print the code or click **Copy link** to share it on your website or social media. The link opens the selected store in a browser; Telegram is not required.
+
+??? example "Example: the QR code window"
+
+    Example with demo data. The image shows the Russian interface.
+
+    <figure markdown="span">
+    [![The QR code print window: the demo store is selected as the point of sale and the preview shows the QR code; the Print QR code and Copy link buttons are highlighted.](../../media/crm/crm-store-qr.en.png){ width="1280" height="720" loading=lazy }](../../media/crm/crm-store-qr.en.png)
+    </figure>
 
 For an iiko store, you can [create a QR code for a specific table](iiko.md#qr-).
 
