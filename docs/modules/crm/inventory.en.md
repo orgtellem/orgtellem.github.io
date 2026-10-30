@@ -21,6 +21,14 @@ Where: **Catalog → Inventory**.
 2. Change “Quantity” or “On sale” in the row. Changes are saved immediately.
 3. For several rows, use the quantity action under “Actions”: set a value, add a number, or multiply the quantity. Check the selected rows before applying.
 
+???+ example "Example: cappuccino stock in a store"
+
+    Example with demo data. The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Store stock: choosing the store and product, changing a quantity from 0 to 25, turning on sale, then adding 10 to two rows with the quantity action, which leaves 35 and 110.](../../media/crm/crm-inventory-by-store.en.gif){ width="960" height="540" loading=lazy }](../../media/crm/crm-inventory-by-store.en.gif)
+    </figure>
+
 If a product is missing, click “Add”: the new row has quantity 0. The same stock entries are available under “Assortment” in the product record.
 
 New products appear with quantity 0 in all stores when automatic assortment creation is enabled; this always happens after [import](catalog-import.md). A store created after the products has no stock entries yet: add them. The zero-quantity product setting in **Settings → General** determines whether buyers see sold-out products marked “Out of stock” or do not see them in the catalog.
