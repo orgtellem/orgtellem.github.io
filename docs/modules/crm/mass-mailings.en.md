@@ -118,8 +118,7 @@ values. “—” means a value is unavailable, including unavailable visit hist
 Audience means campaign participation without individual delivery confirmation. Unsubscribing
 after launch does not change the original audience size. Customers may receive other mailings or
 buy for other reasons, so these figures do not measure additional revenue caused by the campaign.
-The result status and the warning about an audience of fewer than 30 customers appear together
-above the figures. Consider the small sample when comparing. Older mailings without
+For audiences of fewer than 30 customers, consider the small sample when comparing. Older mailings without
 a saved audience and campaigns with unconfirmed sending may have no result.
 
 <span id="create-with-ai"></span>
