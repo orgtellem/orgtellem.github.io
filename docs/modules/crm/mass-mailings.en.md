@@ -10,6 +10,8 @@ Create a campaign for customers in selected segments and send a message immediat
 
 Where: **Marketing → Mailings**. On a phone, choose **Actions → Create**.
 
+On a computer, **More** contains “Send now”, “Repeat”, and “Cancel”. On a phone, use **Actions**.
+
 <span id="_2"></span>
 
 ## Recipients and channels { #recipients }
@@ -94,8 +96,9 @@ The preview next to the figures shows the selected mailing. Click **“Expand”
 in full; for multiple channels, you can switch its appearance.
 
 The screen shows the original audience size, unique visitors and buyers, order count, revenue,
-average order value, revenue per participant, and share of buyers. The mailing list can sort
-campaigns by audience, buyers, revenue, and revenue per participant.
+average order value, revenue per participant, and share of buyers. These figures appear on the
+result screen. In the mailing list, the name and short text, audience and point, and status and date
+are grouped into cells; the channel has its own column. Click the short text to open the full message.
 
 The 7-, 14-, or 30-day window includes the entire sending day and the following 6, 13, or 29 CRM
 calendar days. A morning visit and evening purchase on the day of an afternoon mailing both count.
