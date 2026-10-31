@@ -43,7 +43,7 @@ CRM fixes the audience membership at launch. Later segment changes and new order
 
 1. Click **“Create”**. Under **“Audience and goal”**, set the name, location, purpose, and audience. **“Segments”** contains **“Standard”** and **“Saved”** groups.
 2. Under **“Message”**, select the channel and enter the text. The preview updates as you type. For “Auto” and “All channels”, switch **“Message appearance”** between Telegram, VK, and email; this does not change the sending channel.
-3. Under **“Schedule”**, set a date at least two minutes ahead and an **“Observation window”** of 7, 14, or 30 days. CRM stores the window for later result assessment.
+3. Under **“Schedule”**, set a date at least two minutes ahead and an **“Observation window”** of 7, 14, or 30 days. CRM uses this window to show the campaign result.
 4. Click **“Schedule campaign”**, check the audience and channel, then confirm. Sending starts within a minute after the scheduled time. For an early send, select **“Send now”** in the list and confirm.
 
 ???+ example "Example: create a campaign"
@@ -85,6 +85,36 @@ The first line becomes the subject and heading, up to 100 characters. HTML keeps
 | “Unknown result” | A channel did not confirm acceptance; the message may have arrived. Repeat is blocked |
 
 **“Repeat”** creates a new campaign with the original text, image, format, all segments, location, and observation window. At launch, CRM selects the audience again and checks frequency. After partial sending, a repeat may duplicate messages in channels that accepted them; check the result before sending again.
+
+## Assess a campaign { #campaign-result }
+
+Under **“Marketing → Mass mailings”**, select a sent campaign and click **“Result”**.
+In a customer card, open **“Campaigns”**, select a row, and click **“Campaign result”**.
+
+The screen shows the original audience size, unique visitors and buyers, order count, revenue,
+average order value, revenue per participant, and share of buyers. The mailing list can sort
+campaigns by audience, buyers, revenue, and revenue per participant.
+
+The 7-, 14-, or 30-day window includes the entire sending day and the following 6, 13, or 29 CRM
+calendar days. A morning visit and evening purchase on the day of an afternoon mailing both count.
+The sending time does not limit visits or purchases within that day. CRM counts only the campaign
+location and completed orders; an order with zero revenue still counts as an order.
+
+The share of buyers divides buyers by the original audience. Revenue per participant uses the
+same audience as its denominator; average order value uses the order count. Repeat views and visits
+on different days count as one visitor over the window. Visitors are signed-in customers who open
+a product or category; some views may be missing from the statistics. Purchases count independently.
+
+Results remain preliminary while the window is open. CRM refreshes them daily and includes later
+returns and order corrections after the window closes. Click **“Refresh”** to request updated figures.
+The screen keeps previous values during the update. Purchases and visits can have different update
+times. “—” means a value is unavailable, including unavailable visit history.
+
+Audience means campaign participation without individual delivery confirmation. Unsubscribing
+after launch does not change the original audience size. Customers may receive other mailings or
+buy for other reasons, so these figures do not measure additional revenue caused by the campaign.
+Consider the small sample when the audience contains fewer than 30 customers. Older mailings without
+a saved audience and campaigns with unconfirmed sending may have no result.
 
 <span id="create-with-ai"></span>
 
