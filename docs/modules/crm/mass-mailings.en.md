@@ -125,7 +125,8 @@ on different days count as one visitor over the window. Visitors are signed-in c
 a product or category; some views may be missing from the statistics. Purchases count independently.
 
 Results remain preliminary while the window is open. CRM refreshes them daily and includes later
-returns and order corrections after the window closes. Click **“Refresh”** to request updated figures.
+returns and order corrections after the window closes. For a preliminary result, click **“Refresh”**
+to request updated figures. Final results do not show this button.
 The screen keeps previous values during the update. When data is unavailable, it marks the saved
 values. “—” means a value is unavailable, including unavailable visit history.
 
