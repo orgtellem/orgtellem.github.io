@@ -90,6 +90,8 @@ The first line becomes the subject and heading, up to 100 characters. HTML keeps
 
 Under **“Marketing → Mass mailings”**, select a sent campaign and click **“Result”**.
 In a customer card, open **“Campaigns”**, select a row, and click **“Campaign result”**.
+The preview next to the figures shows the selected mailing. Click **“Expand”** to read a long message
+in full; for multiple channels, you can switch its appearance.
 
 The screen shows the original audience size, unique visitors and buyers, order count, revenue,
 average order value, revenue per participant, and share of buyers. The mailing list can sort
@@ -107,13 +109,14 @@ a product or category; some views may be missing from the statistics. Purchases 
 
 Results remain preliminary while the window is open. CRM refreshes them daily and includes later
 returns and order corrections after the window closes. Click **“Refresh”** to request updated figures.
-The screen keeps previous values during the update. Purchases and visits can have different update
-times. “—” means a value is unavailable, including unavailable visit history.
+The screen keeps previous values during the update. When data is unavailable, it marks the saved
+values. “—” means a value is unavailable, including unavailable visit history.
 
 Audience means campaign participation without individual delivery confirmation. Unsubscribing
 after launch does not change the original audience size. Customers may receive other mailings or
 buy for other reasons, so these figures do not measure additional revenue caused by the campaign.
-Consider the small sample when the audience contains fewer than 30 customers. Older mailings without
+The result status and the warning about an audience of fewer than 30 customers appear together
+above the figures. Consider the small sample when comparing. Older mailings without
 a saved audience and campaigns with unconfirmed sending may have no result.
 
 <span id="create-with-ai"></span>
