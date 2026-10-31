@@ -30,7 +30,7 @@ description: "Выбор задачи маркетинга в Tellem: акции
 
     Отправить информационное сообщение сразу или по расписанию.
 
-    [Подготовить рассылку](mass-mailings.md)
+    [Подготовить рассылку](mass-mailings.md) · [Оценить результат кампании](mass-mailings.md#campaign-result)
 
 - :material-link-variant: **Источники покупателей**
 

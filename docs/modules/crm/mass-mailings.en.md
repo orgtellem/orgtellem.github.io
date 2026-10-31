@@ -48,7 +48,7 @@ CRM fixes the audience membership at launch. Later segment changes and new order
 3. Under **“Schedule”**, set a date at least two minutes ahead and an **“Observation window”** of 7, 14, or 30 days. CRM uses this window to show the campaign result.
 4. Click **“Schedule campaign”**, check the audience and channel, then confirm. Sending starts within a minute after the scheduled time. For an early send, select **“Send now”** in the list and confirm.
 
-???+ example "Example: create a campaign"
+??? example "Example: create a campaign"
 
     Demo data: standard and saved segments, text, preview, and scheduling. The shared GIF shows Russian interface labels and captions.
 
@@ -90,15 +90,29 @@ The first line becomes the subject and heading, up to 100 characters. HTML keeps
 
 ## Assess a campaign { #campaign-result }
 
-Under **“Marketing → Mass mailings”**, select a sent campaign and click **“Result”**.
-In a customer card, open **“Campaigns”**, select a row, and click **“Campaign result”**.
-The preview next to the figures shows the selected mailing. Click **“Expand”** to read a long message
-in full; for multiple channels, you can switch its appearance.
+Assess a mailing through its audience's actions: how many customers visited the store, how many
+bought, and how much revenue their orders generated. The share of buyers and revenue per participant
+help you compare campaigns with different audience sizes. Use the same observation window
+and wait for the final result when comparing.
 
-The screen shows the original audience size, unique visitors and buyers, order count, revenue,
-average order value, revenue per participant, and share of buyers. These figures appear on the
-result screen. In the mailing list, the name and short text, audience and point, and status and date
-are grouped into cells; the channel has its own column. Click the short text to open the full message.
+1. Under **“Marketing → Mass mailings”**, select a sent campaign and click **“Result”**.
+2. Compare **“Audience”**, **“Visited the store”**, and **“Made a purchase”**. The **“Share of buyers”** bar shows how much of the original audience placed an order.
+3. Review **“Revenue”** and **“Revenue per participant”**. The order count and average order value help explain the total.
+
+???+ example "Example: assess a campaign result"
+
+    Demo data: of 100 participants, 40 visited the store and 20 bought.
+    The share of buyers is 20%, revenue from 25 orders is ₽37,500, and revenue per participant is ₽375.
+    The recording shows the Russian interface.
+
+    <figure markdown="span">
+    [![Assess a campaign: open its result, compare audience, visits and purchases, then review the share of buyers and revenue](../../media/crm/crm-campaign-result.en.gif){ width=960 height=540 loading=lazy }](../../media/crm/crm-campaign-result.en.gif)
+    </figure>
+
+The preview next to the figures shows the selected mailing. Click **“Expand”** to read a long message
+in full; for multiple channels, you can switch its appearance. Click the short text in the mailing
+list to open the full message. You can also open the result from a
+[customer record](clients.md#campaigns): under **“Campaigns”**, select a row and click **“Campaign result”**.
 
 The 7-, 14-, or 30-day window includes the entire sending day and the following 6, 13, or 29 CRM
 calendar days. A morning visit and evening purchase on the day of an afternoon mailing both count.

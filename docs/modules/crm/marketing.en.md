@@ -30,7 +30,7 @@ Choose a task and open its guide. Set discount and messaging conditions before a
 
     Send an informational message now or on a schedule.
 
-    [Prepare a mailing](mass-mailings.md)
+    [Prepare a mailing](mass-mailings.md) · [Assess the campaign result](mass-mailings.md#campaign-result)
 
 - :material-link-variant: **Customer sources**
 
